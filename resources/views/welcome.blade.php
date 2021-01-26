@@ -101,7 +101,7 @@
                         <img src="{{ asset('portfolio/images/s5.png') }}" alt="" class="img-fluid rounded-circle">
                     </div>
                     <h4 class="feed-title my-3">positive solutions</h4>
-                    <p> Pellentesque in ipsum id orci porta dapibus roined magnaeget tortor risus.</p>
+                    <p> This brings new and good quality on a services.</p>
                     <a href="#tl" class="btn-w3layouts_pvt scroll">Read more<span class="fa fa-long-arrow-right"
                             aria-hidden="true"></span></a>
                 </div>
@@ -110,7 +110,7 @@
                         <img src="{{ asset('portfolio/images/s6.png') }}" alt="" class="img-fluid rounded-circle">
                     </div>
                     <h4 class="feed-title my-3">satisfied customers</h4>
-                    <p> Pellentesque in ipsum id orci porta dapibus roined magnaeget tortor risus.</p>
+                    <p> Accepts the good quality and experience the services.</p>
                     <a href="#tl" class="btn-w3layouts_pvt scroll">Read more<span class="fa fa-long-arrow-right"
                             aria-hidden="true"></span></a>
                 </div>
@@ -121,7 +121,7 @@
                     <div class="clip-each clip-border d-flex justify-content-center align-items-center">
                         <img src="{{ asset('portfolio/images/s1.png') }}" alt="" class="img-fluid rounded-circle">
                     </div>
-                    <h4 class="feed-title my-3">business consulting</h4>
+                    <h4 class="feed-title my-3">Consultance</h4>
                     <p> Pellentesque in ipsum id orci porta dapibus roined magnaeget tortor risus.</p>
                     <a href="#tl" class="btn-w3layouts_pvt scroll">Read more<span class="fa fa-long-arrow-right"
                             aria-hidden="true"></span></a>
@@ -131,7 +131,7 @@
                     <div class="clip-each clip-border d-flex justify-content-center align-items-center">
                         <img src="{{ asset('portfolio/images/s2.png') }}" alt="" class="img-fluid rounded-circle">
                     </div>
-                    <h4 class="feed-title my-3">Fusion Design</h4>
+                    <h4 class="feed-title my-3">Database Design</h4>
                     <p> Pellentesque in ipsum id orci porta dapibus roined magnaeget tortor risus.</p>
                     <a href="#tl" class="btn-w3layouts_pvt scroll">Read more<span class="fa fa-long-arrow-right"
                             aria-hidden="true"></span></a>
@@ -141,7 +141,7 @@
                     <div class="clip-each clip-border d-flex justify-content-center align-items-center">
                         <img src="{{ asset('portfolio/images/s3.png') }}" alt="" class="img-fluid rounded-circle">
                     </div>
-                    <h4 class="feed-title my-3">Apps Development</h4>
+                    <h4 class="feed-title my-3">System Development</h4>
                     <p> Pellentesque in ipsum id orci porta dapibus roined magnaeget tortor risus.</p>
                     <a href="#tl" class="btn-w3layouts_pvt scroll">Read more<span class="fa fa-long-arrow-right"
                             aria-hidden="true"></span></a>
@@ -150,7 +150,7 @@
                     <div class="clip-each clip-border d-flex justify-content-center align-items-center">
                         <img src="{{ asset('portfolio/images/s4.png') }}" alt="" class="img-fluid rounded-circle">
                     </div>
-                    <h4 class="feed-title my-3">great services</h4>
+                    <h4 class="feed-title my-3">Web Hosting</h4>
                     <p> Pellentesque in ipsum id orci porta dapibus roined magnaeget tortor risus.</p>
                     <a href="#tl" class="btn-w3layouts_pvt scroll">Read more<span class="fa fa-long-arrow-right"
                             aria-hidden="true"></span></a>
@@ -732,7 +732,7 @@
     <!-- contact -->
     <div class="section" id="contact">
         <div class="map-grid clipbottom-wthree">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6509687.090753893!2d-123.76387427440008!3d37.18697025540024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb9fe5f285e3d%3A0x8b5109a227086f55!2sCalifornia%2C+USA!5e0!3m2!1sen!2sin!4v1491201047627"
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126771.96422011407!2d38.988461958203125!3d-6.815518099999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x185c41585a79fe95%3A0x3e582ad82389c528!2sMloganzila%20Campus%20of%20MUHAS!5e0!3m2!1sen!2sus!4v1611668576638!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                 style="border:0" allowfullscreen></iframe>
             <div class="w3layouts-contact-pos  clipbottom-wthree">
                 <div class="w3layouts-contact-pos-grid">
@@ -785,9 +785,8 @@
                         </div>
                         <div class="col-10 cd-grid">
                             <ul>
-                                <li>+12 345 6789</li>
-                                <li>+12 345 6789</li>
-                                <li>+12 345 6789</li>
+                                <li>+255 684 456 287</li>
+                                <li>+255 654 197 535</li>
                             </ul>
                         </div>
                     </div>
@@ -798,8 +797,8 @@
                             <span class="field-icon fa fa-map-marker" aria-hidden="true"></span>
                         </div>
                         <div class="col-10 cd-grid">
-                            <p>3515 Carriage Court,Palm Springs<br>
-                                California.</p>
+                            <p>Hospital Kibamba, Dar es Salaam<br>
+                                Tanzania.</p>
                         </div>
                     </div>
                 </div>
@@ -811,14 +810,14 @@
                         <div class="col-10 cd-grid">
                             <ul>
                                 <li>
-                                    <a href="mailto:info@example.com">info@example.com</a>
+                                    <a href="#">feisalmombo29@gmail.com</a>
                                 </li>
                                 <li>
-                                    <a href="mailto:info@example.com">info@example.com</a>
+                                    <a href="#">feisalmombo29@yahoo.com</a>
                                 </li>
-                                <li>
+                                {{-- <li>
                                     <a href="mailto:info@example.com">info@example.com</a>
-                                </li>
+                                </li> --}}
                             </ul>
                         </div>
                     </div>
