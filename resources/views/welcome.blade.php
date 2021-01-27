@@ -84,15 +84,15 @@
                     <div class="title-sec-w3layouts_pvt">
                         <span class="title-icon-wthree fa fa-hashtag" aria-hidden="true"></span>
                         <h4 class="w3layouts_pvt-head">about me</h4>
-                        <p class="title-text text-capitalize">add some sub text here</p>
+                        <p class="title-text text-capitalize">The information about me</p>
                     </div>
                     <div class="ab-pvtw3 my-4">
-                        <p class="my-3"> Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
-                            tinciduntDonec velit
-                            neque, auctor sit amet aliquam vel
+                        <p class="my-3"> I was born in 1993. I live in Dar es Salaam and work as a Freelancer Software Developer. I’ve been a professional developer for more than 2 years.
+                            I’ve mostly worked professionally with PHP in Laravel framework, Angular, CSS, HTML, Bootstrap, JavaScript, JqQuery and but also a little bit with Python.
+                            I’ve published more than 15 projects online.
                         </p>
-                        <p> Vivullamcorper sit amet ligula. Mauris blandit porr volutpat aliqueiva suscipit tortor
-                            eget felist cittitelit lacinia eget consectetur sed.</p>
+                        <p> I have excellent design and coding skills, as well as an ability convert client requirement into
+                            exciting applications.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6  mt-md-4 w3pvt-ab text-center position-relative">
@@ -121,7 +121,7 @@
                     <div class="clip-each clip-border d-flex justify-content-center align-items-center">
                         <img src="{{ asset('portfolio/images/s1.png') }}" alt="" class="img-fluid rounded-circle">
                     </div>
-                    <h4 class="feed-title my-3">Consultance</h4>
+                    <h4 class="feed-title my-3">Consulting</h4>
                     <p> Pellentesque in ipsum id orci porta dapibus roined magnaeget tortor risus.</p>
                     <a href="#tl" class="btn-w3layouts_pvt scroll">Read more<span class="fa fa-long-arrow-right"
                             aria-hidden="true"></span></a>
@@ -165,7 +165,7 @@
             <div class="title-sec-w3layouts_pvt">
                 <span class="title-icon-wthree fa fa-hashtag" aria-hidden="true"></span>
                 <h4 class="w3layouts_pvt-head text-white">latest news</h4>
-                <p class="title-text text-capitalize">add some sub text here</p>
+                <p class="title-text text-capitalize">See the latest information</p>
             </div>
             <div class="row blog pt-5 mt-md-3">
                 <div class="col-md-12">
@@ -183,7 +183,7 @@
                                     <div class="col-lg-4 col-md-6 w3-slide-grid">
                                         <h5><a href="#">Curabitur aliquet quam id dui posuere.</a></h5>
                                         <div class="box20">
-                                            <img src="{{ asset('portfolio/images/g5.jpg') }}" alt="" class="img-fluid" />
+                                            <img src="{{ asset('portfolio/images/marketplace.PNG') }}" alt="" class="img-fluid" />
                                             <div class="box-content">
                                                 <h3 class="title">blog title 1</h3>
                                                 <span class="post text-capitalize">30 aug 2018</span>
@@ -205,7 +205,7 @@
                                     <div class="col-lg-4 col-md-6 mt-md-0 mt-4  w3-slide-grid">
                                         <h5><a href="#">Curabitur aliquet quam id dui posuere.</a></h5>
                                         <div class="box20">
-                                            <img src="{{ asset('portfolio/images/g2.jpg') }}" alt="" class="img-fluid" />
+                                            <img src="{{ asset('portfolio/images/zura.PNG') }}" alt="zura" class="img-fluid" />
                                             <div class="box-content">
                                                 <h3 class="title">blog title 2</h3>
                                                 <span class="post text-capitalize">20 aug 2018</span>
@@ -227,7 +227,7 @@
                                     <div class="col-lg-4 col-md-6 mt-lg-0 mt-4 w3-slide-grid">
                                         <h5><a href="#">Curabitur aliquet quam id dui posuere.</a></h5>
                                         <div class="box20">
-                                            <img src="{{ asset('portfolio/images/g3.jpg') }}" alt="" class="img-fluid" />
+                                            <img src="{{ asset('portfolio/images/rpms.PNG') }}" alt="" class="img-fluid" />
                                             <div class="box-content">
                                                 <h3 class="title">blog title 3</h3>
                                                 <span class="post text-capitalize">10 july 2018</span>
@@ -254,7 +254,7 @@
                                     <div class="col-lg-4 col-md-6  w3-slide-grid">
                                         <h5><a href="#">Curabitur aliquet quam id dui posuere.</a></h5>
                                         <div class="box20">
-                                            <img src="{{ asset('portfolio/images/g5.jpg') }}" alt="" class="img-fluid" />
+                                            <img src="{{ asset('portfolio/images/marketplace.PNG') }}" alt="" class="img-fluid" />
                                             <div class="box-content">
                                                 <h3 class="title">blog title 4</h3>
                                                 <span class="post">1 july 2018</span>
@@ -276,7 +276,7 @@
                                     <div class="col-lg-4 col-md-6 mt-md-0 mt-4  w3-slide-grid">
                                         <h5><a href="#">Curabitur aliquet quam id dui posuere.</a></h5>
                                         <div class="box20">
-                                            <img src="{{ asset('portfolio/images/g4.jpg') }}" alt="" class="img-fluid" />
+                                            <img src="{{ asset('portfolio/images/scala.PNG') }}" alt="" class="img-fluid" />
                                             <div class="box-content">
                                                 <h3 class="title">blog title 5</h3>
                                                 <span class="post">30 june 2018</span>
@@ -298,7 +298,7 @@
                                     <div class="col-lg-4 col-md-6 mt-lg-0 mt-4  w3-slide-grid">
                                         <h5><a href="#">Curabitur aliquet quam id dui posuere.</a></h5>
                                         <div class="box20">
-                                            <img src="{{ asset('portfolio/images/g1.jpg') }}" alt="" class="img-fluid" />
+                                            <img src="{{ asset('portfolio/images/blog_updates.PNG') }}" alt="" class="img-fluid" />
                                             <div class="box-content">
                                                 <h3 class="title">blog title 6</h3>
                                                 <span class="post">15 june 2018</span>
@@ -339,7 +339,7 @@
                 <div id="timeline">
                     <div class="row timeline-movement timeline-movement-top">
                         <div class="timeline-badge timeline-future-movement">
-                            <p>2018</p>
+                            <p>2020</p>
                         </div>
                     </div>
                     <div class="row timeline-movement">
@@ -353,13 +353,13 @@
                                         <div class="timeline-panel-ul clearfix">
                                             <div class="lefting-wrap">
                                                 <ul>
-                                                    <li class="img-wraping"><a href="#"><img src="{{ asset('portfolio/images/g4.jpg') }}" class="img-fluid"
+                                                    <li class="img-wraping"><a href="#"><img src="{{ asset('portfolio/images/scala.PNG') }}" class="img-fluid"
                                                                 alt="user-image" /></a></li>
                                                 </ul>
                                             </div>
                                             <div class="righting-wrap">
                                                 <ul>
-                                                    <li><a href="#" class="importo">Mussum ipsum cacilds</a></li>
+                                                    <li><a href="#" class="importo">MarketPlace Updates</a></li>
                                                     <li><span class="causale" style="color:#000; font-weight: 600;">Developer
                                                         </span> </li>
                                                     <li><span class="causale">Lorem ipsum dolor sit amet, consectetur
@@ -387,13 +387,13 @@
                                         <div class="timeline-panel-ul clearfix">
                                             <div class="lefting-wrap">
                                                 <ul>
-                                                    <li class="img-wraping"><a href="#"><img src="{{ asset('portfolio/images/g5.jpg') }}" class="img-fluid"
+                                                    <li class="img-wraping"><a href="#"><img src="{{ asset('portfolio/images/marketplace.PNG') }}" class="img-fluid"
                                                                 alt="user-image" /></a></li>
                                                 </ul>
                                             </div>
                                             <div class="righting-wrap">
                                                 <ul>
-                                                    <li><a href="#" class="importo">Mussum ipsum cacilds</a></li>
+                                                    <li><a href="#" class="importo">Incidents Umojaswitch Reporting</a></li>
                                                     <li><span class="causale" style="color:#000; font-weight: 600;">Web
                                                             Designer </span> </li>
                                                     <li><span class="causale">Lorem ipsum dolor sit amet, consectetur
@@ -421,13 +421,13 @@
                                         <div class="timeline-panel-ul  clearfix">
                                             <div class="lefting-wrap">
                                                 <ul>
-                                                    <li class="img-wraping"><a href="#"><img src="{{ asset('portfolio/images/g6.jpg') }}" class="img-fluid"
+                                                    <li class="img-wraping"><a href="#"><img src="{{ asset('portfolio/images/reporting.PNG') }}" class="img-fluid"
                                                                 alt="user-image" /></a></li>
                                                 </ul>
                                             </div>
                                             <div class="righting-wrap">
                                                 <ul>
-                                                    <li><a href="#" class="importo">Mussum ipsum cacilds</a></li>
+                                                    <li><a href="#" class="importo">Scala Logistic Agency</a></li>
                                                     <li><span class="causale" style="color:#000; font-weight: 600;">Engineer
                                                         </span> </li>
                                                     <li><span class="causale">Lorem ipsum dolor sit amet, consectetur
@@ -447,7 +447,7 @@
                     </div>
                     <div class="row timeline-movement timeline-movement-top">
                         <div class="timeline-badge timeline-future-movement">
-                            <p>2017</p>
+                            <p>2021</p>
                         </div>
                     </div>
                     <div class="row timeline-movement">
@@ -460,15 +460,15 @@
                                         <div class="timeline-panel-ul clearfix">
                                             <div class="lefting-wrap">
                                                 <ul>
-                                                    <li class="img-wraping"><a href="#"><img src="{{ asset('portfolio/images/g7.jpg') }}" class="img-fluid"
+                                                    <li class="img-wraping"><a href="#"><img src="{{ asset('portfolio/images/highhub_company.PNG') }}" class="img-fluid"
                                                                 alt="user-image" /></a></li>
                                                 </ul>
                                             </div>
                                             <div class="righting-wrap">
                                                 <ul>
-                                                    <li><a href="#" class="importo">Mussum ipsum cacilds</a></li>
-                                                    <li><span class="causale" style="color:#000; font-weight: 600;">Web
-                                                            Designer </span> </li>
+                                                    <li><a href="#" class="importo"> ZURA</a></li>
+                                                    <li><span class="causale" style="color:#000; font-weight: 600;">Zanzibar Utilities Regulatory Authority
+                                                         </span> </li>
                                                     <li><span class="causale">Lorem ipsum dolor sit amet, consectetur
                                                             adipiscing elit. </span> </li>
                                                     <li>
@@ -494,14 +494,14 @@
                                         <div class="timeline-panel-ul clearfix">
                                             <div class="lefting-wrap">
                                                 <ul>
-                                                    <li class="img-wraping"><a href="#"><img src="{{ asset('portfolio/images/g8.jpg') }}" class="img-fluid"
+                                                    <li class="img-wraping"><a href="#"><img src="{{ asset('portfolio/images/edms.PNG') }}" class="img-fluid"
                                                                 alt="user-image" /></a></li>
                                                 </ul>
                                             </div>
                                             <div class="righting-wrap">
                                                 <ul>
-                                                    <li><a href="#" class="importo">Mussum ipsum cacilds</a></li>
-                                                    <li><span class="causale" style="color:#000; font-weight: 600;">Engineer
+                                                    <li><a href="#" class="importo"> RPMS</a></li>
+                                                    <li><span class="causale" style="color:#000; font-weight: 600;">Regulatory Performance Management System
                                                         </span> </li>
                                                     <li><span class="causale">Lorem ipsum dolor sit amet, consectetur
                                                             adipiscing elit. </span> </li>
@@ -528,12 +528,12 @@
             <div class="title-sec-w3layouts_pvt">
                 <span class="title-icon-wthree fa fa-hashtag" aria-hidden="true"></span>
                 <h4 class="w3layouts_pvt-head text-white">my portfolio</h4>
-                <p class="title-text text-capitalize">add some sub text here</p>
+                <p class="title-text text-capitalize">These are my work</p>
             </div>
             <ul class="demo mt-5 pt-lg-5">
                 <li>
                     <div class="gallery-grid1">
-                        <img src="{{ asset('portfolio/images/g1.jpg') }}" alt=" " class="img-fluid" />
+                        <img src="{{ asset('portfolio/images/blog_updates.PNG') }}" alt=" " class="img-fluid" />
                         <div class="p-mask">
                             <h4>fusion</h4>
                             <p>Neque porro est.</p>
@@ -542,7 +542,7 @@
                 </li>
                 <li>
                     <div class="gallery-grid1">
-                        <img src="{{ asset('portfolio/images/g2.jpg') }}" alt=" " class="img-fluid" />
+                        <img src="{{ asset('portfolio/images/zura.PNG') }}" alt=" " class="img-fluid" />
                         <div class="p-mask">
                             <h4>fusion</h4>
                             <p>Neque porro est.</p>
@@ -551,7 +551,7 @@
                 </li>
                 <li>
                     <div class="gallery-grid1">
-                        <img src="{{ asset('portfolio/images/g3.jpg') }}" alt=" " class="img-fluid" />
+                        <img src="{{ asset('portfolio/images/rpms.PNG') }}" alt=" " class="img-fluid" />
                         <div class="p-mask">
                             <h4>fusion</h4>
                             <p>Neque porro est.</p>
@@ -560,7 +560,7 @@
                 </li>
                 <li>
                     <div class="gallery-grid1">
-                        <img src="{{ asset('portfolio/images/g4.jpg') }}" alt=" " class="img-fluid" />
+                        <img src="{{ asset('portfolio/images/scala.PNG') }}" alt=" " class="img-fluid" />
                         <div class="p-mask">
                             <h4>fusion</h4>
                             <p>Neque porro est.</p>
@@ -569,7 +569,7 @@
                 </li>
                 <li>
                     <div class="gallery-grid1">
-                        <img src="{{ asset('portfolio/images/g5.jpg') }}" alt=" " class="img-fluid" />
+                        <img src="{{ asset('portfolio/images/marketplace.PNG') }}" alt=" " class="img-fluid" />
                         <div class="p-mask">
                             <h4>fusion</h4>
                             <p>Neque porro est.</p>
@@ -578,7 +578,7 @@
                 </li>
                 <li>
                     <div class="gallery-grid1">
-                        <img src="{{ asset('portfolio/images/g6.jpg') }}" alt=" " class="img-fluid" />
+                        <img src="{{ asset('portfolio/images/reporting.PNG') }}" alt=" " class="img-fluid" />
                         <div class="p-mask">
                             <h4>fusion</h4>
                             <p>Neque porro est.</p>
@@ -587,7 +587,7 @@
                 </li>
                 <li>
                     <div class="gallery-grid1">
-                        <img src="{{ asset('portfolio/images/g7.jpg') }}" alt=" " class="img-fluid" />
+                        <img src="{{ asset('portfolio/images/highhub_company.PNG') }}" alt=" " class="img-fluid" />
                         <div class="p-mask">
                             <h4>fusion</h4>
                             <p>Neque porro est.</p>
@@ -596,7 +596,7 @@
                 </li>
                 <li>
                     <div class="gallery-grid1">
-                        <img src="{{ asset('portfolio/images/g8.jpg') }}" alt=" " class="img-fluid" />
+                        <img src="{{ asset('portfolio/images/edms.PNG') }}" alt=" " class="img-fluid" />
                         <div class="p-mask">
                             <h4>fusion</h4>
                             <p>Neque porro est.</p>
@@ -739,7 +739,7 @@
                     <div class="title-sec-w3layouts_pvt">
                         <span class="title-icon-wthree fa fa-hashtag" aria-hidden="true"></span>
                         <h4 class="w3layouts_pvt-head text-white">contact me</h4>
-                        <p class="title-text text-capitalize">add some sub text here</p>
+                        <p class="title-text text-capitalize">You can communicate with me by submit your information.</p>
                     </div>
                     <form action="#" method="get" class="contact-wthree">
                         <div class="form-group d-flex">
