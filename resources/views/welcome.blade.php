@@ -77,13 +77,13 @@
     </div>
     <!-- //banner -->
     <!-- about -->
-    <section class="about-w3layouts sec-space" id="about">
+    <section class="about-portfolio sec-space" id="about">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
-                    <div class="title-sec-w3layouts_pvt">
+                    <div class="title-sec-portfolio_pvt">
                         <span class="title-icon-wthree fa fa-hashtag" aria-hidden="true"></span>
-                        <h4 class="w3layouts_pvt-head">about me</h4>
+                        <h4 class="portfolio_pvt-head">about me</h4>
                         <p class="title-text text-capitalize">The information about me</p>
                     </div>
                     <div class="ab-pvtw3 my-4">
@@ -102,7 +102,7 @@
                     </div>
                     <h4 class="feed-title my-3">positive solutions</h4>
                     <p> This brings new and good quality on a services.</p>
-                    <a href="#tl" class="btn-w3layouts_pvt scroll">Read more<span class="fa fa-long-arrow-right"
+                    <a href="#tl" class="btn-portfolio_pvt scroll">Read more<span class="fa fa-long-arrow-right"
                             aria-hidden="true"></span></a>
                 </div>
                 <div class="col-lg-3 col-md-6 mt-4 w3pvt-ab text-center">
@@ -111,7 +111,7 @@
                     </div>
                     <h4 class="feed-title my-3">satisfied customers</h4>
                     <p> Accepts the good quality and experience the services.</p>
-                    <a href="#tl" class="btn-w3layouts_pvt scroll">Read more<span class="fa fa-long-arrow-right"
+                    <a href="#tl" class="btn-portfolio_pvt scroll">Read more<span class="fa fa-long-arrow-right"
                             aria-hidden="true"></span></a>
                 </div>
             </div>
@@ -123,7 +123,7 @@
                     </div>
                     <h4 class="feed-title my-3">Consulting</h4>
                     <p> Pellentesque in ipsum id orci porta dapibus roined magnaeget tortor risus.</p>
-                    <a href="#tl" class="btn-w3layouts_pvt scroll">Read more<span class="fa fa-long-arrow-right"
+                    <a href="#tl" class="btn-portfolio_pvt scroll">Read more<span class="fa fa-long-arrow-right"
                             aria-hidden="true"></span></a>
                 </div>
                 <div class="col-lg-3 col-md-6 my-lg-4 mt-md-0 mt-4 w3pvt-ab text-center position-relative">
@@ -133,7 +133,7 @@
                     </div>
                     <h4 class="feed-title my-3">Database Design</h4>
                     <p> Pellentesque in ipsum id orci porta dapibus roined magnaeget tortor risus.</p>
-                    <a href="#tl" class="btn-w3layouts_pvt scroll">Read more<span class="fa fa-long-arrow-right"
+                    <a href="#tl" class="btn-portfolio_pvt scroll">Read more<span class="fa fa-long-arrow-right"
                             aria-hidden="true"></span></a>
                 </div>
                 <div class="col-lg-3 col-md-6 my-lg-4 mt-sm-5 mt-4 w3pvt-ab text-center position-relative">
@@ -143,7 +143,7 @@
                     </div>
                     <h4 class="feed-title my-3">System Development</h4>
                     <p> Pellentesque in ipsum id orci porta dapibus roined magnaeget tortor risus.</p>
-                    <a href="#tl" class="btn-w3layouts_pvt scroll">Read more<span class="fa fa-long-arrow-right"
+                    <a href="#tl" class="btn-portfolio_pvt scroll">Read more<span class="fa fa-long-arrow-right"
                             aria-hidden="true"></span></a>
                 </div>
                 <div class="col-lg-3 col-md-6 mt-lg-4 mt-sm-5 mt-4 w3pvt-ab text-center">
@@ -152,7 +152,7 @@
                     </div>
                     <h4 class="feed-title my-3">Web Hosting</h4>
                     <p> Pellentesque in ipsum id orci porta dapibus roined magnaeget tortor risus.</p>
-                    <a href="#tl" class="btn-w3layouts_pvt scroll">Read more<span class="fa fa-long-arrow-right"
+                    <a href="#tl" class="btn-portfolio_pvt scroll">Read more<span class="fa fa-long-arrow-right"
                             aria-hidden="true"></span></a>
                 </div>
             </div>
@@ -162,9 +162,9 @@
     <!-- carousel -->
     <div class="cliptop-blog-wthree" id="news">
         <div class="container">
-            <div class="title-sec-w3layouts_pvt">
+            <div class="title-sec-portfolio_pvt">
                 <span class="title-icon-wthree fa fa-hashtag" aria-hidden="true"></span>
-                <h4 class="w3layouts_pvt-head text-white">latest news</h4>
+                <h4 class="portfolio_pvt-head text-white">latest news</h4>
                 <p class="title-text text-capitalize">See the latest information</p>
             </div>
             <div class="row blog pt-5 mt-md-3">
@@ -181,9 +181,9 @@
                             <div class="carousel-item active">
                                 <div class="d-flex team-agile-row">
                                     <div class="col-lg-4 col-md-6 w3-slide-grid">
-                                        <h5><a href="#">Curabitur aliquet quam id dui posuere.</a></h5>
+                                        <h5><a href="#">MarketPlace</a></h5>
                                         <div class="box20">
-                                            <img src="{{ asset('portfolio/images/marketplace.PNG') }}" alt="" class="img-fluid" />
+                                            <img src="{{ asset('portfolio/images/marketplace.PNG') }}" alt="marketplace" class="img-fluid" />
                                             <div class="box-content">
                                                 <h3 class="title">blog title 1</h3>
                                                 <span class="post text-capitalize">30 aug 2018</span>
@@ -203,7 +203,7 @@
                                         </div>
                                     </div>
                                     <div class="col-lg-4 col-md-6 mt-md-0 mt-4  w3-slide-grid">
-                                        <h5><a href="#">Curabitur aliquet quam id dui posuere.</a></h5>
+                                        <h5><a href="#">ZURA</a></h5>
                                         <div class="box20">
                                             <img src="{{ asset('portfolio/images/zura.PNG') }}" alt="zura" class="img-fluid" />
                                             <div class="box-content">
@@ -225,9 +225,9 @@
                                         </div>
                                     </div>
                                     <div class="col-lg-4 col-md-6 mt-lg-0 mt-4 w3-slide-grid">
-                                        <h5><a href="#">Curabitur aliquet quam id dui posuere.</a></h5>
+                                        <h5><a href="#">RPMS</a></h5>
                                         <div class="box20">
-                                            <img src="{{ asset('portfolio/images/rpms.PNG') }}" alt="" class="img-fluid" />
+                                            <img src="{{ asset('portfolio/images/rpms.PNG') }}" alt="rpms" class="img-fluid" />
                                             <div class="box-content">
                                                 <h3 class="title">blog title 3</h3>
                                                 <span class="post text-capitalize">10 july 2018</span>
@@ -252,9 +252,9 @@
                             <div class="carousel-item">
                                 <div class="d-flex team-agile-row">
                                     <div class="col-lg-4 col-md-6  w3-slide-grid">
-                                        <h5><a href="#">Curabitur aliquet quam id dui posuere.</a></h5>
+                                        <h5><a href="#">Reporting</a></h5>
                                         <div class="box20">
-                                            <img src="{{ asset('portfolio/images/marketplace.PNG') }}" alt="" class="img-fluid" />
+                                            <img src="{{ asset('portfolio/images/reporting.PNG') }}" alt="reporting" class="img-fluid" />
                                             <div class="box-content">
                                                 <h3 class="title">blog title 4</h3>
                                                 <span class="post">1 july 2018</span>
@@ -274,9 +274,9 @@
                                         </div>
                                     </div>
                                     <div class="col-lg-4 col-md-6 mt-md-0 mt-4  w3-slide-grid">
-                                        <h5><a href="#">Curabitur aliquet quam id dui posuere.</a></h5>
+                                        <h5><a href="#">Scala Logistic Agency</a></h5>
                                         <div class="box20">
-                                            <img src="{{ asset('portfolio/images/scala.PNG') }}" alt="" class="img-fluid" />
+                                            <img src="{{ asset('portfolio/images/scala.PNG') }}" alt="scala" class="img-fluid" />
                                             <div class="box-content">
                                                 <h3 class="title">blog title 5</h3>
                                                 <span class="post">30 june 2018</span>
@@ -296,9 +296,9 @@
                                         </div>
                                     </div>
                                     <div class="col-lg-4 col-md-6 mt-lg-0 mt-4  w3-slide-grid">
-                                        <h5><a href="#">Curabitur aliquet quam id dui posuere.</a></h5>
+                                        <h5><a href="#">Blog Updates</a></h5>
                                         <div class="box20">
-                                            <img src="{{ asset('portfolio/images/blog_updates.PNG') }}" alt="" class="img-fluid" />
+                                            <img src="{{ asset('portfolio/images/blog_updates.PNG') }}" alt="blog_updates" class="img-fluid" />
                                             <div class="box-content">
                                                 <h3 class="title">blog title 6</h3>
                                                 <span class="post">15 june 2018</span>
@@ -353,20 +353,19 @@
                                         <div class="timeline-panel-ul clearfix">
                                             <div class="lefting-wrap">
                                                 <ul>
-                                                    <li class="img-wraping"><a href="#"><img src="{{ asset('portfolio/images/scala.PNG') }}" class="img-fluid"
-                                                                alt="user-image" /></a></li>
+                                                    <li class="img-wraping"><a href="#"><img src="{{ asset('portfolio/images/blog_updates.PNG') }}" class="img-fluid"
+                                                                alt="blog_updates" /></a></li>
                                                 </ul>
                                             </div>
                                             <div class="righting-wrap">
                                                 <ul>
-                                                    <li><a href="#" class="importo">MarketPlace Updates</a></li>
-                                                    <li><span class="causale" style="color:#000; font-weight: 600;">Developer
+                                                    <li><a href="#" class="importo">Blog Updates</a></li>
+                                                    <li><span class="causale" style="color:#000; font-weight: 600;">Information about it
                                                         </span> </li>
-                                                    <li><span class="causale">Lorem ipsum dolor sit amet, consectetur
-                                                            adipiscing elit. </span> </li>
+                                                    <li><span class="causale">From this customer can know more information about financial sector to this blog. </span> </li>
                                                     <li>
                                                         <p><small class="text-muted"><span class="fa fa-clock-o"></span>
-                                                                13/01/2018, 13:05</small></p>
+                                                                27/01/2021, 05:50 PM</small></p>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -387,20 +386,19 @@
                                         <div class="timeline-panel-ul clearfix">
                                             <div class="lefting-wrap">
                                                 <ul>
-                                                    <li class="img-wraping"><a href="#"><img src="{{ asset('portfolio/images/marketplace.PNG') }}" class="img-fluid"
-                                                                alt="user-image" /></a></li>
+                                                    <li class="img-wraping"><a href="#"><img src="{{ asset('portfolio/images/reporting.PNG') }}" class="img-fluid"
+                                                                alt="reporting" /></a></li>
                                                 </ul>
                                             </div>
                                             <div class="righting-wrap">
                                                 <ul>
                                                     <li><a href="#" class="importo">Incidents Umojaswitch Reporting</a></li>
-                                                    <li><span class="causale" style="color:#000; font-weight: 600;">Web
-                                                            Designer </span> </li>
-                                                    <li><span class="causale">Lorem ipsum dolor sit amet, consectetur
-                                                            adipiscing elit. </span> </li>
+                                                    <li><span class="causale" style="color:#000; font-weight: 600;">
+                                                        Information about it </span> </li>
+                                                    <li><span class="causale">This can help customers to report all incidence to heldesk. </span> </li>
                                                     <li>
                                                         <p><small class="text-muted"><span class="fa fa-clock-o"></span>
-                                                                12/01/2018, 13:05</small></p>
+                                                                27/01/2021, 05:50 PM</small></p>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -421,20 +419,19 @@
                                         <div class="timeline-panel-ul  clearfix">
                                             <div class="lefting-wrap">
                                                 <ul>
-                                                    <li class="img-wraping"><a href="#"><img src="{{ asset('portfolio/images/reporting.PNG') }}" class="img-fluid"
-                                                                alt="user-image" /></a></li>
+                                                    <li class="img-wraping"><a href="#"><img src="{{ asset('portfolio/images/scala.PNG') }}" class="img-fluid"
+                                                                alt="scala" /></a></li>
                                                 </ul>
                                             </div>
                                             <div class="righting-wrap">
                                                 <ul>
                                                     <li><a href="#" class="importo">Scala Logistic Agency</a></li>
-                                                    <li><span class="causale" style="color:#000; font-weight: 600;">Engineer
+                                                    <li><span class="causale" style="color:#000; font-weight: 600;">Information about it
                                                         </span> </li>
-                                                    <li><span class="causale">Lorem ipsum dolor sit amet, consectetur
-                                                            adipiscing elit. </span> </li>
+                                                    <li><span class="causale">Simplify means of transportation. </span> </li>
                                                     <li>
                                                         <p><small class="text-muted"><span class="fa fa-clock-o"></span>
-                                                                11/01/2018, 13:05</small></p>
+                                                                27/01/2021, 5:50 PM</small></p>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -460,20 +457,19 @@
                                         <div class="timeline-panel-ul clearfix">
                                             <div class="lefting-wrap">
                                                 <ul>
-                                                    <li class="img-wraping"><a href="#"><img src="{{ asset('portfolio/images/highhub_company.PNG') }}" class="img-fluid"
-                                                                alt="user-image" /></a></li>
+                                                    <li class="img-wraping"><a href="#"><img src="{{ asset('portfolio/images/zura.PNG') }}" class="img-fluid"
+                                                                alt="zura" /></a></li>
                                                 </ul>
                                             </div>
                                             <div class="righting-wrap">
                                                 <ul>
                                                     <li><a href="#" class="importo"> ZURA</a></li>
-                                                    <li><span class="causale" style="color:#000; font-weight: 600;">Zanzibar Utilities Regulatory Authority
+                                                    <li><span class="causale" style="color:#000; font-weight: 600;">Information about it
                                                          </span> </li>
-                                                    <li><span class="causale">Lorem ipsum dolor sit amet, consectetur
-                                                            adipiscing elit. </span> </li>
+                                                    <li><span class="causale">Get License online. </span> </li>
                                                     <li>
                                                         <p><small class="text-muted"><span class="fa fa-clock-o"></span>
-                                                                12/01/2018, 13:05</small></p>
+                                                                27/01/2021, 5:50 PM</small></p>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -494,20 +490,19 @@
                                         <div class="timeline-panel-ul clearfix">
                                             <div class="lefting-wrap">
                                                 <ul>
-                                                    <li class="img-wraping"><a href="#"><img src="{{ asset('portfolio/images/edms.PNG') }}" class="img-fluid"
-                                                                alt="user-image" /></a></li>
+                                                    <li class="img-wraping"><a href="#"><img src="{{ asset('portfolio/images/rpms.PNG') }}" class="img-fluid"
+                                                                alt="rpms" /></a></li>
                                                 </ul>
                                             </div>
                                             <div class="righting-wrap">
                                                 <ul>
                                                     <li><a href="#" class="importo"> RPMS</a></li>
-                                                    <li><span class="causale" style="color:#000; font-weight: 600;">Regulatory Performance Management System
+                                                    <li><span class="causale" style="color:#000; font-weight: 600;">Information about it
                                                         </span> </li>
-                                                    <li><span class="causale">Lorem ipsum dolor sit amet, consectetur
-                                                            adipiscing elit. </span> </li>
+                                                    <li><span class="causale">Get the performance management system. </span> </li>
                                                     <li>
                                                         <p><small class="text-muted"><span class="fa fa-clock-o"></span>
-                                                                11/01/2018, 13:05</small></p>
+                                                                27/01/2021, 5:50 PM</small></p>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -525,81 +520,81 @@
     <!-- portfolio -->
     <section class="wthree-row w3-gallery cliptop-portfolio-wthree" id="portfolio">
         <div class="container">
-            <div class="title-sec-w3layouts_pvt">
+            <div class="title-sec-portfolio_pvt">
                 <span class="title-icon-wthree fa fa-hashtag" aria-hidden="true"></span>
-                <h4 class="w3layouts_pvt-head text-white">my portfolio</h4>
+                <h4 class="portfolio_pvt-head text-white">my portfolio</h4>
                 <p class="title-text text-capitalize">These are my work</p>
             </div>
             <ul class="demo mt-5 pt-lg-5">
                 <li>
                     <div class="gallery-grid1">
-                        <img src="{{ asset('portfolio/images/blog_updates.PNG') }}" alt=" " class="img-fluid" />
+                        <img src="{{ asset('portfolio/images/blog_updates.PNG') }}" alt="blog_updates" class="img-fluid" />
                         <div class="p-mask">
-                            <h4>fusion</h4>
-                            <p>Neque porro est.</p>
+                            <h4>Blog Updates</h4>
+                            <p>Gives information about financial sector.</p>
                         </div>
                     </div>
                 </li>
                 <li>
                     <div class="gallery-grid1">
-                        <img src="{{ asset('portfolio/images/zura.PNG') }}" alt=" " class="img-fluid" />
+                        <img src="{{ asset('portfolio/images/zura.PNG') }}" alt="zura" class="img-fluid" />
                         <div class="p-mask">
-                            <h4>fusion</h4>
-                            <p>Neque porro est.</p>
+                            <h4>ZURA</h4>
+                            <p>This makes the easy way of getting a digital license online by a single click.</p>
                         </div>
                     </div>
                 </li>
                 <li>
                     <div class="gallery-grid1">
-                        <img src="{{ asset('portfolio/images/rpms.PNG') }}" alt=" " class="img-fluid" />
+                        <img src="{{ asset('portfolio/images/rpms.PNG') }}" alt="rpms" class="img-fluid" />
                         <div class="p-mask">
-                            <h4>fusion</h4>
-                            <p>Neque porro est.</p>
+                            <h4>RPMS</h4>
+                            <p>This regulate the performance management system.</p>
                         </div>
                     </div>
                 </li>
                 <li>
                     <div class="gallery-grid1">
-                        <img src="{{ asset('portfolio/images/scala.PNG') }}" alt=" " class="img-fluid" />
+                        <img src="{{ asset('portfolio/images/scala.PNG') }}" alt="scala" class="img-fluid" />
                         <div class="p-mask">
-                            <h4>fusion</h4>
-                            <p>Neque porro est.</p>
+                            <h4>Scala Logistic Agency</h4>
+                            <p>Offering a transportation solution whereby customers can request for transport of their cargos online via scala SYSTEM in a very easy and user friendly manner.</p>
                         </div>
                     </div>
                 </li>
                 <li>
                     <div class="gallery-grid1">
-                        <img src="{{ asset('portfolio/images/marketplace.PNG') }}" alt=" " class="img-fluid" />
+                        <img src="{{ asset('portfolio/images/marketplace.PNG') }}" alt="marketplace" class="img-fluid" />
                         <div class="p-mask">
-                            <h4>fusion</h4>
-                            <p>Neque porro est.</p>
+                            <h4>MarketPlace</h4>
+                            <p>MarketPlace is a smarter way to find financial products.Compare loans from multiple providers in one simple search.</p>
                         </div>
                     </div>
                 </li>
                 <li>
                     <div class="gallery-grid1">
-                        <img src="{{ asset('portfolio/images/reporting.PNG') }}" alt=" " class="img-fluid" />
+                        <img src="{{ asset('portfolio/images/reporting.PNG') }}" alt="reporting" class="img-fluid" />
                         <div class="p-mask">
-                            <h4>fusion</h4>
-                            <p>Neque porro est.</p>
+                            <h4>Reporting</h4>
+                            <p>Provide the information about ATM machines direct via Help desk.</p>
                         </div>
                     </div>
                 </li>
                 <li>
                     <div class="gallery-grid1">
-                        <img src="{{ asset('portfolio/images/highhub_company.PNG') }}" alt=" " class="img-fluid" />
+                        <img src="{{ asset('portfolio/images/highhub_company.PNG') }}" alt="highhub_company" class="img-fluid" />
                         <div class="p-mask">
-                            <h4>fusion</h4>
-                            <p>Neque porro est.</p>
+                            <h4>High Hub Company</h4>
+                            <p>This is website that provides all information about company and the services that provides to the customer.</p>
                         </div>
                     </div>
                 </li>
                 <li>
                     <div class="gallery-grid1">
-                        <img src="{{ asset('portfolio/images/edms.PNG') }}" alt=" " class="img-fluid" />
+                        <img src="{{ asset('portfolio/images/edms.PNG') }}" alt="edms" class="img-fluid" />
                         <div class="p-mask">
-                            <h4>fusion</h4>
-                            <p>Neque porro est.</p>
+                            <h4>EDMS</h4>
+                            <p>This makes the company division for the employement to a certain department.</p>
                         </div>
                     </div>
                 </li>
@@ -734,11 +729,11 @@
         <div class="map-grid clipbottom-wthree">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126771.96422011407!2d38.988461958203125!3d-6.815518099999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x185c41585a79fe95%3A0x3e582ad82389c528!2sMloganzila%20Campus%20of%20MUHAS!5e0!3m2!1sen!2sus!4v1611668576638!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                 style="border:0" allowfullscreen></iframe>
-            <div class="w3layouts-contact-pos  clipbottom-wthree">
-                <div class="w3layouts-contact-pos-grid">
-                    <div class="title-sec-w3layouts_pvt">
+            <div class="portfolio-contact-pos  clipbottom-wthree">
+                <div class="portfolio-contact-pos-grid">
+                    <div class="title-sec-portfolio_pvt">
                         <span class="title-icon-wthree fa fa-hashtag" aria-hidden="true"></span>
-                        <h4 class="w3layouts_pvt-head text-white">contact me</h4>
+                        <h4 class="portfolio_pvt-head text-white">contact me</h4>
                         <p class="title-text text-capitalize">You can communicate with me by submit your information.</p>
                     </div>
                     <form action="#" method="get" class="contact-wthree">
