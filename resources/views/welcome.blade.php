@@ -59,16 +59,16 @@
         <div class="container">
             <div class="row">
                 <div class="offset-lg-6"></div>
-                <img src="{{ asset('portfolio/images/2.png') }}" alt="" class="img-fluid" />
+                <img src="{{ asset('portfolio/images/feisal-image.png') }}" alt="" class="img-fluid" />
                 <div class="col-lg-6 bnr-txt-w3pvt  d-sm-flex justify-content-center align-items-center">
                     <div class="bnr-w3pvt-txt">
                         <h4>Hi,I am</h4>
-                        <h2>Feisal Mombo</h2>
+                        <h2>Feisal Suleiman Mombo</h2>
                         <h3>a Software Developer with passion of creativity</h3>
-                        <p class="text-white mt-sm-4 mt-2"> Curabitur arcu erat, accumsan id imperdiet et, porttitor at
-                            sem.
-                            tinciduntDonec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.
-                            Vivamus suscipit tortor eget felis porttitor volutpat. Mauris blandit aliquet elit.</p>
+                        <p class="text-white mt-sm-4 mt-2"> I study a Bachelor of Science in Software Engineering as my professional specialized in web
+                            development, system development, database design, system analyst and design and using that
+                            knowledge gets from the University of Dodoma to solve all problems facing society in a form of
+                            computerized form.</p>
                         <a href="#about" class="scroll bnr-btn">read more</a>
                     </div>
                 </div>
@@ -623,9 +623,9 @@
                                         </p>
                                     </div>
                                     <div class="testi-pos">
-                                        <img src="{{ asset('portfolio/images/ts1.jpg') }}" alt="" class="img-fluid rounded-circle mb-3" />
-                                        <h4>arim john</h4>
-                                        <span>congue leo</span>
+                                        <img src="{{ asset('portfolio/images/teacher.jpg') }}" alt="" class="img-fluid rounded-circle mb-3" />
+                                        <h4>Joan Thomas</h4>
+                                        <span>Teacher</span>
                                     </div>
                                 </div>
                             </div>
@@ -640,9 +640,9 @@
                                     </p>
                                 </div>
                                 <div class="testi-pos">
-                                    <img src="{{ asset('portfolio/images/ts2.jpg') }}" alt="" class="img-fluid rounded-circle mb-3" />
-                                    <h4>arim john</h4>
-                                    <span>congue leo</span>
+                                    <img src="{{ asset('portfolio/images/dr.jpg') }}" alt="" class="img-fluid rounded-circle mb-3" />
+                                    <h4>Kelvin Mkabi</h4>
+                                    <span>Pilot</span>
                                 </div>
                             </div>
                         </div>
@@ -660,9 +660,9 @@
                                     </p>
                                 </div>
                                 <div class="testi-pos">
-                                    <img src="{{ asset('portfolio/images/ts3.jpg') }}" alt="" class="img-fluid rounded-circle mb-3" />
-                                    <h4>arim john</h4>
-                                    <span>congue leo</span>
+                                    <img src="{{ asset('portfolio/images/dr.jpg') }}" alt="" class="img-fluid rounded-circle mb-3" />
+                                    <h4>Peter Mtuka</h4>
+                                    <span>Manager</span>
                                 </div>
                             </div>
                             <div class="col-lg-6">
@@ -676,9 +676,9 @@
                                     </p>
                                 </div>
                                 <div class="testi-pos">
-                                    <img src="{{ asset('portfolio/images/ts2.jpg') }}" alt="" class="img-fluid rounded-circle mb-3" />
-                                    <h4>arim john</h4>
-                                    <span>congue leo</span>
+                                    <img src="{{ asset('portfolio/images/dr.jpg') }}" alt="" class="img-fluid rounded-circle mb-3" />
+                                    <h4>Khatimu Mkalimu</h4>
+                                    <span>Doctor</span>
                                 </div>
                             </div>
                         </div>
@@ -696,9 +696,9 @@
                                     </p>
                                 </div>
                                 <div class="testi-pos">
-                                    <img src="{{ asset('portfolio/images/ts1.jpg') }}" alt="" class="img-fluid rounded-circle mb-3" />
-                                    <h4>arim john</h4>
-                                    <span>congue leo</span>
+                                    <img src="{{ asset('portfolio/images/teacher.jpg') }}" alt="" class="img-fluid rounded-circle mb-3" />
+                                    <h4>Zuhura Mwanga</h4>
+                                    <span>Shopkeeper</span>
                                 </div>
                             </div>
                             <div class="col-lg-6">
@@ -712,9 +712,9 @@
                                     </p>
                                 </div>
                                 <div class="testi-pos">
-                                    <img src="{{ asset('portfolio/images/ts3.jpg') }}" alt="" class="img-fluid rounded-circle mb-3" />
-                                    <h4>arim john</h4>
-                                    <span>congue leo</span>
+                                    <img src="{{ asset('portfolio/images/teacher.jpg') }}" alt="" class="img-fluid rounded-circle mb-3" />
+                                    <h4>Khadija Mohammed</h4>
+                                    <span>Engineer</span>
                                 </div>
                             </div>
                         </div>
@@ -727,7 +727,7 @@
     <!-- contact -->
     <div class="section" id="contact">
         <div class="map-grid clipbottom-wthree">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126771.96422011407!2d38.988461958203125!3d-6.815518099999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x185c41585a79fe95%3A0x3e582ad82389c528!2sMloganzila%20Campus%20of%20MUHAS!5e0!3m2!1sen!2sus!4v1611668576638!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126771.96422011407!2d38.988461958203125!3d-6.815518099999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x185c41585a79fe95%3A0x3e582ad82389c528!2sMloganzila%20Campus%20of%20MUHAS!5e0!3m2!1sen!2sus!4v1611668576638!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
                 style="border:0" allowfullscreen></iframe>
             <div class="portfolio-contact-pos  clipbottom-wthree">
                 <div class="portfolio-contact-pos-grid">
