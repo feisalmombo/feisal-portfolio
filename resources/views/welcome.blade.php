@@ -33,7 +33,7 @@
     <nav class="navbar fixed-top navbar-expand-lg navbar-light navbar-fixed-top">
         <div class="container">
             <h1 class="wthree-logo">
-                <a href="{{ url('/') }}" id="logoLink"><span>My</span>Portfolio</a>
+                <a href="{{ url('/') }}" id="logoLink"><span style="color: #ffffff">My</span>Portfolio</a>
             </h1>
             <div class="nav-item  position-relative">
                 <a href="#menu" id="toggle">
@@ -63,7 +63,7 @@
                 <div class="col-lg-6 bnr-txt-w3pvt  d-sm-flex justify-content-center align-items-center">
                     <div class="bnr-w3pvt-txt">
                         <h4>Hi,I am</h4>
-                        <h2>Feisal Suleiman Mombo</h2>
+                        <h2 style="color: #ffffff">Feisal Suleiman Mombo</h2>
                         <h3>a Software Developer with passion of creativity</h3>
                         <p class="text-white mt-sm-4 mt-2"> I study a Bachelor of Science in Software Engineering as my professional specialized in web
                             development, system development, database design, system analyst and design and using that
@@ -810,9 +810,6 @@
                                 <li>
                                     <a href="#">feisalmombo29@yahoo.com</a>
                                 </li>
-                                {{-- <li>
-                                    <a href="mailto:info@example.com">info@example.com</a>
-                                </li> --}}
                             </ul>
                         </div>
                     </div>
@@ -825,13 +822,13 @@
     <section class="social_w3ls_pvt position-relative py-5">
         <div class="container py-lg-5">
             <ul class="py-4">
-                <li><a href="#"><span class="fa fa-facebook"
-                            aria-hidden="true"></span></a></li>
-                <li><a href="#"><span class="fa fa-twitter" aria-hidden="true"></span></a></li>
-                <li><a href="#"><span class="fa fa-google-plus" aria-hidden="true"></span></a></li>
-                <li><a href="#"><span class="fa fa-linkedin"
-                            aria-hidden="true"></span></a></li>
-                <li><a href="#"><span class="fa fa-pinterest" aria-hidden="true"></span></a></li>
+                <li><a href="https://www.facebook.com/feisal.mombo.3/"><span class="fa fa-facebook"
+                            aria-hidden="true" target="_blank"></span></a></li>
+                <li><a href="https://twitter.com/FeisalMombo"><span class="fa fa-twitter" aria-hidden="true" target="_blank"></span></a></li>
+                <li><a href="#"><span class="fa fa-google-plus" aria-hidden="true" target="_blank"></span></a></li>
+                <li><a href="https://www.linkedin.com/in/feisal-mombo-332322135/"><span class="fa fa-linkedin"
+                            aria-hidden="true" target="_blank"></span></a></li>
+                <li><a href="#"><span class="fa fa-pinterest" aria-hidden="true" target="_blank"></span></a></li>
             </ul>
         </div>
     </section>
@@ -840,7 +837,7 @@
     <footer>
         <div class="container">
             <div class="cpy-right text-center">
-                <p class="text-white">© {{  date('Y') }} My Portfolio. All rights reserved | Design by
+                <p class="text-white">© {{  date('Y') }} My Portfolio. All rights reserved | Developed by
                     <a href="#" class="text-dark font-weight-bold"> Feisal Mombo.</a>
                 </p>
             </div>
