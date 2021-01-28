@@ -747,7 +747,7 @@ ul.callbacks_tabs {
     height: 10px;
     width: 10px;
     border-radius: 50%;
-    background: #ff1949;
+    background: #00C4EB;
 }
 
 .callbacks_here a:after {
@@ -870,7 +870,7 @@ ul.callbacks_tabs {
 .testi-pos h4 {
     text-transform: capitalize;
     font-size: 1.3em;
-    color: #ff1949;
+    color: #00C4EB;
     font-weight: 600;
 }
 
