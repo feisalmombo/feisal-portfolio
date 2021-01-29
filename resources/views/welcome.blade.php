@@ -3,10 +3,10 @@
 <html lang="zxx">
 
 <head>
-    <title>My Personal Portfolio | Home</title>
+    <title>My Portfolio | Home</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8" />
-    <meta name="keywords" content="My Personal Portfolio" />
+    <meta name="keywords" content="My Portfolio" />
     <script>
         addEventListener("load", function () {
             setTimeout(hideURLbar, 0);
@@ -107,7 +107,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6 mt-4 w3pvt-ab text-center">
                     <div class="clip-each clip-border d-flex justify-content-center align-items-center">
-                        <img src="{{ asset('portfolio/images/s6.png') }}" alt="" class="img-fluid rounded-circle">
+                        <img src="{{ asset('portfolio/images/customer.png') }}" alt="" class="img-fluid rounded-circle">
                     </div>
                     <h4 class="feed-title my-3">satisfied customers</h4>
                     <p> Accepts the good quality and experience the services.</p>
@@ -722,7 +722,7 @@
                         <h4 class="portfolio_pvt-head text-white">contact me</h4>
                         <p class="title-text text-capitalize">You can communicate with me by submit your information.</p>
                     </div>
-                    <form action="#" method="get" class="contact-wthree">
+                    <form action="#" method="POST" class="contact-wthree">
                         <div class="form-group d-flex">
                             <label>
                                 <span class="fa fa-user text-white" aria-hidden="true"></span>
