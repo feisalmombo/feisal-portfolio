@@ -98,7 +98,7 @@
                 <div class="col-lg-3 col-md-6  mt-md-4 w3pvt-ab text-center position-relative">
                     <div class="ab-border"><span class="fa fa-arrow-circle-right" aria-hidden="true"></span></div>
                     <div class="clip-each clip-border d-flex justify-content-center align-items-center">
-                        <img src="{{ asset('portfolio/images/s5.png') }}" alt="" class="img-fluid rounded-circle">
+                        <img src="{{ asset('portfolio/images/idea.png') }}" alt="" class="img-fluid rounded-circle">
                     </div>
                     <h4 class="feed-title my-3">positive solutions</h4>
                     <p> This brings new and good quality on a services.</p>
@@ -119,7 +119,7 @@
                 <div class="col-lg-3 col-md-6 my-lg-4 w3pvt-ab text-center  position-relative">
                     <div class="ab-border"><span class="fa fa-arrow-circle-right" aria-hidden="true"></span></div>
                     <div class="clip-each clip-border d-flex justify-content-center align-items-center">
-                        <img src="{{ asset('portfolio/images/s1.png') }}" alt="" class="img-fluid rounded-circle">
+                        <img src="{{ asset('portfolio/images/talking.png') }}" alt="" class="img-fluid rounded-circle">
                     </div>
                     <h4 class="feed-title my-3">Consulting</h4>
                     <p> Engaged in the business of giving expert advice to people working in a specific field.</p>
@@ -129,7 +129,7 @@
                 <div class="col-lg-3 col-md-6 my-lg-4 mt-md-0 mt-4 w3pvt-ab text-center position-relative">
                     <div class="ab-border rsp-border"><span class="fa fa-arrow-circle-right" aria-hidden="true"></span></div>
                     <div class="clip-each clip-border d-flex justify-content-center align-items-center">
-                        <img src="{{ asset('portfolio/images/s2.png') }}" alt="" class="img-fluid rounded-circle">
+                        <img src="{{ asset('portfolio/images/database.png') }}" alt="" class="img-fluid rounded-circle">
                     </div>
                     <h4 class="feed-title my-3">Database Design</h4>
                     <p> Database design is the organization of data according to a database model.</p>
@@ -139,7 +139,7 @@
                 <div class="col-lg-3 col-md-6 my-lg-4 mt-sm-5 mt-4 w3pvt-ab text-center position-relative">
                     <div class="ab-border"><span class="fa fa-arrow-circle-right" aria-hidden="true"></span></div>
                     <div class="clip-each clip-border d-flex justify-content-center align-items-center">
-                        <img src="{{ asset('portfolio/images/s3.png') }}" alt="" class="img-fluid rounded-circle">
+                        <img src="{{ asset('portfolio/images/system.png') }}" alt="" class="img-fluid rounded-circle">
                     </div>
                     <h4 class="feed-title my-3">System Development</h4>
                     <p> Systems development is the process of defining, designing, testing and implementing a new software application or program.</p>
@@ -148,7 +148,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6 mt-lg-4 mt-sm-5 mt-4 w3pvt-ab text-center">
                     <div class="clip-each clip-border d-flex justify-content-center align-items-center">
-                        <img src="{{ asset('portfolio/images/s4.png') }}" alt="" class="img-fluid rounded-circle">
+                        <img src="{{ asset('portfolio/images/hosting.png') }}" alt="" class="img-fluid rounded-circle">
                     </div>
                     <h4 class="feed-title my-3">Web Hosting</h4>
                     <p> When a hosting provider allocates space on a web server for a website to store its files, they are hosting a website.</p>
