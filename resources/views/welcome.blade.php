@@ -122,7 +122,7 @@
                         <img src="{{ asset('portfolio/images/s1.png') }}" alt="" class="img-fluid rounded-circle">
                     </div>
                     <h4 class="feed-title my-3">Consulting</h4>
-                    <p> Pellentesque in ipsum id orci porta dapibus roined magnaeget tortor risus.</p>
+                    <p> Engaged in the business of giving expert advice to people working in a specific field.</p>
                     <a href="#tl" class="btn-portfolio_pvt scroll">Read more<span class="fa fa-long-arrow-right"
                             aria-hidden="true"></span></a>
                 </div>
@@ -132,7 +132,7 @@
                         <img src="{{ asset('portfolio/images/s2.png') }}" alt="" class="img-fluid rounded-circle">
                     </div>
                     <h4 class="feed-title my-3">Database Design</h4>
-                    <p> Pellentesque in ipsum id orci porta dapibus roined magnaeget tortor risus.</p>
+                    <p> Database design is the organization of data according to a database model.</p>
                     <a href="#tl" class="btn-portfolio_pvt scroll">Read more<span class="fa fa-long-arrow-right"
                             aria-hidden="true"></span></a>
                 </div>
@@ -142,7 +142,7 @@
                         <img src="{{ asset('portfolio/images/s3.png') }}" alt="" class="img-fluid rounded-circle">
                     </div>
                     <h4 class="feed-title my-3">System Development</h4>
-                    <p> Pellentesque in ipsum id orci porta dapibus roined magnaeget tortor risus.</p>
+                    <p> Systems development is the process of defining, designing, testing and implementing a new software application or program.</p>
                     <a href="#tl" class="btn-portfolio_pvt scroll">Read more<span class="fa fa-long-arrow-right"
                             aria-hidden="true"></span></a>
                 </div>
@@ -151,7 +151,7 @@
                         <img src="{{ asset('portfolio/images/s4.png') }}" alt="" class="img-fluid rounded-circle">
                     </div>
                     <h4 class="feed-title my-3">Web Hosting</h4>
-                    <p> Pellentesque in ipsum id orci porta dapibus roined magnaeget tortor risus.</p>
+                    <p> When a hosting provider allocates space on a web server for a website to store its files, they are hosting a website.</p>
                     <a href="#tl" class="btn-portfolio_pvt scroll">Read more<span class="fa fa-long-arrow-right"
                             aria-hidden="true"></span></a>
                 </div>
@@ -185,8 +185,8 @@
                                         <div class="box20">
                                             <img src="{{ asset('portfolio/images/marketplace.PNG') }}" alt="marketplace" class="img-fluid" />
                                             <div class="box-content">
-                                                <h3 class="title">blog title 1</h3>
-                                                <span class="post text-capitalize">30 aug 2018</span>
+                                                <h3 class="title">MarketPlace</h3>
+                                                <span class="post text-capitalize">27 Jan 2021</span>
                                             </div>
                                             <ul class="icon">
                                                 <li>
@@ -207,8 +207,8 @@
                                         <div class="box20">
                                             <img src="{{ asset('portfolio/images/zura.PNG') }}" alt="zura" class="img-fluid" />
                                             <div class="box-content">
-                                                <h3 class="title">blog title 2</h3>
-                                                <span class="post text-capitalize">20 aug 2018</span>
+                                                <h3 class="title">ZURA</h3>
+                                                <span class="post text-capitalize">27 Jan 2021</span>
                                             </div>
                                             <ul class="icon">
                                                 <li>
@@ -229,8 +229,8 @@
                                         <div class="box20">
                                             <img src="{{ asset('portfolio/images/rpms.PNG') }}" alt="rpms" class="img-fluid" />
                                             <div class="box-content">
-                                                <h3 class="title">blog title 3</h3>
-                                                <span class="post text-capitalize">10 july 2018</span>
+                                                <h3 class="title">RPMS</h3>
+                                                <span class="post text-capitalize">27 Jan 2021</span>
                                             </div>
                                             <ul class="icon">
                                                 <li>
@@ -615,10 +615,7 @@
                                 <div class="testi-left-grid">
                                     <div class="testi-agile">
                                         <p>
-                                            Vivamus magna justo, lacinia eget
-                                            consectetur
-                                            sed,
-                                            convallis at tellus.
+                                            They worked untiringly to meet my goals for App development. I noticed a rapid boost in my business through the app. Highly Recommended!
 
                                         </p>
                                     </div>
@@ -632,11 +629,8 @@
                             <div class="col-lg-6">
                                 <div class="testi-agile">
                                     <p>
-                                        Vivamus magna justo, lacinia eget
-                                        consectetur
-                                        sed,
-                                        convallis at tellus.
-
+                                        They worked untiringly to meet my goals for App development.
+                                        I noticed a rapid boost in my business through the app. Highly Recommended!
                                     </p>
                                 </div>
                                 <div class="testi-pos">
@@ -652,10 +646,8 @@
                             <div class="col-lg-6">
                                 <div class="testi-agile">
                                     <p>
-                                        Vivamus magna justo, lacinia eget
-                                        consectetur
-                                        sed,
-                                        convallis at tellus.
+                                        They worked untiringly to meet my goals for App development.
+                                        I noticed a rapid boost in my business through the app. Highly Recommended!
 
                                     </p>
                                 </div>
@@ -668,10 +660,8 @@
                             <div class="col-lg-6">
                                 <div class="testi-agile">
                                     <p>
-                                        Vivamus magna justo, lacinia eget
-                                        consectetur
-                                        sed,
-                                        convallis at tellus.
+                                        They worked untiringly to meet my goals for App development.
+                                        I noticed a rapid boost in my business through the app. Highly Recommended!
 
                                     </p>
                                 </div>
@@ -688,10 +678,8 @@
                             <div class="col-lg-6">
                                 <div class="testi-agile">
                                     <p>
-                                        Vivamus magna justo, lacinia eget
-                                        consectetur
-                                        sed,
-                                        convallis at tellus.
+                                        They worked untiringly to meet my goals for App development.
+                                        I noticed a rapid boost in my business through the app. Highly Recommended!
 
                                     </p>
                                 </div>
@@ -704,10 +692,8 @@
                             <div class="col-lg-6">
                                 <div class="testi-agile">
                                     <p>
-                                        Vivamus magna justo, lacinia eget
-                                        consectetur
-                                        sed,
-                                        convallis at tellus.
+                                        They worked untiringly to meet my goals for App development.
+                                        I noticed a rapid boost in my business through the app. Highly Recommended!
 
                                     </p>
                                 </div>
