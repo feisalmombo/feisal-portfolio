@@ -822,13 +822,13 @@
     <section class="social_w3ls_pvt position-relative py-5">
         <div class="container py-lg-5">
             <ul class="py-4">
-                <li><a href="https://www.facebook.com/feisal.mombo.3/"><span class="fa fa-facebook"
-                            aria-hidden="true" target="_blank"></span></a></li>
-                <li><a href="https://twitter.com/FeisalMombo"><span class="fa fa-twitter" aria-hidden="true" target="_blank"></span></a></li>
-                <li><a href="#"><span class="fa fa-google-plus" aria-hidden="true" target="_blank"></span></a></li>
-                <li><a href="https://www.linkedin.com/in/feisal-mombo-332322135/"><span class="fa fa-linkedin"
-                            aria-hidden="true" target="_blank"></span></a></li>
-                <li><a href="#"><span class="fa fa-pinterest" aria-hidden="true" target="_blank"></span></a></li>
+                <li><a href="https://www.facebook.com/feisal.mombo.3/" target="_blank"><span class="fa fa-facebook"
+                            aria-hidden="true"></span></a></li>
+                <li><a href="https://twitter.com/FeisalMombo" target="_blank"><span class="fa fa-twitter" aria-hidden="true"></span></a></li>
+                <li><a href="#" target="_blank"><span class="fa fa-google-plus" aria-hidden="true"></span></a></li>
+                <li><a href="https://www.linkedin.com/in/feisal-mombo-332322135/" target="_blank"><span class="fa fa-linkedin"
+                            aria-hidden="true"></span></a></li>
+                <li><a href="#" target="_blank"><span class="fa fa-pinterest" aria-hidden="true"></span></a></li>
             </ul>
         </div>
     </section>
