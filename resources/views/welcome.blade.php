@@ -256,8 +256,8 @@
                                         <div class="box20">
                                             <img src="{{ asset('portfolio/images/reporting.PNG') }}" alt="reporting" class="img-fluid" />
                                             <div class="box-content">
-                                                <h3 class="title">blog title 4</h3>
-                                                <span class="post">1 july 2018</span>
+                                                <h3 class="title">Reporting</h3>
+                                                <span class="post">27 Jan 2021</span>
                                             </div>
                                             <ul class="icon">
                                                 <li>
@@ -278,8 +278,8 @@
                                         <div class="box20">
                                             <img src="{{ asset('portfolio/images/scala.PNG') }}" alt="scala" class="img-fluid" />
                                             <div class="box-content">
-                                                <h3 class="title">blog title 5</h3>
-                                                <span class="post">30 june 2018</span>
+                                                <h3 class="title">Scala Logistic Agency</h3>
+                                                <span class="post">27 Jan 2021</span>
                                             </div>
                                             <ul class="icon">
                                                 <li>
@@ -300,8 +300,8 @@
                                         <div class="box20">
                                             <img src="{{ asset('portfolio/images/blog_updates.PNG') }}" alt="blog_updates" class="img-fluid" />
                                             <div class="box-content">
-                                                <h3 class="title">blog title 6</h3>
-                                                <span class="post">15 june 2018</span>
+                                                <h3 class="title">Blog Updates</h3>
+                                                <span class="post">27 Jan 2021</span>
                                             </div>
                                             <ul class="icon">
                                                 <li>
