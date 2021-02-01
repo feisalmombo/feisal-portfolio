@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="zxx">
 
@@ -53,7 +52,7 @@
             </div>
         </div>
     </nav>
-    <!-- //header -->
+    <!-- // Header -->
     <!-- banner -->
     <div id="home" class="banner-w3pvt  d-flex justify-content-center align-items-center clip-wthree">
         <div class="container">
@@ -75,7 +74,7 @@
             </div>
         </div>
     </div>
-    <!-- //banner -->
+    <!-- // Banner -->
     <!-- about -->
     <section class="about-portfolio sec-space" id="about">
         <div class="container">
@@ -331,7 +330,7 @@
             </div>
         </div>
     </div>
-    <!-- //carousel -->
+    <!-- // Carousel -->
     <!-- timeline -->
     <section class="timeline-w3pvt" id="tl">
         <div class="container">
@@ -516,7 +515,7 @@
             </div>
         </div>
     </section>
-    <!-- //timeline -->
+    <!-- // Timeline -->
     <!-- portfolio -->
     <section class="wthree-row w3-gallery cliptop-portfolio-wthree" id="portfolio">
         <div class="container">
@@ -601,9 +600,9 @@
             </ul>
 
         </div>
-        <!-- //gallery container -->
+        <!-- // Gallery container -->
     </section>
-    <!-- //portfolio -->
+    <!-- // Portfolio -->
     <!-- testimonials -->
     <div class="testimonials" id="testi">
         <div class="container">
@@ -709,7 +708,7 @@
             </div>
         </div>
     </div>
-    <!-- //testimonials -->
+    <!-- // Testimonials -->
     <!-- contact -->
     <div class="section" id="contact">
         <div class="map-grid clipbottom-wthree">
@@ -803,7 +802,7 @@
             </div>
         </div>
     </section>
-    <!-- //contact -->
+    <!-- // Contact -->
     <!-- social -->
     <section class="social_w3ls_pvt position-relative py-5">
         <div class="container py-lg-5">
@@ -818,7 +817,7 @@
             </ul>
         </div>
     </section>
-    <!-- //social -->
+    <!-- // Social -->
     <!-- footer -->
     <footer>
         <div class="container">
@@ -829,10 +828,10 @@
             </div>
         </div>
     </footer>
-    <!-- //footer -->
+    <!-- // Footer -->
     <!-- js -->
     <script src="{{ asset('portfolio/js/jquery-2.2.3.min.js') }}"></script>
-    <!-- //js -->
+    <!-- js -->
     <!--  menu toggle -->
     <script src="{{ asset('portfolio/js/menu.js') }}"></script>
     <!-- testimonials  Responsiveslides -->
@@ -856,16 +855,16 @@
             });
         });
     </script>
-    <!-- //testimonials  Responsiveslides -->
+    <!-- // Testimonials  Responsiveslides -->
     <!-- gallery -->
     <script src="{{ asset('portfolio/js/jquery.picEyes.js') }}"></script>
     <script>
         $(function () {
-            //picturesEyes($('.demo li'));
+            // PicturesEyes($('.demo li'));
             $('.demo li').picEyes();
         });
     </script>
-    <!-- //gallery -->
+    <!-- // Gallery -->
     <!-- Scrolling Nav JavaScript -->
     <script src="{{ asset('portfolio/js/scrolling-nav.js') }}"></script>
     <script src="{{ asset('portfolio/js/timeline.js') }}"></script>
@@ -882,7 +881,7 @@
             });
         });
     </script>
-    <!-- //end-smooth-scrolling -->
+    <!-- // End-smooth-scrolling -->
     <!-- smooth-scrolling-of-move-up -->
     <script>
         $(document).ready(function () {
@@ -893,7 +892,7 @@
         });
     </script>
     <script src="{{ asset('portfolio/js/SmoothScroll.min.js') }}"></script>
-    <!-- //smooth-scrolling-of-move-up -->
+    <!-- // Smooth-scrolling-of-move-up -->
     <!-- Bootstrap core JavaScript
 ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
