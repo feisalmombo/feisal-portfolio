@@ -63,7 +63,7 @@
                 <div class="col-lg-6 bnr-txt-w3pvt  d-sm-flex justify-content-center align-items-center">
                     <div class="bnr-w3pvt-txt">
                         <h4>Hi,I am</h4>
-                        <h2 style="color: #ffffff">Feisal Suleiman Mombo</h2>
+                        <h2 style="color: #ffffff">Feisal Mombo</h2>
                         <h3>a Software Developer with passion of creativity</h3>
                         <p class="text-white mt-sm-4 mt-2"> I study a Bachelor of Science in Software Engineering as my professional specialized in web
                             development, system development, database design, system analyst and design and using that
