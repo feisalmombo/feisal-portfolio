@@ -42,7 +42,7 @@
                     <ul>
                         <li><a href="index.html">Home</a></li>
                         <li><a href="#tl" class="scroll">About</a></li>
-                        <li><a href="#news" class="scroll">News</a></li>
+                        <li><a href="#news" class="scroll">Latest News</a></li>
                         <li><a href="#tl" class="scroll">Timeline</a></li>
                         <li><a href="#portfolio" class="scroll">Portfolio</a></li>
                         <li><a href="#testi" class="scroll">Testimonials</a></li>
