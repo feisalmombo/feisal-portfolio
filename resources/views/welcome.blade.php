@@ -69,7 +69,7 @@
                             development, system development, database design, system analyst and design and using that
                             knowledge gets from the University of Dodoma to solve all problems facing society in a form of
                             computerized form.</p>
-                        <a href="#about" class="scroll bnr-btn">read more</a>
+                        {{-- <a href="#about" class="scroll bnr-btn">read more</a> --}}
                     </div>
                 </div>
             </div>
@@ -102,8 +102,8 @@
                     </div>
                     <h4 class="feed-title my-3">positive solutions</h4>
                     <p> This brings new and good quality on a services.</p>
-                    <a href="#tl" class="btn-portfolio_pvt scroll">Read more<span class="fa fa-long-arrow-right"
-                            aria-hidden="true"></span></a>
+                    {{-- <a href="#tl" class="btn-portfolio_pvt scroll">Read more<span class="fa fa-long-arrow-right"
+                            aria-hidden="true"></span></a> --}}
                 </div>
                 <div class="col-lg-3 col-md-6 mt-4 w3pvt-ab text-center">
                     <div class="clip-each clip-border d-flex justify-content-center align-items-center">
@@ -111,8 +111,8 @@
                     </div>
                     <h4 class="feed-title my-3">satisfied customers</h4>
                     <p> Accepts the good quality and experience the services.</p>
-                    <a href="#tl" class="btn-portfolio_pvt scroll">Read more<span class="fa fa-long-arrow-right"
-                            aria-hidden="true"></span></a>
+                    {{-- <a href="#tl" class="btn-portfolio_pvt scroll">Read more<span class="fa fa-long-arrow-right"
+                            aria-hidden="true"></span></a> --}}
                 </div>
             </div>
             <div class="row ab-grid-bottom">
@@ -123,8 +123,8 @@
                     </div>
                     <h4 class="feed-title my-3">Consulting</h4>
                     <p> Engaged in the business of giving expert advice to people working in a specific field.</p>
-                    <a href="#tl" class="btn-portfolio_pvt scroll">Read more<span class="fa fa-long-arrow-right"
-                            aria-hidden="true"></span></a>
+                    {{-- <a href="#tl" class="btn-portfolio_pvt scroll">Read more<span class="fa fa-long-arrow-right"
+                            aria-hidden="true"></span></a> --}}
                 </div>
                 <div class="col-lg-3 col-md-6 my-lg-4 mt-md-0 mt-4 w3pvt-ab text-center position-relative">
                     <div class="ab-border rsp-border"><span class="fa fa-arrow-circle-right" aria-hidden="true"></span></div>
@@ -133,8 +133,8 @@
                     </div>
                     <h4 class="feed-title my-3">Database Design</h4>
                     <p> Database design is the organization of data according to a database model.</p>
-                    <a href="#tl" class="btn-portfolio_pvt scroll">Read more<span class="fa fa-long-arrow-right"
-                            aria-hidden="true"></span></a>
+                    {{-- <a href="#tl" class="btn-portfolio_pvt scroll">Read more<span class="fa fa-long-arrow-right"
+                            aria-hidden="true"></span></a> --}}
                 </div>
                 <div class="col-lg-3 col-md-6 my-lg-4 mt-sm-5 mt-4 w3pvt-ab text-center position-relative">
                     <div class="ab-border"><span class="fa fa-arrow-circle-right" aria-hidden="true"></span></div>
@@ -143,8 +143,8 @@
                     </div>
                     <h4 class="feed-title my-3">System Development</h4>
                     <p> Systems development is the process of defining, designing, testing and implementing a new software application or program.</p>
-                    <a href="#tl" class="btn-portfolio_pvt scroll">Read more<span class="fa fa-long-arrow-right"
-                            aria-hidden="true"></span></a>
+                    {{-- <a href="#tl" class="btn-portfolio_pvt scroll">Read more<span class="fa fa-long-arrow-right"
+                            aria-hidden="true"></span></a> --}}
                 </div>
                 <div class="col-lg-3 col-md-6 mt-lg-4 mt-sm-5 mt-4 w3pvt-ab text-center">
                     <div class="clip-each clip-border d-flex justify-content-center align-items-center">
@@ -152,8 +152,8 @@
                     </div>
                     <h4 class="feed-title my-3">Web Hosting</h4>
                     <p> When a hosting provider allocates space on a web server for a website to store its files, they are hosting a website.</p>
-                    <a href="#tl" class="btn-portfolio_pvt scroll">Read more<span class="fa fa-long-arrow-right"
-                            aria-hidden="true"></span></a>
+                    {{-- <a href="#tl" class="btn-portfolio_pvt scroll">Read more<span class="fa fa-long-arrow-right"
+                            aria-hidden="true"></span></a> --}}
                 </div>
             </div>
         </div>
