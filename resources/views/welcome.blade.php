@@ -342,7 +342,7 @@
                         </div>
                     </div>
                     <div class="row timeline-movement">
-                        <div class="timeline-badge center-left">
+                        <div class="timeline-badge center-left" style="background-color: #17a2b8;">
 
                         </div>
                         <div class="col-lg-6  timeline-item">
