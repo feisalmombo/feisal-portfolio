@@ -651,9 +651,9 @@
                                     </p>
                                 </div>
                                 <div class="testi-pos">
-                                    <img src="{{ asset('portfolio/images/dr.jpg') }}" alt="" class="img-fluid rounded-circle mb-3" />
+                                    <img src="{{ asset('portfolio/images/engineer.jpg') }}" alt="" class="img-fluid rounded-circle mb-3" />
                                     <h4>Peter Mtuka</h4>
-                                    <span>Manager</span>
+                                    <span>Engineer</span>
                                 </div>
                             </div>
                             <div class="col-lg-6">
@@ -697,9 +697,9 @@
                                     </p>
                                 </div>
                                 <div class="testi-pos">
-                                    <img src="{{ asset('portfolio/images/teacher.jpg') }}" alt="" class="img-fluid rounded-circle mb-3" />
+                                    <img src="{{ asset('portfolio/images/Pilot.jpg') }}" alt="" class="img-fluid rounded-circle mb-3" />
                                     <h4>Khadija Mohammed</h4>
-                                    <span>Engineer</span>
+                                    <span>Pilot</span>
                                 </div>
                             </div>
                         </div>
