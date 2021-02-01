@@ -18,17 +18,17 @@
     <!-- Custom Theme files -->
     <link href="{{ asset('portfolio/css/bootstrap.min.css') }}" type="text/css" rel="stylesheet" media="all">
     <link href="{{ asset('portfolio/css/style.css') }}" type="text/css" rel="stylesheet" media="all">
-    <!-- timeline -->
+    <!-- Timeline -->
     <link href="{{ asset('portfolio/css/timeline.css') }}" type="text/css" rel="stylesheet" media="all">
-    <!-- font-awesome icons -->
+    <!-- Font-awesome icons -->
     <link href="{{ asset('portfolio/css/font-awesome.min.css') }}" rel="stylesheet">
-    <!-- //Custom Theme files -->
-    <!-- online-fonts -->
+    <!-- // Custom Theme files -->
+    <!-- Online-fonts -->
     <link href="//fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800" rel="stylesheet">
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-    <!-- header -->
+    <!-- Header -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-light navbar-fixed-top">
         <div class="container">
             <h1 class="wthree-logo">
@@ -53,12 +53,12 @@
         </div>
     </nav>
     <!-- // Header -->
-    <!-- banner -->
+    <!-- Banner -->
     <div id="home" class="banner-w3pvt  d-flex justify-content-center align-items-center clip-wthree">
         <div class="container">
             <div class="row">
                 <div class="offset-lg-6"></div>
-                <img src="{{ asset('portfolio/images/feisal-image.png') }}" alt="" class="img-fluid" />
+                <img src="{{ asset('portfolio/images/feisal-image.png') }}" alt="feisal-image" class="img-fluid" />
                 <div class="col-lg-6 bnr-txt-w3pvt  d-sm-flex justify-content-center align-items-center">
                     <div class="bnr-w3pvt-txt">
                         <h4>Hi,I am</h4>
@@ -75,7 +75,7 @@
         </div>
     </div>
     <!-- // Banner -->
-    <!-- about -->
+    <!-- About -->
     <section class="about-portfolio sec-space" id="about">
         <div class="container">
             <div class="row">
@@ -106,7 +106,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6 mt-4 w3pvt-ab text-center">
                     <div class="clip-each clip-border d-flex justify-content-center align-items-center">
-                        <img src="{{ asset('portfolio/images/customer.png') }}" alt="" class="img-fluid rounded-circle">
+                        <img src="{{ asset('portfolio/images/customer.png') }}" alt="customer" class="img-fluid rounded-circle">
                     </div>
                     <h4 class="feed-title my-3">satisfied customers</h4>
                     <p> Accepts the good quality and experience the services.</p>
@@ -118,7 +118,7 @@
                 <div class="col-lg-3 col-md-6 my-lg-4 w3pvt-ab text-center  position-relative">
                     <div class="ab-border"><span class="fa fa-arrow-circle-right" aria-hidden="true"></span></div>
                     <div class="clip-each clip-border d-flex justify-content-center align-items-center">
-                        <img src="{{ asset('portfolio/images/talking.png') }}" alt="" class="img-fluid rounded-circle">
+                        <img src="{{ asset('portfolio/images/talking.png') }}" alt="talking" class="img-fluid rounded-circle">
                     </div>
                     <h4 class="feed-title my-3">Consulting</h4>
                     <p> Engaged in the business of giving expert advice to people working in a specific field.</p>
@@ -128,7 +128,7 @@
                 <div class="col-lg-3 col-md-6 my-lg-4 mt-md-0 mt-4 w3pvt-ab text-center position-relative">
                     <div class="ab-border rsp-border"><span class="fa fa-arrow-circle-right" aria-hidden="true"></span></div>
                     <div class="clip-each clip-border d-flex justify-content-center align-items-center">
-                        <img src="{{ asset('portfolio/images/database.png') }}" alt="" class="img-fluid rounded-circle">
+                        <img src="{{ asset('portfolio/images/database.png') }}" alt="database" class="img-fluid rounded-circle">
                     </div>
                     <h4 class="feed-title my-3">Database Design</h4>
                     <p> Database design is the organization of data according to a database model.</p>
@@ -138,7 +138,7 @@
                 <div class="col-lg-3 col-md-6 my-lg-4 mt-sm-5 mt-4 w3pvt-ab text-center position-relative">
                     <div class="ab-border"><span class="fa fa-arrow-circle-right" aria-hidden="true"></span></div>
                     <div class="clip-each clip-border d-flex justify-content-center align-items-center">
-                        <img src="{{ asset('portfolio/images/system.png') }}" alt="" class="img-fluid rounded-circle">
+                        <img src="{{ asset('portfolio/images/system.png') }}" alt="system" class="img-fluid rounded-circle">
                     </div>
                     <h4 class="feed-title my-3">System Development</h4>
                     <p> Systems development is the process of defining, designing, testing and implementing a new software application or program.</p>
@@ -147,7 +147,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6 mt-lg-4 mt-sm-5 mt-4 w3pvt-ab text-center">
                     <div class="clip-each clip-border d-flex justify-content-center align-items-center">
-                        <img src="{{ asset('portfolio/images/hosting.png') }}" alt="" class="img-fluid rounded-circle">
+                        <img src="{{ asset('portfolio/images/hosting.png') }}" alt="hosting" class="img-fluid rounded-circle">
                     </div>
                     <h4 class="feed-title my-3">Web Hosting</h4>
                     <p> When a hosting provider allocates space on a web server for a website to store its files, they are hosting a website.</p>
