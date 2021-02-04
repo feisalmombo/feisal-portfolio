@@ -55,7 +55,6 @@ trait hasPermissionsTrait
     public function deletePermissions(...$permissions)
     {
         $permissions = $this->getAllPermissions($permissions);
-        // dd($permissions);
         if ($this->permissions()->detach($permissions)) {
             return $this;
         };
@@ -63,7 +62,6 @@ trait hasPermissionsTrait
     public function deleteRoles(...$roles)
     {
         $roles = $this->getAllPermissions($roles);
-        // dd($permissions);
         if ($this->roles()->detach($roles)) {
             return $this;
         };
@@ -71,7 +69,6 @@ trait hasPermissionsTrait
     public function getAllPermissions($permissions)
     {
         $per;
-        //  dd($permissions);
         foreach ($permissions as $permission) {
             $per = Permission::where('id', $permission)->get();
         }
@@ -80,7 +77,6 @@ trait hasPermissionsTrait
     public function getAllRoles($roles)
     {
         $per;
-        //  dd($permissions);
         foreach ($roles as $role) {
             $per = Role::where('id', $role)->get();
         }
