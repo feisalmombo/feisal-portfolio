@@ -59,7 +59,10 @@ class Kernel extends HttpKernel
         'guest' => \App\Http\Middleware\RedirectIfAuthenticated::class,
         'signed' => \Illuminate\Routing\Middleware\ValidateSignature::class,
         'throttle' => \Illuminate\Routing\Middleware\ThrottleRequests::class,
+        'ValidateButtonHistory' => \App\Http\Middleware\ValidateButtonHistory::class,
         'verified' => \Illuminate\Auth\Middleware\EnsureEmailIsVerified::class,
+        'role'=> \App\Http\Middleware\RoleMiddleware::class,
+        'CheckUserStatus'=> \App\Http\Middleware\CheckUserStatus::class,
     ];
 
     /**

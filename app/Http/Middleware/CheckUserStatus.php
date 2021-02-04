@@ -5,6 +5,7 @@ namespace App\Http\Middleware;
 use Closure;
 use Auth;
 use App\UserStatus;
+
 class CheckUserStatus
 {
     /**
@@ -17,10 +18,8 @@ class CheckUserStatus
     public function handle($request, Closure $next)
     {
         if (Auth::user()) {
-            # code...
 
         // $status=UserStatus::where('user_id',Auth::user()->id)->select('slug')->first();
-        // dd($status);
 
         // if (!$status->slug) {
 

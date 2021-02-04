@@ -46,43 +46,6 @@ class Handler extends ExceptionHandler
      */
     public function render($request, Exception $exception)
     {
-        if($this->isHttpException($exception))
-        {
-
-            switch ($exception->getStatusCode()) {
-
-            // not authorized
-                case '403':
-                return \Response::view('msgs.error-403',array(),403);
-                break;
-
-            // not found
-                case '404':
-                return \Response::view('msgs.error-404',array(),404);
-                break;
-
-            // internal error
-                case '500':
-                return \Response::view('msgs.errors.500',array(),500);
-                break;
-
-                default:
-                return $this->renderHttpException($exception);
-                break;
-            }
-        }
-        else
-        {
-                return parent::render($request, $exception);
-        }
-    }
-
-    protected function unauthenticated($request, AuthenticationException $exception)
-    {
-        if ($request->expectsJson()) {
-            return response()->json(['error' => 'Unauthenticated.'], 401);
-        }
-
-        return redirect()->guest(route('login'));
+        return parent::render($request, $exception);
     }
 }
