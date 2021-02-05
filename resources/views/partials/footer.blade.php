@@ -3,7 +3,7 @@
       <b>Version</b> 1.1.0
     </div>
     <strong>
-        &copy; {{date('Y')}} My Portfolio. All Rights Reserved. <a href="#" target="_blank"><strong style="color:#EE4323;">A Product by GetPesa</strong></a>
+        &copy; {{date('Y')}} My Portfolio. All Rights Reserved. <a href="#" target="_blank"></a>
     </strong>
 </footer>
 
