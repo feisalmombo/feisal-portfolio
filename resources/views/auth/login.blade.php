@@ -17,10 +17,10 @@
 			window.scrollTo(0, 1);
 		}
 	</script>
-	<!-- //Meta tag Keywords -->
+	<!-- // Meta tag Keywords -->
 	<!--/Style-CSS -->
 	<link rel="stylesheet" href="{{ asset('portfolio/dash/css/style.css') }}" type="text/css" media="all" />
-	<!--//Style-CSS -->
+	<!--// Style-CSS -->
 </head>
 
 <body>
@@ -47,7 +47,7 @@
 										placeholder="Your Password" required="required" />
 								<button type="submit" class="loginhny-btn btn">Login</button>
 							</form>
-							<p>Not a member yet? <a href="#">Join Now!</a></p>
+							{{-- <p>Not a member yet? <a href="#">Join Now!</a></p> --}}
 						</div>
 					</div>
 				</div>
@@ -58,7 +58,7 @@
 			</div>
 		</div>
 	</section>
-	<!-- //login-section -->
+	<!-- // Login-section -->
 </body>
 
 </html>
