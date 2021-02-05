@@ -22,7 +22,7 @@
     <ul class="dropdown-menu">
 
         <!-- Menu Footer-->
-        <li class="user-footer" style="background-color: #3C8DBC;">
+        <li class="user-footer" style="background-color: #00D5C2;">
 
         <div class="">
             <a href="{{ url('/change-password') }}" style="color:white;"><i class="fa fa-gear fa-fw"></i> Change Password</a>

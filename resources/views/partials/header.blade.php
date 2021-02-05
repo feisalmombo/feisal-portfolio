@@ -63,9 +63,9 @@
       {{-- @if(Auth::user()->id) --}}
       <a href="{{ url('/') }}" class="logo">
         <!-- mini logo for sidebar mini 50x50 pixels -->
-        <span class="logo-mini"><strong style="color:#2B3483">My Portfolio</strong><strong style="color:#E58225">.</strong></span>
+        <span class="logo-mini"><strong style="color:#ffffff">My Portfolio</strong></span>
         <!-- logo for regular state and mobile devices -->
-        <span class="logo-lg"><strong style="color:#2B3483">My Portfolio</strong><strong style="color:#E58225">.</strong></span>
+        <span class="logo-lg"><strong style="color:#ffffff">My Portfolio</strong></span>
       </a>
       {{-- @endif --}}
 
