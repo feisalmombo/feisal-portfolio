@@ -2,7 +2,7 @@
     <!-- sidebar: style can be found in sidebar.less -->
     <section class="sidebar">
     <ul class="sidebar-menu" data-widget="tree">
-            <li class="header">OVERVIEW</li>
+            <li class="header" style="color: #ffffff">OVERVIEW</li>
         <li class="treeview">
             <a href="#">
             <i class="fa fa-dashboard"></i> <span>Dashboard</span>
