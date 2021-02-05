@@ -52,7 +52,7 @@
 					</div>
 				</div>
 				<div class="w3l-copy-right text-center">
-					<p>© 2020 Feisal Mombo. All rights reserved | Developed by
+					<p>&copy; {{date('Y')}} My Portfolio. All rights reserved | Developed by
 						<a href="#" target="_blank">Feisal Mombo</a></p>
 				</div>
 			</div>
