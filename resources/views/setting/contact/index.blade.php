@@ -14,7 +14,6 @@
 <div class="panel panel-default">
 <div class="panel-heading">
     List of contacts
-    <a href="{{ url('/setting/contact/create') }}" class="col-2 pull-right" style="text-decoration: none;"><i class="fa fa-plus"></i>&nbsp;Reply</a>
 </div>
 <div class="panel-body table-responsive">
     @if(count($contacts)>0)
@@ -26,8 +25,7 @@
                 <th>Email</th>
                 <th>Subject</th>
                 <th>Message</th>
-                <th>Created at</th>
-                <th>Delete</th>
+                <th>Duration</th>
 
             </tr>
         </thead>
@@ -41,33 +39,6 @@
             <td>{{$contact->subject}}</td>
             <td>{{$contact->message}}</td>
             <td>{{$contact->created_at->diffForHumans() }}</td>
-            <td>
-                <a href='#{{ $contact->id }}' data-toggle="modal" type="button" class="btn btn-danger"><i class="fa fa-trash" arial-hidden="true"></i></a>
-                <div class="modal fade" id="{{ $contact->id }}">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                                <h4 class="modal-title"><strong>Delete</strong></h4>
-                            </div>
-                            <div class="modal-body">
-                                Are you sure you want to delete Name? <h9 style="color: blue;">{{ $contact->name }} </h9>
-                            </div>
-                            <form action="setting/contact/{{ $contact->id  }}" method="POST" role="form">
-
-                                {{ csrf_field() }}
-                                {{ method_field('DELETE') }}
-
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-primary" data-dismiss="modal">NO</button>
-
-                                    <button type="submit" class="btn btn-danger">Yes</button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </td>
             </tr>
             @endforeach
         </tbody>
