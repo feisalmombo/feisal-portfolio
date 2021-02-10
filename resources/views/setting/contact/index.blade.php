@@ -53,7 +53,7 @@
                             <div class="modal-body">
                                 Are you sure you want to delete Name? <h9 style="color: blue;">{{ $contact->name }} </h9>
                             </div>
-                            <form action="{{route("setting.contact.destroy",$contact->id)}}" method="POST" role="form">
+                            <form action="setting/contact/{{ $contact->id  }}" method="POST" role="form">
 
                                 {{ csrf_field() }}
                                 {{ method_field('DELETE') }}
