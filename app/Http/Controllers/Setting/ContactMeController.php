@@ -20,7 +20,12 @@ class ContactMeController extends Controller
      */
     public function index()
     {
-        //
+        $contacts = ContactMe::latest('created_at')->paginate(6);
+        $total = ContactMe::count();
+
+        // dd($contacts);
+
+        return view('setting.contact.index',compact('contacts','total'));
     }
 
     /**

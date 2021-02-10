@@ -88,14 +88,7 @@ Route::group(['middleware' => 'CheckUserStatus'], function () {
     });
 });
 
-# Contact
-// Route::resource('setting/contact/create', 'Setting\ContactMeController');
-// Route::get('setting/contact/create', 'Setting\ContactMeController@create')->name('setting.contact.create');
-// Route::post('setting/contact/create', 'Setting\ContactMeController@store')->name('setting.contact.store');
-
-# Contact
-  Route::get('setting/contact/create', 'Setting\ContactMeController@create')->name('setting.contact.create');
-  Route::post('setting/contact/create', 'Setting\ContactMeController@store')->name('setting.contact.store');
+  # Contact
   Route::get('setting/contact/index', 'Setting\ContactMeController@index')->name('setting.contact.index');
   Route::get('setting/contact/create', 'Setting\ContactMeController@create')->name('setting.contact.create');
   Route::post('setting/contact/create', 'Setting\ContactMeController@store')->name('setting.contact.store');

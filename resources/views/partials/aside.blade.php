@@ -18,14 +18,14 @@
         @if(Auth::user()->hasRole('developer') || Auth::user()->hasRole('manager'))
         <li class="treeview">
             <a href="#">
-                <i class="fa fa-bandcamp"></i>
-                <span>All</span>
+                <i class="fa fa-phone"></i>
+                <span>Contacts</span>
                 <span class="pull-right-container">
                 <i class="fa fa-angle-left pull-right"></i>
                 </span>
             </a>
             <ul class="treeview-menu">
-                <li><a href="#"><i class="fa fa-circle-o"></i> All</a>
+                <li><a href="setting/contact/index"><i class="fa fa-phone"></i> Contacts</a>
                 </li>
             </ul>
         </li>
