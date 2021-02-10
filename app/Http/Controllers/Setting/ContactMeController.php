@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Validator;
 use App\ContactMe;
+use Carbon\Carbon;
 use DB;
 use Auth;
 
@@ -20,12 +21,12 @@ class ContactMeController extends Controller
      */
     public function index()
     {
-        $contacts = ContactMe::latest('created_at')->paginate(6);
-        $total = ContactMe::count();
-
-        // dd($contacts);
-
-        return view('setting.contact.index',compact('contacts','total'));
+        $contacts = ContactMe::All();
+        $data['title'] = 'Contacts';
+        $data['contacts'] = $contacts;
+        $data['active'] = $this->activeMenu;
+        
+        return view('setting.contact.index', $data);
     }
 
     /**
@@ -107,6 +108,9 @@ class ContactMeController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $contact = ContactMe::findOrFail($id);
+        $contact->delete();
+        
+        return redirect()->back()->with('message','Comment Successful deleted');
     }
 }
