@@ -709,6 +709,9 @@
         </div>
     </div>
     <!-- // Testimonials -->
+    <br>
+    @include('msgs.success')
+    <br>
     <!-- contact -->
     <div class="section" id="contact">
         <div class="map-grid clipbottom-wthree">
@@ -722,6 +725,8 @@
                         <p class="title-text text-capitalize">You can communicate with me by submit your information.</p>
                     </div>
                     <form action="#" method="POST" class="contact-wthree">
+                        {{ csrf_field() }}
+
                         <div class="form-group d-flex">
                             <label>
                                 <span class="fa fa-user text-white" aria-hidden="true"></span>
