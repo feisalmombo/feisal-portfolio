@@ -724,31 +724,31 @@
                         <h4 class="portfolio_pvt-head text-white">contact me</h4>
                         <p class="title-text text-capitalize">You can communicate with me by submit your information.</p>
                     </div>
-                    <form action="#" method="POST" class="contact-wthree">
+                    <form action="{{ route('setting.contact.store')}}" method="POST" class="contact-wthree">
                         {{ csrf_field() }}
 
                         <div class="form-group d-flex">
                             <label>
                                 <span class="fa fa-user text-white" aria-hidden="true"></span>
                             </label>
-                            <input class="form-control" type="text" placeholder="Enter your name..." name="email"
+                            <input class="form-control" type="text" placeholder="Enter your name..." name="email" id="name"
                                 required="">
                         </div>
                         <div class="form-group d-flex">
                             <label>
                                 <span class="fa fa-envelope text-white" aria-hidden="true"></span>
                             </label>
-                            <input class="form-control" type="email" placeholder="Enter your email..." name="email"
+                            <input class="form-control" type="email" placeholder="Enter your email..." name="email" id="email"
                                 required="">
                         </div>
                         <div class="form-group d-flex">
                             <label>
                                 <span class="fa fa-edit text-white"></span>
                             </label>
-                            <input class="form-control" type="text" placeholder="Subject" name="email" required="">
+                            <input class="form-control" type="text" placeholder="Subject" name="subject" id="subject" required="">
                         </div>
                         <div class="form-group">
-                            <textarea class="form-control" rows="5" id="contact-comment" placeholder="Your message"
+                            <textarea class="form-control" rows="5" name="message" id="contact-comment" placeholder="Your message"
                                 required></textarea>
                         </div>
                         <div class="contact-btn">
