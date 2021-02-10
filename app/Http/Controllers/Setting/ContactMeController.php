@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Setting;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Validator;
 use App\ContactMe;
 use DB;
 use Auth;
@@ -11,11 +12,6 @@ use Auth;
 class ContactMeController extends Controller
 {
     protected $activeMenu = ['setting','contact'];
-
-    public function __construct()
-    {
-        $this->middleware('auth');
-    }
 
     /**
      * Display a listing of the resource.
@@ -46,24 +42,22 @@ class ContactMeController extends Controller
     public function store(Request $request)
     {
         $validator = Validator::make(request()->all(),[
-            'name' => 'required',
-            'email' => 'required|email|unique:adds_new_drivers,email',
+            'name' => 'required|string|min:6',
+            'email' => 'required|email|unique:contact_mes,email',
             'subject' => 'required',
             'message' => 'required',
         ]);
         if($validator -> fails()){
             return redirect('/#contact')->withErrors($validator);
         }
-        $comment = new Comment;
-        $comment->name = $request->name;
-        $comment->email = $request->email;
-        $comment->phone = $request->phone;
-        $comment->body = $request->body;
-        
-        $comment->save();
+        $contact = new ContactMe;
+        $contact->name = $request->name;
+        $contact->email = $request->email;
+        $contact->subject = $request->subject;
+        $contact->message = $request->message;
+        $contact->save();
 
-        
-        return redirect('/#contact')->with('message','Comment Sent Successful, we will notify you via your email');
+        return redirect('/#contact')->with('message','Comment sent successful, we will notify you via your email');
     }
 
     /**

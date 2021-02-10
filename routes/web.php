@@ -70,15 +70,6 @@ Route::group(['middleware' => 'CheckUserStatus'], function () {
             # Home
             Route::get('/home', 'HomeController@index')->name('home');
 
-            # Contact
-            Route::get('setting/contact/index', 'Setting\ContactMeController@index')->name('setting.contact.index');
-            Route::get('setting/contact/create', 'Setting\ContactMeController@create')->name('setting.contact.create');
-            Route::post('setting/contact/create', 'Setting\ContactMeController@store')->name('setting.contact.store');
-            Route::get('setting/contact/edit/{id}', 'Setting\ContactMeController@edit')->name('setting.contact.edit');
-            Route::post('setting/contact/edit/{id}', 'Setting\ContactMeController@update')->name('setting.contact.update');
-            Route::get('setting/contact/show/{id}', 'Setting\ContactMeController@show')->name('setting.contact.show');
-            Route::get('setting/contact/{id}/destroy', 'Setting\ContactMeController@destroy')->name('setting.contact.destroy');
-
             # Permissions
             Route::get('/settings/manage_users/permissions/entrust_user', 'PermissionsController@entrust_user');
             Route::get('/settings/manage_users/permissions/entrust', 'PermissionsController@entrust');
@@ -96,4 +87,20 @@ Route::group(['middleware' => 'CheckUserStatus'], function () {
         });
     });
 });
+
+# Contact
+// Route::resource('setting/contact/create', 'Setting\ContactMeController');
+// Route::get('setting/contact/create', 'Setting\ContactMeController@create')->name('setting.contact.create');
+// Route::post('setting/contact/create', 'Setting\ContactMeController@store')->name('setting.contact.store');
+
+# Contact
+  Route::get('setting/contact/create', 'Setting\ContactMeController@create')->name('setting.contact.create');
+  Route::post('setting/contact/create', 'Setting\ContactMeController@store')->name('setting.contact.store');
+  Route::get('setting/contact/index', 'Setting\ContactMeController@index')->name('setting.contact.index');
+  Route::get('setting/contact/create', 'Setting\ContactMeController@create')->name('setting.contact.create');
+  Route::post('setting/contact/create', 'Setting\ContactMeController@store')->name('setting.contact.store');
+  Route::get('setting/contact/edit/{id}', 'Setting\ContactMeController@edit')->name('setting.contact.edit');
+  Route::post('setting/contact/edit/{id}', 'Setting\ContactMeController@update')->name('setting.contact.update');
+  Route::get('setting/contact/show/{id}', 'Setting\ContactMeController@show')->name('setting.contact.show');
+  Route::get('setting/contact/{id}/destroy', 'Setting\ContactMeController@destroy')->name('setting.contact.destroy');
 

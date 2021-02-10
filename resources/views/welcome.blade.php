@@ -709,9 +709,7 @@
         </div>
     </div>
     <!-- // Testimonials -->
-    <br>
-    @include('msgs.success')
-    <br>
+
     <!-- contact -->
     <div class="section" id="contact">
         <div class="map-grid clipbottom-wthree">
@@ -724,14 +722,16 @@
                         <h4 class="portfolio_pvt-head text-white">contact me</h4>
                         <p class="title-text text-capitalize">You can communicate with me by submit your information.</p>
                     </div>
-                    <form action="{{ route('setting.contact.store')}}" method="POST" class="contact-wthree">
+
+                    @include('msgs.success')
+                    <form action="setting/contact/create" method="POST" class="contact-wthree">
                         {{ csrf_field() }}
 
                         <div class="form-group d-flex">
                             <label>
                                 <span class="fa fa-user text-white" aria-hidden="true"></span>
                             </label>
-                            <input class="form-control" type="text" placeholder="Enter your name..." name="email" id="name"
+                            <input class="form-control" type="text" placeholder="Enter your name..." name="name" id="name"
                                 required="">
                         </div>
                         <div class="form-group d-flex">
