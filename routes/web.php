@@ -11,18 +11,14 @@
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
 // Auth::routes();
-// Route::get('/home', 'HomeController@index')->name('home');
 
 
 Route::get('/', function () {
     return view('welcome');
 });
 
-// ROUTE FOR AUTHENTICATION
+# Authentication
 Route::get('login', [
 	'as' => 'login',
 	'uses' => 'Auth\LoginController@showLoginForm'
@@ -52,31 +48,38 @@ Route::get('login', [
 	'uses' => 'Auth\ResetPasswordController@showResetForm'
   ]);
 
-// ROUTE FOR NEW VIEW FOR CHANGE PASSWORD
+# New view for change password
 // Route::get('/change_password', function () {
 //     return view('auth.passwords.new_user_change_pwd');
 // });
 
-// ROUTE FOR CHANGE PASSWORD
+# change password
 // Route::post('/change_password', 'ChangePasswordController@updateNewuser');
-
-
 // Route::resource('/change-password', 'ChangePasswordController');
 // Route::post('/change-password', 'ChangePasswordController@update');
 
-// ROUTE FOR CHECKUSERSTATUS MIDDLEWARE
+# Checkuserstatus Middleware
 Route::group(['middleware' => 'CheckUserStatus'], function () {
 
-    // ROUTE FOR VALIDATEBUTTONHISTORY MIDDLEWARE
+    # Validatebuttonhistory Middleware
     Route::group(['middleware' => 'ValidateButtonHistory'], function () {
 
-        // ROUTE FOR MIDDLEWARE AUTH
+        # Auth Middleware
         Route::group(['middleware' => 'auth'], function () {
 
-            // ROUTE FOR HOME
+            # Home
             Route::get('/home', 'HomeController@index')->name('home');
 
-            // ROUTES FOR PERMISSIONS
+            # Contact
+            Route::get('setting/contact/index', 'Setting\ContactMeController@index')->name('setting.contact.index');
+            Route::get('setting/contact/create', 'Setting\ContactMeController@create')->name('setting.contact.create');
+            Route::post('setting/contact/create', 'Setting\ContactMeController@store')->name('setting.contact.store');
+            Route::get('setting/contact/edit/{id}', 'Setting\ContactMeController@edit')->name('setting.contact.edit');
+            Route::post('setting/contact/edit/{id}', 'Setting\ContactMeController@update')->name('setting.contact.update');
+            Route::get('setting/contact/show/{id}', 'Setting\ContactMeController@show')->name('setting.contact.show');
+            Route::get('setting/contact/{id}/destroy', 'Setting\ContactMeController@destroy')->name('setting.contact.destroy');
+
+            # Permissions
             Route::get('/settings/manage_users/permissions/entrust_user', 'PermissionsController@entrust_user');
             Route::get('/settings/manage_users/permissions/entrust', 'PermissionsController@entrust');
             Route::post('/settings/manage_users/permissions/entrust_usr', 'PermissionsController@entrust_user_permissions');
@@ -85,7 +88,7 @@ Route::group(['middleware' => 'CheckUserStatus'], function () {
             Route::get('/settings/manage_users/permissions/entrust_role', 'PermissionsController@entrust_role');
             Route::resource('/settings/manage_users/permissions/', 'PermissionsController');
 
-            // ROUTES FOR ROLES
+            # Roles
             Route::get('/settings/manage_users/roles/entrust', 'RolesController@get_roles');
             Route::post('/settings/manage_users/roles/entrust', 'RolesController@post_roles');
             Route::get('/settings/manage_users/roles/add', 'RolesController@add');
