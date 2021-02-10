@@ -4,9 +4,19 @@ namespace App\Http\Controllers\Setting;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use App\ContactMe;
+use DB;
+use Auth;
 
 class ContactMeController extends Controller
 {
+    protected $activeMenu = ['setting','contact'];
+
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
+
     /**
      * Display a listing of the resource.
      *
