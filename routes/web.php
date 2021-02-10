@@ -70,6 +70,16 @@ Route::group(['middleware' => 'CheckUserStatus'], function () {
             # Home
             Route::get('/home', 'HomeController@index')->name('home');
 
+            # User
+            Route::get('admin/user/index', 'Admin\UsersController@index')->name('admin.user.index');
+            Route::get('admin/user/create', 'Admin\UsersController@create')->name('admin.user.create');
+            Route::post('admin/user/create', 'Admin\UsersController@store')->name('admin.user.store');
+            Route::get('admin/user/edit/{id}', 'Admin\UsersController@edit')->name('admin.user.edit');
+            Route::post('admin/user/edit/{id}', 'Admin\UsersController@update')->name('admin.user.update');
+            Route::get('admin/user/show/{id}', 'Admin\UsersController@show')->name('admin.user.show');
+            Route::get('admin/user/{id}/destroy', 'Admin\UsersController@destroy')->name('admin.user.destroy');
+            Route::get('admin/user/disabled/{id}/{user}', 'Admin\UsersController@disabled')->name('admin.user.disabled');
+
             # Permissions
             Route::get('/settings/manage_users/permissions/entrust_user', 'PermissionsController@entrust_user');
             Route::get('/settings/manage_users/permissions/entrust', 'PermissionsController@entrust');
