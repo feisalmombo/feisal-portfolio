@@ -45,7 +45,25 @@ class ContactMeController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $validator = Validator::make(request()->all(),[
+            'name' => 'required',
+            'email' => 'required|email|unique:adds_new_drivers,email',
+            'subject' => 'required',
+            'message' => 'required',
+        ]);
+        if($validator -> fails()){
+            return redirect('/#contact')->withErrors($validator);
+        }
+        $comment = new Comment;
+        $comment->name = $request->name;
+        $comment->email = $request->email;
+        $comment->phone = $request->phone;
+        $comment->body = $request->body;
+        
+        $comment->save();
+
+        
+        return redirect('/#contact')->with('message','Comment Sent Successful, we will notify you via your email');
     }
 
     /**
