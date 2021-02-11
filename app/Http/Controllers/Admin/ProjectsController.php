@@ -4,9 +4,20 @@ namespace App\Http\Controllers\Admin;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use App\Project;
+use Carbon\Carbon;
+use DB;
+use Auth;
 
 class ProjectsController extends Controller
 {
+    protected $activeMenu = ['admin','project'];
+
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
+
     /**
      * Display a listing of the resource.
      *
@@ -14,7 +25,7 @@ class ProjectsController extends Controller
      */
     public function index()
     {
-        //
+        return view('admin.project.index');
     }
 
     /**

@@ -25,7 +25,7 @@
                 </span>
             </a>
             <ul class="treeview-menu">
-                <li><a href="setting/contact/index"><i class="fa fa-phone"></i> Contacts</a>
+                <li><a href="{{ url('setting/contact/index') }}"><i class="fa fa-phone"></i> Contacts</a>
                 </li>
             </ul>
         </li>
@@ -44,7 +44,7 @@
                 <li><a href="#"><i class="fa fa-phone"></i> Admin</a>
                 </li>
 
-                <li><a href="#"><i class="fa fa-report"></i> Project</a>
+                <li><a href="{{ url('admin/project') }}"><i class="fa fa-report"></i> Project</a>
                 </li>
             </ul>
         </li>
