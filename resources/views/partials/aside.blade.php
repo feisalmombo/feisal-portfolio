@@ -43,6 +43,9 @@
             <ul class="treeview-menu">
                 <li><a href="#"><i class="fa fa-phone"></i> Admin</a>
                 </li>
+
+                <li><a href="#"><i class="fa fa-report"></i> Project</a>
+                </li>
             </ul>
         </li>
         @endif
