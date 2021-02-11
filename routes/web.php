@@ -84,6 +84,10 @@ Route::group(['middleware' => 'CheckUserStatus'], function () {
             Route::get('admin/project', 'Admin\ProjectsController@index')->name('admin.project.index');
             Route::post('admin/project', 'Admin\ProjectsController@store')->name('admin.project.store');
 
+            # Latest news
+            Route::get('admin/latestnews', 'Admin\LatestNewsController@index')->name('admin.latestnews.index');
+            Route::post('admin/latestnews', 'Admin\LatestNewsController@store')->name('admin.latestnews.store');
+
             # Permissions
             Route::get('/settings/manage_users/permissions/entrust_user', 'PermissionsController@entrust_user');
             Route::get('/settings/manage_users/permissions/entrust', 'PermissionsController@entrust');
