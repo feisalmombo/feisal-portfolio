@@ -81,7 +81,8 @@ Route::group(['middleware' => 'CheckUserStatus'], function () {
             Route::get('admin/user/disabled/{id}/{user}', 'Admin\UsersController@disabled')->name('admin.user.disabled');
 
             # Project
-            Route::get('admin/project/index', 'Admin\ProjectsController@index')->name('admin.project.index');
+            Route::get('admin/project', 'Admin\ProjectsController@index')->name('admin.project.index');
+            Route::post('admin/project', 'Admin\ProjectsController@store')->name('admin.project.store');
 
             # Permissions
             Route::get('/settings/manage_users/permissions/entrust_user', 'PermissionsController@entrust_user');
