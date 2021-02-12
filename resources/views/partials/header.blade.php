@@ -72,8 +72,6 @@
         <!-- Navbar or Topbar part -->
         @include('partials.navbar')
         <!-- Navbar or Topbar part  -->
-
-
       </nav>
     </header>
 
