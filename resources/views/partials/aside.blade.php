@@ -44,7 +44,7 @@
                 <li><a href="#"><i class="fa fa-phone"></i> Admin</a>
                 </li>
 
-                <li><a href="{{ url('admin/project') }}"><i class="fa fa-report"></i> Project</a>
+                <li><a href="{{ url('admin/project/index') }}"><i class="fa fa-report"></i> Project</a>
                 </li>
             </ul>
         </li>

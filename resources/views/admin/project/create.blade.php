@@ -11,7 +11,7 @@
 		@include('msgs.success')
 		<div class="panel panel-default">
 			<div class="panel-heading">
-				Create Project<a href="{{ url('admin/project') }}" class="col-2 pull-right" style="text-decoration: none;"><i class="fa fa-arrow-left"></i>&nbsp;Back</a>
+				Create Project<a href="{{ url('admin/project/index') }}" class="col-2 pull-right" style="text-decoration: none;"><i class="fa fa-arrow-left"></i>&nbsp;Back</a>
 			</div>
 			<div class="panel-body">
 				<div class="container-fluid">

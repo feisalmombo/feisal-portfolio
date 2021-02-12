@@ -79,9 +79,9 @@
             Route::get('admin/user/disabled/{id}/{user}', 'Admin\UsersController@disabled')->name('admin.user.disabled');
 
             # Project
-            Route::get('admin/project', 'Admin\ProjectsController@index')->name('admin.project.index');
+            Route::get('admin/project/index', 'Admin\ProjectsController@index')->name('admin.project.index');
             Route::get('admin/project/create', 'Admin\ProjectsController@create')->name('admin.project.create');
-            Route::post('admin/project', 'Admin\ProjectsController@store')->name('admin.project.store');
+            Route::post('admin/project/create', 'Admin\ProjectsController@store')->name('admin.project.store');
 
             # Latest news
             Route::get('admin/latestnews', 'Admin\LatestNewsController@index')->name('admin.latestnews.index');
