@@ -11,61 +11,59 @@
 |
 */
 
-// Auth::routes();
+            # welcome view
+            Route::get('/', function () {
+                return view('welcome');
+            });
 
+            # Authentication
+            Route::get('login', [
+                'as' => 'login',
+                'uses' => 'Auth\LoginController@showLoginForm'
+            ]);
+            Route::post('login', [
+                'as' => '',
+                'uses' => 'Auth\LoginController@login'
+            ]);
+            Route::post('logout', [
+                'as' => 'logout',
+                'uses' => 'Auth\LoginController@logout'
+            ]);
+            Route::post('password/email', [
+                'as' => 'password.email',
+                'uses' => 'Auth\ForgotPasswordController@sendResetLinkEmail'
+            ]);
+            Route::get('password/reset', [
+                'as' => 'password.request',
+                'uses' => 'Auth\ForgotPasswordController@showLinkRequestForm'
+            ]);
+            Route::post('password/reset', [
+                'as' => 'password.update',
+                'uses' => 'Auth\ResetPasswordController@reset'
+            ]);
+            Route::get('password/reset/{token}', [
+                'as' => 'password.reset',
+                'uses' => 'Auth\ResetPasswordController@showResetForm'
+            ]);
 
-Route::get('/', function () {
-    return view('welcome');
-});
+            # New view for change password
+            Route::get('/change_password', function () {
+                return view('auth.passwords.new_user_change_pwd');
+            });
 
-# Authentication
-Route::get('login', [
-	'as' => 'login',
-	'uses' => 'Auth\LoginController@showLoginForm'
-  ]);
-  Route::post('login', [
-	'as' => '',
-	'uses' => 'Auth\LoginController@login'
-  ]);
-  Route::post('logout', [
-	'as' => 'logout',
-	'uses' => 'Auth\LoginController@logout'
-  ]);
-  Route::post('password/email', [
-	'as' => 'password.email',
-	'uses' => 'Auth\ForgotPasswordController@sendResetLinkEmail'
-  ]);
-  Route::get('password/reset', [
-	'as' => 'password.request',
-	'uses' => 'Auth\ForgotPasswordController@showLinkRequestForm'
-  ]);
-  Route::post('password/reset', [
-	'as' => 'password.update',
-	'uses' => 'Auth\ResetPasswordController@reset'
-  ]);
-  Route::get('password/reset/{token}', [
-	'as' => 'password.reset',
-	'uses' => 'Auth\ResetPasswordController@showResetForm'
-  ]);
+            # change password
+            Route::post('/change_password', 'ChangePasswordController@updateNewuser');
+            Route::resource('/change-password', 'ChangePasswordController');
+            Route::post('/change-password', 'ChangePasswordController@update');
 
-# New view for change password
-// Route::get('/change_password', function () {
-//     return view('auth.passwords.new_user_change_pwd');
-// });
+            # Checkuserstatus Middleware
+            Route::group(['middleware' => 'CheckUserStatus'], function () {
 
-# change password
-// Route::post('/change_password', 'ChangePasswordController@updateNewuser');
-// Route::resource('/change-password', 'ChangePasswordController');
-// Route::post('/change-password', 'ChangePasswordController@update');
+            # Validatebuttonhistory Middleware
+            Route::group(['middleware' => 'ValidateButtonHistory'], function () {
 
-# Checkuserstatus Middleware
-Route::group(['middleware' => 'CheckUserStatus'], function () {
-
-    # Validatebuttonhistory Middleware
-    Route::group(['middleware' => 'ValidateButtonHistory'], function () {
-
-        # Auth Middleware
-        Route::group(['middleware' => 'auth'], function () {
+            # Auth Middleware
+            Route::group(['middleware' => 'auth'], function () {
 
             # Home
             Route::get('/home', 'HomeController@index')->name('home');
@@ -105,7 +103,6 @@ Route::group(['middleware' => 'CheckUserStatus'], function () {
         });
     });
 });
-
             # Contact
             Route::get('setting/contact/index', 'Setting\ContactMeController@index')->name('setting.contact.index');
             Route::get('setting/contact/create', 'Setting\ContactMeController@create')->name('setting.contact.create');
