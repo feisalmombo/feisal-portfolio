@@ -3,10 +3,7 @@
 @section('title', 'Change Password')
 
 @section('content')
-<div class="col-lg-12">
-	<h1 class="page-header">Change Password</h1>
-</div>
-
+<br>
 <div class="row">
 <div class="col-md-12 center-block">
     <div class="container-fluid">
@@ -26,7 +23,7 @@
                                         {{ csrf_field() }}
 
                                         <div class="col-lg-12 center-block">
-                                            <h2 style="text-align: center;">Change Password</h2>
+                                            <br>
                                             <div class="form-group">
                                                 <label>Old Password</label>
                                                 <input class="form-control" type="password" name="old_password" required="required">
