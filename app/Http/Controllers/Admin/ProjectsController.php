@@ -64,8 +64,8 @@ class ProjectsController extends Controller
 
         $project = new Project();
         $project = $this->updateData($project, $request);
-        
-        return redirect()->back()->with('message', 'Project is successfully added');
+
+        return redirect('admin/project/index')->with('message', 'Project is successfully added');
     }
 
     /**
@@ -133,7 +133,7 @@ class ProjectsController extends Controller
         $project = Project::findOrFail($id);
         $project->delete();
 
-        return redirect(route('admin.project.index'))->with('message', 'Project is successfully deleted');
+        return redirect()->back()->with('message', 'Project is successfully deleted');
     }
 
     public function updateData($project, $request)

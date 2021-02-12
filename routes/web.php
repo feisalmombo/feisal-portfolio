@@ -82,6 +82,8 @@
             Route::get('admin/project/index', 'Admin\ProjectsController@index')->name('admin.project.index');
             Route::get('admin/project/create', 'Admin\ProjectsController@create')->name('admin.project.create');
             Route::post('admin/project/create', 'Admin\ProjectsController@store')->name('admin.project.store');
+            Route::get('admin/project/show/{id}', 'Admin\ProjectsController@show')->name('admin.project.show');
+            Route::get('admin/project/destroy', 'Admin\ProjectsController@destroy')->name('admin.project.destroy');
 
             # Latest news
             Route::get('admin/latestnews', 'Admin\LatestNewsController@index')->name('admin.latestnews.index');
