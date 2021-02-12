@@ -18,7 +18,7 @@
 					<section class="container col-sm-offset-3">
 						<div class="container-page">
 							<div class="col-sm-6">
-								<form role="form"  action="{{ url('admin/project') }}" method="POST" enctype="multipart/form-data">
+								<form role="form"  action="{{ url('admin/project/create') }}" method="POST" enctype="multipart/form-data">
 
 									{{ csrf_field() }}
 
@@ -40,7 +40,7 @@
                                         </div>
 
 										<div class="form-group">
-											<button type="submit" class="btn btn-primary center-block">
+											<button type="submit" class="btn btn-primary">
 												Save
 											</button>
 										</div>

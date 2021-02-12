@@ -25,7 +25,12 @@ class ProjectsController extends Controller
      */
     public function index()
     {
-        return view('admin.project.index');
+        $projects = Project::All();
+        $data['title'] = 'Projects';
+        $data['projects'] = $projects;
+        $data['active'] = $this->activeMenu;
+
+        return view('admin.project.index', $data);
     }
 
     /**
@@ -35,7 +40,12 @@ class ProjectsController extends Controller
      */
     public function create()
     {
-        return view('admin.project.create');
+        $project = new Project();
+        $data['title'] = 'Add Project';
+        $data['project'] = $project;
+        $data['active'] = $this->activeMenu;
+
+        return view('admin.project.create', $data);
     }
 
     /**
@@ -46,7 +56,16 @@ class ProjectsController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $request->validate([
+            'project_title' => 'required',
+            'project_detail' => 'required',
+            'project_attachment' => 'mimes:jpeg,jpg,png,gif|required|max:2048',
+        ]);
+
+        $project = new Project();
+        $project = $this->updateData($project, $request);
+        
+        return redirect()->back()->with('message', 'Project is successfully added');
     }
 
     /**
@@ -57,7 +76,13 @@ class ProjectsController extends Controller
      */
     public function show($id)
     {
-        //
+        $project = Project::findOrFail($id);
+
+        $data['title'] = 'Project Details';
+        $data['project'] = $project;
+        $data['active'] = $this->activeMenu;
+
+        return view('admin.project.show', $data);
     }
 
     /**
@@ -68,7 +93,12 @@ class ProjectsController extends Controller
      */
     public function edit($id)
     {
-        //
+        $project = Project::findOrFail($id);
+        $data['title'] = 'Edit Project';
+        $data['project'] = $project;
+        $data['active'] = $this->activeMenu;
+
+        return view('admin.project.edit', $data);
     }
 
     /**
@@ -80,7 +110,16 @@ class ProjectsController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $request->validate([
+            'project_title' => 'required',
+            'project_detail' => 'required',
+            'project_attachment' => 'mimes:jpeg,jpg,png,gif|required|max:2048',
+        ]);
+
+        $project = Project::findOrFail($id);
+        $project = $this->updateData($project, $request);
+
+        return redirect(route('admin.project.show', $project->id))->with('message', 'Project is successfully updated');
     }
 
     /**
@@ -91,6 +130,19 @@ class ProjectsController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $project = Project::findOrFail($id);
+        $project->delete();
+
+        return redirect(route('admin.project.index'))->with('message', 'Project is successfully deleted');
+    }
+
+    public function updateData($project, $request)
+    {
+        $project->project_title = $request->get('project_title');
+        $project->project_details = $request->get('project_detail');
+        $project->project_image = $request->project_attachment->store('ProjectAttachments', 'public');
+        $project->save();
+
+        return $project;
     }
 }
