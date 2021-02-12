@@ -80,6 +80,7 @@
 
             # Project
             Route::get('admin/project', 'Admin\ProjectsController@index')->name('admin.project.index');
+            Route::get('admin/project/create', 'Admin\ProjectsController@create')->name('admin.project.create');
             Route::post('admin/project', 'Admin\ProjectsController@store')->name('admin.project.store');
 
             # Latest news

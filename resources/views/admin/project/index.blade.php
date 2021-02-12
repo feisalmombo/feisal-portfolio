@@ -3,10 +3,7 @@
 @section('title', 'Projects')
 
 @section('content')
-
-<div class="col-lg-12">
-	<h1 class="page-header">All Projects</h1>
-</div>
+<br>
 <section class="content">
 <div class="row">
 	<div class="col-lg-12">
