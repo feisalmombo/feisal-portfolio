@@ -5,17 +5,17 @@
     <li class="dropdown user user-menu">
 
     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-    {{--  @if(Auth::user()->userphoto_path)  --}}
-    {{--  <img src="{{ asset('storage/'.Auth::user()->userphoto_path) }}" alt="Avatar" style="width:32px; height:32px; border-radius:50%">  --}}
-    {{--  @else  --}}
-    {{--  <img src="{{asset('temp/images/img_avatar.png')}}" alt="Default Image" style="width:32px; height:32px; border-radius:50%">  --}}
-    {{--  @endif  --}}
-
-    @foreach(App\Role::All() as $role)
-        @if(Auth::user()->hasRole($role->slug)),
-        {{$role->name}}
+        @if(Auth::user()->userphoto_path)
+        <img src="{{ asset('storage/'.Auth::user()->userphoto_path) }}" alt="Avatar" style="width:32px; height:32px; border-radius:50%">
+        @else
+        <img src="{{asset('portfolio/images/img_avatar.png')}}" alt="Default Image" style="width:32px; height:32px; border-radius:50%">
         @endif
-    @endforeach
+
+            @foreach(App\Role::All() as $role)
+            @if(Auth::user()->hasRole($role->slug)),
+            {{$role->name}}
+            @endif
+        @endforeach
 
     {!!": <strong>".Auth::user()->first_name."</i></strong>"!!} <i class="fa fa-caret-down"></i>
     </a>
@@ -23,6 +23,9 @@
 
         <!-- Menu Footer-->
         <li class="user-footer" style="background-color: #00D5C2;">
+        <div class="">
+            <a href="#" style="color:white;"><i class="fa fa-user fa-fw"></i> My Profile</a>
+        </div>
 
         <div class="">
             <a href="{{ url('/change-password') }}" style="color:white;"><i class="fa fa-gear fa-fw"></i> Change Password</a>
