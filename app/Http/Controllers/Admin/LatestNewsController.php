@@ -4,9 +4,20 @@ namespace App\Http\Controllers\Admin;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use App\LatestNews;
+use Carbon\Carbon;
+use DB;
+use Auth;
 
 class LatestNewsController extends Controller
 {
+    protected $activeMenu = ['admin','latestnews'];
+
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
+
     /**
      * Display a listing of the resource.
      *
@@ -14,7 +25,12 @@ class LatestNewsController extends Controller
      */
     public function index()
     {
-        //
+        $latestnews = LatestNews::All();
+        $data['title'] = 'Latest News';
+        $data['latestnews'] = $latestnews;
+        $data['active'] = $this->activeMenu;
+
+        return view('admin.latestnews.index', $data);
     }
 
     /**
@@ -24,7 +40,12 @@ class LatestNewsController extends Controller
      */
     public function create()
     {
-        //
+        $latestnew = new LatestNews();
+        $data['title'] = 'Add Latest News';
+        $data['latestnew'] = $latestnew;
+        $data['active'] = $this->activeMenu;
+
+        return view('admin.latestnews.create', $data);
     }
 
     /**
