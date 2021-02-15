@@ -38,6 +38,7 @@
             <td>
                 <a href="{{ asset('storage/'.$latestnew->news_image) }}" target="_blank" type="button" class="btn btn-warning"><i class="fa fa-download" arial-hidden="true"></i></a>
              </td>
+            <td>{{$latestnew->news_link}}</td>
             <td>Show</td>
             <td>Edit</td>
             <td>Delete</td>
