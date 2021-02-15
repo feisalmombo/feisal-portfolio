@@ -99,6 +99,13 @@
             Route::get('admin/latestnews/show/{id}', 'Admin\LatestNewsController@show')->name('admin.latestnews.show');
             Route::get('admin/latestnews/destroy', 'Admin\LatestNewsController@destroy')->name('admin.latestnews.destroy');
 
+            # Testimonials
+            Route::get('admin/testimonials/index', 'Admin\TestimonialsController@index')->name('admin.testimonials.index');
+            Route::get('admin/testimonials/create', 'Admin\TestimonialsController@create')->name('admin.testimonials.create');
+            Route::post('admin/testimonials/create', 'Admin\TestimonialsController@store')->name('admin.testimonials.store');
+            Route::get('admin/testimonials/show/{id}', 'Admin\TestimonialsController@show')->name('admin.testimonials.show');
+            Route::get('admin/testimonials/destroy', 'Admin\TestimonialsController@destroy')->name('admin.testimonials.destroy');
+
             # Permissions
             Route::get('/settings/manage_users/permissions/entrust_user', 'PermissionsController@entrust_user');
             Route::get('/settings/manage_users/permissions/entrust', 'PermissionsController@entrust');
