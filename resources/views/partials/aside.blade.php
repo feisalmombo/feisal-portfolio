@@ -46,9 +46,13 @@
 
                 <li><a href="{{ url('admin/project/index') }}"><i class="fa fa-report"></i> Project</a>
                 </li>
+
+                <li><a href="{{ url('admin/latestnews/index') }}"><i class="fa fa-report"></i> Latest news</a>
+                </li>
             </ul>
         </li>
         @endif
+
 
         <li class="treeview">
             <?php
