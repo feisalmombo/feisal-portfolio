@@ -56,7 +56,16 @@ class LatestNewsController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $request->validate([
+            'news_title' => 'required',
+            'news_attachment' => 'mimes:jpeg,jpg,png,gif|required|max:2048',
+            'news_links' => 'required',
+        ]);
+
+        $latestnew = new LatestNews();
+        $latestnew = $this->updateData($latestnew, $request);
+
+        return redirect('admin/latestnews/index')->with('message', 'Latest News are successfully added');
     }
 
     /**
@@ -67,7 +76,13 @@ class LatestNewsController extends Controller
      */
     public function show($id)
     {
-        //
+        $latestnew = LatestNews::findOrFail($id);
+
+        $data['title'] = 'Latest news Details';
+        $data['latestnew'] = $latestnew;
+        $data['active'] = $this->activeMenu;
+
+        return view('admin.latestnews.show', $data);
     }
 
     /**
@@ -78,7 +93,12 @@ class LatestNewsController extends Controller
      */
     public function edit($id)
     {
-        //
+        $latestnew = LatestNews::findOrFail($id);
+        $data['title'] = 'Edit Latest News';
+        $data['latestnew'] = $latestnew;
+        $data['active'] = $this->activeMenu;
+
+        return view('admin.latestnews.edit', $data);
     }
 
     /**
@@ -90,7 +110,16 @@ class LatestNewsController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $request->validate([
+            'news_title' => 'required',
+            'news_attachment' => 'mimes:jpeg,jpg,png,gif|required|max:2048',
+            'news_links' => 'required',
+        ]);
+
+        $latestnew = LatestNews::findOrFail($id);
+        $latestnew = $this->updateData($latestnew, $request);
+
+        return redirect(route('admin.latestnews.show', $latestnew->id))->with('message', 'Latest news are successfully updated');
     }
 
     /**
@@ -101,6 +130,19 @@ class LatestNewsController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $latestnew = LatestNews::findOrFail($id);
+        $latestnew->delete();
+
+        return redirect()->back()->with('message', 'Latest news are successfully deleted');
+    }
+
+    public function updateData($latestnew, $request)
+    {
+        $latestnew->news_title = $request->get('news_title');
+        $latestnew->news_image = $request->news_attachment->store('LatestnewsAttachments', 'public');
+        $latestnew->news_link = $request->get('news_links');
+        $latestnew->save();
+
+        return $latestnew;
     }
 }
