@@ -4,9 +4,20 @@ namespace App\Http\Controllers\Admin;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use App\Skills;
+use Carbon\Carbon;
+use DB;
+use Auth;
 
 class SkillsContoller extends Controller
 {
+    protected $activeMenu = ['admin','skills'];
+
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
+
     /**
      * Display a listing of the resource.
      *
@@ -14,7 +25,12 @@ class SkillsContoller extends Controller
      */
     public function index()
     {
-        //
+        $skills = Skills::All();
+        $data['title'] = 'Skills';
+        $data['skills'] = $skills;
+        $data['active'] = $this->activeMenu;
+
+        return view('admin.skills.index', $data);
     }
 
     /**
@@ -24,7 +40,12 @@ class SkillsContoller extends Controller
      */
     public function create()
     {
-        //
+        $skill = new Skills();
+        $data['title'] = 'Add Skill';
+        $data['skill'] = $skill;
+        $data['active'] = $this->activeMenu;
+
+        return view('admin.skills.create', $data);
     }
 
     /**
@@ -35,7 +56,15 @@ class SkillsContoller extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $request->validate([
+            'skills_name' => 'required',
+            'skills_desc' => 'required',
+        ]);
+
+        $skill = new Skills();
+        $skill = $this->updateData($skill, $request);
+
+        return redirect('admin/skills/index')->with('message', 'Skill is successfully added');
     }
 
     /**
