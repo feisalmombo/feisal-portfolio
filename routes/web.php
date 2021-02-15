@@ -86,6 +86,13 @@
             Route::get('admin/project/destroy', 'Admin\ProjectsController@destroy')->name('admin.project.destroy');
 
             # Latest news
+            Route::get('admin/skills/index', 'Admin\SkillsContoller@index')->name('admin.skills.index');
+            Route::get('admin/skills/create', 'Admin\SkillsContoller@create')->name('admin.skills.create');
+            Route::post('admin/skills/create', 'Admin\SkillsContoller@store')->name('admin.skills.store');
+            Route::get('admin/skills/show/{id}', 'Admin\SkillsContoller@show')->name('admin.skills.show');
+            Route::get('admin/skills/destroy', 'Admin\SkillsContoller@destroy')->name('admin.skills.destroy');
+
+            # Skills
             Route::get('admin/latestnews/index', 'Admin\LatestNewsController@index')->name('admin.latestnews.index');
             Route::get('admin/latestnews/create', 'Admin\LatestNewsController@create')->name('admin.latestnews.create');
             Route::post('admin/latestnews/create', 'Admin\LatestNewsController@store')->name('admin.latestnews.store');
