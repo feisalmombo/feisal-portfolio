@@ -87,7 +87,7 @@
 
             # Latest news
             Route::get('admin/latestnews/index', 'Admin\LatestNewsController@index')->name('admin.latestnews.index');
-            Route::post('admin/latestnews/create', 'Admin\LatestNewsController@create')->name('admin.latestnews.create');
+            Route::get('admin/latestnews/create', 'Admin\LatestNewsController@create')->name('admin.latestnews.create');
             Route::post('admin/latestnews/create', 'Admin\LatestNewsController@store')->name('admin.latestnews.store');
             Route::get('admin/latestnews/show/{id}', 'Admin\LatestNewsController@show')->name('admin.latestnews.show');
             Route::get('admin/latestnews/destroy', 'Admin\LatestNewsController@destroy')->name('admin.latestnews.destroy');
