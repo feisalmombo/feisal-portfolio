@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Projects')
+@section('title', 'Skills')
 
 @section('content')
 <br>
@@ -10,18 +10,17 @@
 @include('msgs.success')
 <div class="panel panel-default">
 <div class="panel-heading">
-    List of Projects
-    <a href="{{ url('admin/project/create') }}" class="col-2 pull-right" style="text-decoration: none;"><i class="fa fa-plus"></i>&nbsp;Add Project</a>
+    List of Skills
+    <a href="{{ url('admin/skills/create') }}" class="col-2 pull-right" style="text-decoration: none;"><i class="fa fa-plus"></i>&nbsp;Add Skill</a>
 </div>
 <div class="panel-body table-responsive">
-    @if(count($projects)>0)
+    @if(count($skills)>0)
     <table id="example1" class="table table-bordered table-striped">
         <thead>
             <tr>
                 <th>S/N</th>
                 <th>Name</th>
                 <th>Details</th>
-                <th>Image</th>
                 <th>Show</th>
                 <th>Edit</th>
                 <th>Delete</th>
@@ -31,19 +30,16 @@
         </thead>
         <tbody>
 
-            @foreach($projects as $key=>$project)
+            @foreach($skills as $key=>$skill)
             <tr class="odd gradeX">
             <td>{{$key + 1 }}</td>
-            <td>{{$project->project_title}}</td>
-            <td>{{$project->project_details}}</td>
-            <td>
-                <a href="{{ asset('storage/'.$project->project_image) }}" target="_blank" type="button" class="btn btn-warning"><i class="fa fa-download" arial-hidden="true"></i></a>
-             </td>
+            <td>{{$skill->skills_name}}</td>
+            <td>{{$skill->skills_description}}</td>
             <td>Show</td>
             <td>Edit</td>
             <td>
-                <a href='#{{ $project->id }}' data-toggle="modal" type="button" class="btn btn-danger"><i class="fa fa-trash" arial-hidden="true"></i></a>
-                <div class="modal fade" id="{{ $project->id }}">
+                <a href='#{{ $skill->id }}' data-toggle="modal" type="button" class="btn btn-danger"><i class="fa fa-trash" arial-hidden="true"></i></a>
+                <div class="modal fade" id="{{ $skill->id }}">
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
@@ -51,9 +47,9 @@
                                 <h4 class="modal-title"><strong>Delete</strong></h4>
                             </div>
                             <div class="modal-body">
-                                Are you sure you want to delete Project Title? <h9 style="color: blue;">{{ $project->project_title }}</h9>
+                                Are you sure you want to delete Skill Name? <h9 style="color: blue;">{{ $skill->skills_name }}</h9>
                             </div>
-                            <form action="admin/project/{{ $project->id }}/destroy" method="POST" role="form">
+                            <form action="admin/skills/{{ $skill->id }}/destroy" method="POST" role="form">
 
                                 {{ csrf_field() }}
                                 {{ method_field('DELETE') }}
@@ -68,7 +64,7 @@
                     </div>
                 </div>
             </td>
-            <td>{{$project->created_at->diffForHumans() }}</td>
+            <td>{{$skill->created_at->diffForHumans() }}</td>
             </tr>
             @endforeach
         </tbody>
@@ -76,7 +72,7 @@
     @else
     <div class="alert alert-info">
         <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-        <strong>No Project found</strong>
+        <strong>No Skill found</strong>
     </div>
     @endif
 </div>

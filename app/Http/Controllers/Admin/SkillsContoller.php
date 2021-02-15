@@ -58,7 +58,7 @@ class SkillsContoller extends Controller
     {
         $request->validate([
             'skills_name' => 'required',
-            'skills_desc' => 'required',
+            'skills_description' => 'required',
         ]);
 
         $skill = new Skills();
@@ -75,7 +75,13 @@ class SkillsContoller extends Controller
      */
     public function show($id)
     {
-        //
+        $skill = Skills::findOrFail($id);
+
+        $data['title'] = 'Skill Details';
+        $data['skill'] = $skill;
+        $data['active'] = $this->activeMenu;
+
+        return view('admin.skillS.show', $data);
     }
 
     /**
@@ -86,7 +92,13 @@ class SkillsContoller extends Controller
      */
     public function edit($id)
     {
-        //
+        $skill = Skills::findOrFail($id);
+
+        $data['title'] = 'Edit Skill';
+        $data['skill'] = $skill;
+        $data['active'] = $this->activeMenu;
+
+        return view('admin.skills.edit', $data);
     }
 
     /**
@@ -98,7 +110,15 @@ class SkillsContoller extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $request->validate([
+            'skills_name' => 'required',
+            'skills_description' => 'required',
+        ]);
+
+        $skill = Skills::findOrFail($id);
+        $skill = $this->updateData($skill, $request);
+
+        return redirect(route('admin.skills.show', $skill->id))->with('message', 'Skill is successfully updated');
     }
 
     /**
@@ -109,6 +129,18 @@ class SkillsContoller extends Controller
      */
     public function destroy($id)
     {
-        //
+        $skill = Skills::findOrFail($id);
+        $skill->delete();
+
+        return redirect()->back()->with('message', 'Skill is successfully deleted');
+    }
+
+    public function updateData($skill, $request)
+    {
+        $skill->skills_name = $request->get('skills_name');
+        $skill->skills_description = $request->get('skills_description');
+        $skill->save();
+
+        return $skill;
     }
 }
