@@ -3,9 +3,19 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Testimonial;
+use Carbon\Carbon;
+use DB;
+use Auth;
 
 class TestimonialsController extends Controller
 {
+    protected $activeMenu = ['admin','testimonials'];
+
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
     /**
      * Display a listing of the resource.
      *
@@ -13,7 +23,12 @@ class TestimonialsController extends Controller
      */
     public function index()
     {
-        //
+        $testimonials = Testimonial::All();
+        $data['title'] = 'Testimonials';
+        $data['testimonials'] = $testimonials;
+        $data['active'] = $this->activeMenu;
+
+        return view('admin.testimonials.index', $data);
     }
 
     /**
@@ -23,7 +38,12 @@ class TestimonialsController extends Controller
      */
     public function create()
     {
-        //
+        $testimonial = new Testimonial();
+        $data['title'] = 'Add Testimonial';
+        $data['testimonial'] = $testimonial;
+        $data['active'] = $this->activeMenu;
+
+        return view('admin.testimonials.create', $data);
     }
 
     /**
@@ -34,7 +54,17 @@ class TestimonialsController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $request->validate([
+            'personal_name' => 'required',
+            'testimonial_description' => 'required',
+            'testimonial_image' => 'mimes:jpeg,jpg,png,gif|required|max:2048',
+            'testimonial_occupation' => 'required',
+        ]);
+
+        $testimonial = new Testimonial();
+        $testimonial = $this->updateData($testimonial, $request);
+
+        return redirect('admin/testimonials/index')->with('message', 'Testimonial is successfully added');
     }
 
     /**
