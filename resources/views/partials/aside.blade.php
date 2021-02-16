@@ -52,6 +52,9 @@
 
                 <li><a href="{{ url('admin/skills/index') }}"><i class="fa fa-report"></i> Skills</a>
                 </li>
+
+                <li><a href="{{ url('admin/testimonials/index') }}"><i class="fa fa-report"></i> Testimonials</a>
+                </li>
             </ul>
         </li>
         @endif
