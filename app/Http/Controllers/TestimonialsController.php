@@ -75,7 +75,13 @@ class TestimonialsController extends Controller
      */
     public function show($id)
     {
-        //
+        $testimonial = Testimonial::findOrFail($id);
+
+        $data['title'] = 'Testimonial Details';
+        $data['testimonial'] = $testimonial;
+        $data['active'] = $this->activeMenu;
+
+        return view('admin.testimonials.show', $data);
     }
 
     /**
@@ -86,7 +92,12 @@ class TestimonialsController extends Controller
      */
     public function edit($id)
     {
-        //
+        $testimonial = Testimonial::findOrFail($id);
+        $data['title'] = 'Edit Testimonial';
+        $data['testimonial'] = $prtestimonialoject;
+        $data['active'] = $this->activeMenu;
+
+        return view('admin.testimonials.edit', $data);
     }
 
     /**
@@ -98,7 +109,17 @@ class TestimonialsController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $request->validate([
+            'personal_name' => 'required',
+            'testimonial_description' => 'required',
+            'testimonial_image' => 'mimes:jpeg,jpg,png,gif|required|max:2048',
+            'testimonial_occupation' => 'required',
+        ]);
+
+        $testimonial = Testimonial::findOrFail($id);
+        $project = $this->updateData($project, $request);
+
+        return redirect(route('admin.project.show', $project->id))->with('message', 'Project is successfully updated');
     }
 
     /**
