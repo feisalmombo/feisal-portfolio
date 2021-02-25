@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Admin;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\User;
+use App\ActivityLog;
 use Carbon\Carbon;
 use DB;
 use Auth;
@@ -144,7 +145,11 @@ class UsersController extends Controller
      */
     public function edit($id)
     {
-        //
+        $user = User::findOrFail($id);
+
+        $role = Role::all();
+
+        return view('admin.user.edit')->with('users', $user)->with('leve', $role);
     }
 
     /**
@@ -156,7 +161,28 @@ class UsersController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $user = User::findOrFail($id);
+        $this->validate(request(), [
+            'firstname' => 'required|string|max:255',
+            'lastname' => 'required|string|max:255',
+            'email' => 'required',
+            'phonenumber' => 'required|regex:/^([0-9\s\-\+\(\)]*)$/|min:13',
+            'privilege' => 'required',
+            'userprofile' => 'mimes:jpeg,jpg,png|required|max:2048',
+        ]);
+
+        $user->first_name = $request->firstname;
+        $user->middle_name = $request->middlename;
+        $user->last_name = $request->lastname;
+        $user->email = $request->email;
+        $user->phone_number = $request->phonenumber;
+        $user->userphoto_path = $request->userprofile->store('Userprofilephoto', 'public');
+        $st = $user->save();
+        if (!$st) {
+            return redirect()->back()->with('message', 'Failed to Update User data');
+        }
+
+        return redirect('admin/user/index')->with('message', 'User is successfully updated');
     }
 
     /**
@@ -167,6 +193,12 @@ class UsersController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $uid = Auth::user()->id;
+        $user = User::findOrFail($id);
+        $user->delete();
+        ActivityLog::where('changetype', 'Delete User')->update(['user_id' => $uid]);
+        $request->session()->flash('message', 'User is successfully deleted');
+
+        return back();
     }
 }
