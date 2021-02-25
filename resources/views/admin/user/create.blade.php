@@ -40,11 +40,6 @@
                                         </div>
 
                                         <div class="form-group">
-											<label>Email</label>
-											<input class="form-control" type="email" name="email" id="email" required="required">
-                                        </div>
-
-                                        <div class="form-group">
 											<label>Phone Number</label>
 											<input class="form-control" type="tel" name="phonenumber" id="phonenumber" required="required">
                                         </div>
