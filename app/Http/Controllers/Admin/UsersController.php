@@ -73,7 +73,6 @@ class UsersController extends Controller
     {
         $this->validate(request(), [
             'firstname' => 'required|string|max:255',
-            'middlename' => 'required|string|max:255',
             'lastname' => 'required|string|max:255',
             'phonenumber' => 'required|regex:/^([0-9\s\-\+\(\)]*)$/|min:13',
             'privilege' => 'required',
