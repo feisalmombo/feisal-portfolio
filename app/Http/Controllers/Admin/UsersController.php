@@ -17,7 +17,7 @@ class UsersController extends Controller
     {
         $this->middleware('auth');
     }
-    
+
     /**
      * Display a listing of the resource.
      *
@@ -25,7 +25,28 @@ class UsersController extends Controller
      */
     public function index()
     {
-        //
+        $users = DB::select(
+            "SELECT
+            users.id,
+            users.first_name,
+            users.middle_name,
+            users.last_name,
+            users.email,
+            users.phone_number,
+            roles.slug,
+            users.userphoto_path,
+            users.created_at
+        FROM
+            users,
+            roles,
+            users_roles
+        WHERE
+            users_roles.role_id = roles.id
+            AND users_roles.user_id = users.id
+        ORDER BY users.id DESC"
+        );
+
+        return view('admin.user.index')->with('users', $users);
     }
 
     /**

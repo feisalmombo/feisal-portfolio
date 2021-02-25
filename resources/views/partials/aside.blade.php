@@ -25,10 +25,10 @@
                 </span>
             </a>
             <ul class="treeview-menu">
-                <li><a href="#"><i class="fa fa-phone"></i> Admin</a>
+                <li><a href="{{ url('admin/user/index') }}"><i class="fa fa-report"></i> Users</a>
                 </li>
 
-                <li><a href="{{ url('admin/project/index') }}"><i class="fa fa-report"></i> Project</a>
+                <li><a href="{{ url('admin/project/index') }}"><i class="fa fa-report"></i> Projects</a>
                 </li>
 
                 <li><a href="{{ url('admin/latestnews/index') }}"><i class="fa fa-report"></i> Latest news</a>
