@@ -19,22 +19,6 @@
         <li class="treeview">
             <a href="#">
                 <i class="fa fa-gear"></i>
-                <span>General Settings</span>
-                <span class="pull-right-container">
-                <i class="fa fa-angle-left pull-right"></i>
-                </span>
-            </a>
-            <ul class="treeview-menu">
-                <li><a href="{{ url('setting/contact/index') }}"><i class="fa fa-phone"></i> Contacts</a>
-                </li>
-            </ul>
-        </li>
-        @endif
-
-        @if(Auth::user()->hasRole('developer') || Auth::user()->hasRole('manager'))
-        <li class="treeview">
-            <a href="#">
-                <i class="fa fa-gear"></i>
                 <span>Administrator</span>
                 <span class="pull-right-container">
                 <i class="fa fa-angle-left pull-right"></i>
@@ -59,11 +43,25 @@
         </li>
         @endif
 
+        @if(Auth::user()->hasRole('developer') || Auth::user()->hasRole('manager'))
+        <li class="treeview">
+            <a href="#">
+                <i class="fa fa-gear"></i>
+                <span>General Settings</span>
+                <span class="pull-right-container">
+                <i class="fa fa-angle-left pull-right"></i>
+                </span>
+            </a>
+            <ul class="treeview-menu">
+                <li><a href="{{ url('setting/contact/index') }}"><i class="fa fa-phone"></i> Contacts</a>
+                </li>
+            </ul>
+        </li>
+        @endif
+
 
         <li class="treeview">
-            <?php
-            if (Auth::user()->can('manage_privileges'))
-            {?>
+
             <a href="#">
                 <i class="fa fa-universal-access"></i> <span>Manage Permissions</span>
                 <span class="pull-right-container">
@@ -72,7 +70,6 @@
             </a>
 
             <ul class="treeview-menu">
-            <?php if(Auth::user()->can('manage_privileges')){?>
                 <li>
                 <a href="{{ url('/settings/manage_users/permissions') }}"><i class="fa fa-circle-o"></i> View Permission</a>
                 </li>
@@ -84,15 +81,10 @@
                 <li>
                 <a href="{{ url('/settings/manage_users/permissions/entrust_user') }}"><i class="fa fa-circle-o"></i> Entrust Permission to User</a>
                 </li>
-                <?php }?>
             </ul>
-            <?php }?>
         </li>
 
         <li class="treeview">
-            <?php
-            if (Auth::user()->can('manage_privileges'))
-            {?>
             <a href="#">
                 <i class="fa fa-bars"></i> <span>Manage Roles</span>
                 <span class="pull-right-container">
@@ -100,7 +92,6 @@
                 </span>
             </a>
             <ul class="treeview-menu">
-            <?php if(Auth::user()->can('manage_privileges')){?>
                 <li>
                 <a href="{{ url('/settings/manage_users/roles') }}"><i class="fa fa-circle-o"></i> View Roles</a>
                 </li>
@@ -108,9 +99,7 @@
                 <li>
                 <a href="{{ url('/settings/manage_users/roles/create') }}"><i class="fa fa-circle-o"></i> Entrust Role to User</a>
                 </li>
-                <?php }?>
             </ul>
-            <?php }?>
         </li>
 
     </ul>
