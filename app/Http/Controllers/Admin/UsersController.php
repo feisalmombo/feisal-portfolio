@@ -56,7 +56,11 @@ class UsersController extends Controller
      */
     public function create()
     {
-        //
+        $role = DB::table('roles')
+            ->select('id', 'slug')
+            ->get();
+
+        return view('admin.user.create')->with('roles', $role);
     }
 
     /**
@@ -67,7 +71,36 @@ class UsersController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $this->validate(request(), [
+            'firstname' => 'required|string|max:255',
+            'middlename' => 'required|string|max:255',
+            'lastname' => 'required|string|max:255',
+            'phonenumber' => 'required|regex:/^([0-9\s\-\+\(\)]*)$/|min:13',
+            'privilege' => 'required',
+        ]);
+
+        $dev_role = Role::where('slug', $request->privilege)->first();
+        $dev_perm = Permission::where('slug', 'create')->first();
+
+        $users = new User();
+        $users->first_name = $request->fullname;
+        $users->middle_name = $request->fullname;
+        $users->last_name = $request->fullname;
+        $user_email = $users->email = strtolower($request->firstname)."@feisalmombo.co.tz";
+        $users->phone_number = $request->phonenumber;
+        $users->password = bcrypt('developer');
+
+        $st = $users->save();
+        $users->roles()->attach($dev_role);
+        $users->permissions()->attach($dev_perm);
+        $userstatus = new UserStatus();
+        $userstatus->user_id = $users->id;
+        $userstatus->slug = false;
+        $userstatus->save();
+        if (!$st) {
+            return redirect('admin/user/create')->with('message', 'Failed to insert User data');
+        }
+        return redirect('admin/user/create')->with('message', 'User is successfully added with email:' . strtolower($user_email) . '  Password: ' . 'marketplace');
     }
 
     /**
@@ -78,7 +111,30 @@ class UsersController extends Controller
      */
     public function show($id)
     {
-        //
+        $customer_id = Auth::user()->id;
+
+        $profile = DB::select(
+            "SELECT
+            users.id,
+            users.first_name,
+            users.middle_name,
+            users.last_name,
+            users.email,
+            users.phone_number,
+            roles.slug,
+            users.userphoto_path,
+            users.created_at
+        FROM
+            users,
+            roles,
+            users_roles
+        WHERE
+            users_roles.role_id = roles.id
+            AND users_roles.user_id = users.id
+        ORDER BY users.id DESC"
+        );
+
+        return view('admin.user.show')->with('profiles', $profile);
     }
 
     /**
