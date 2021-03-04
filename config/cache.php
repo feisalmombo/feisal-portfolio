@@ -98,6 +98,6 @@ return [
     |
     */
 
-    'prefix' => env('CACHE_PREFIX', Str::slug(env('APP_NAME', "My Portfolio"), '_').'_cache'),
+    'prefix' => env('CACHE_PREFIX', Str::slug(env('APP_NAME', 'feisalmombo'), '_').'_cache'),
 
 ];

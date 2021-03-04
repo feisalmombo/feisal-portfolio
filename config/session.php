@@ -126,7 +126,7 @@ return [
 
     'cookie' => env(
         'SESSION_COOKIE',
-        Str::slug(env('APP_NAME', "My Portfolio"), '_').'_session'
+        Str::slug(env('APP_NAME', 'feisalmombo'), '_').'_session'
     ),
 
     /*
