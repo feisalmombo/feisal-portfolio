@@ -40,7 +40,7 @@
                 </a>
                 <div id="menu">
                     <ul>
-                        <li><a href="index.html">Home</a></li>
+                        <li><a href="{{ url('/') }}">Home</a></li>
                         <li><a href="#tl" class="scroll">About</a></li>
                         <li><a href="#news" class="scroll">Latest News</a></li>
                         <li><a href="#tl" class="scroll">Timeline</a></li>
