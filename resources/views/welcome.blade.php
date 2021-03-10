@@ -3,6 +3,11 @@
 
 <head>
     <title>My Portfolio | Welcome Page</title>
+
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/x-icon" href="{{asset('/favicon.io')}}">
+    <!-- Favicon icon -->
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8" />
     <meta name="keywords" content="My Portfolio" />
