@@ -68,7 +68,7 @@
                             development, system development, database design, system analyst and design and using that
                             knowledge gets from the University of Dodoma to solve all problems facing society in a form of
                             computerized form.</p>
-                        <a href="/portfolio/doc" download="MyCV.pdf">My Resume</a>
+                        <a href="../portfolio/doc" download="MyCV.pdf">My Resume</a>
                         {{-- <a href="#about" class="scroll bnr-btn">read more</a> --}}
                     </div>
                 </div>
