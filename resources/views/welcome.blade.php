@@ -828,7 +828,7 @@
         <div class="container">
             <div class="cpy-right text-center">
                 <p class="text-white">© {{  date('Y') }} My Portfolio. All rights reserved | Developed by
-                    <a href="#" class="text-dark font-weight-bold"> Feisal Mombo.</a>
+                    <a href="https://feisalmombo.herokuapp.com" target="_blank" class="text-dark font-weight-bold"> Feisal Mombo.</a>
                 </p>
             </div>
         </div>
