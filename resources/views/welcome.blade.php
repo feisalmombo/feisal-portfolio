@@ -92,7 +92,7 @@
                     </div>
                     <div class="ab-pvtw3 my-4">
                         <p class="my-3"> I was born in 1993. I live in Dar es Salaam and work as a Freelancer Software Developer. I’ve been a professional developer for more than 2 years.
-                            I’ve mostly worked professionally with PHP in Laravel framework, Angular, CSS, HTML, Bootstrap, API, JavaScript, JqQuery, Hosting and but also a little bit with Python.
+                            I’ve mostly worked professionally with PHP in Laravel framework, Angular, CSS, HTML, Bootstrap, API, JavaScript, JqQuery, Hosting, Mobile maintenance and repair and but also a little bit with Python.
                             I’ve published more than 15 projects online.
                         </p>
                         <p> I have excellent design and coding skills, as well as an ability convert client requirement into
