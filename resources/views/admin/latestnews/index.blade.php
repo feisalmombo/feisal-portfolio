@@ -10,7 +10,7 @@
 @include('msgs.success')
 <div class="panel panel-default">
 <div class="panel-heading">
-    List of Latets News
+    List of Latest News
     <a href="{{ url('admin/latestnews/create') }}" class="col-2 pull-right" style="text-decoration: none;"><i class="fa fa-plus"></i>&nbsp;Add News</a>
 </div>
 <div class="panel-body table-responsive">
