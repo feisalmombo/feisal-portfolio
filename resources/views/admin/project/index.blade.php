@@ -53,7 +53,7 @@
                             <div class="modal-body">
                                 Are you sure you want to delete Project Title? <h9 style="color: blue;">{{ $project->project_title }}</h9>
                             </div>
-                            <form action="admin/project/{{ $project->id }}/destroy" method="POST" role="form">
+                            <form action="admin/project/{{ $project->id }}" method="POST" role="form">
 
                                 {{ csrf_field() }}
                                 {{ method_field('DELETE') }}
