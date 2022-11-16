@@ -27,13 +27,13 @@ class AppServiceProvider extends ServiceProvider
     {
         Schema::defaultStringLength(191);
 
-        // This for HTTPS CERTIFICATES
-        if(env('FORCE_HTTPS',true)) {
-            URL::forceScheme('https');
-        }
+        // This for HTTPS CERTIFICATES --- TO MAKE SURE HTTPS CERTIFIED YOU MUST UNCOMMENT THIS LINE BELOW
+        // if(env('FORCE_HTTPS',true)) {
+        //     URL::forceScheme('https');
+        // }
 
-        if (app()->environment('remote')) {
-            URL::forceSchema('https');
-        }
+        // if (app()->environment('remote')) {
+        //     URL::forceSchema('https');
+        // }
     }
 }
