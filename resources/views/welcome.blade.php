@@ -67,7 +67,7 @@
                 <div class="col-lg-6 bnr-txt-w3pvt  d-sm-flex justify-content-center align-items-center">
                     <div class="bnr-w3pvt-txt">
                         <h4>Hi,I am</h4>
-                        <h2 style="color: #ffffff">Feisal Mombo</h2>
+                        <h2 style="color: #ffffff">Feisal Suleiman Mombo</h2>
                         <h3>a Software Developer with passion of creativity</h3>
                         <p class="text-white mt-sm-4 mt-2"> I study a Bachelor of Science in Software Engineering as my professional specialized in web
                             development, system development, database design, system analyst and design and using that
@@ -353,6 +353,29 @@
                                             <div class="box-content">
                                                 <h3 class="title">PMS</h3>
                                                 <span class="post">22 November 2022</span>
+                                            </div>
+                                            <ul class="icon">
+                                                <li>
+                                                    <a href="#">
+                                                        <span class="fa fa-share"></span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <span class="fa fa-link"></span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-6 mt-lg-0 mt-4  w3-slide-grid">
+                                        <h5><a href="#">Motionstarlight Logistics Company</a></h5>
+                                        <div class="box20">
+                                            <img src="{{ asset('portfolio/images/welcome-motionstarlight.PNG') }}" alt="blog_updates" class="img-fluid" />
+                                            <div class="box-content">
+                                                <h3 class="title">MSL WEBSITE</h3>
+                                                <span class="post">02 February 2022</span>
                                             </div>
                                             <ul class="icon">
                                                 <li>
@@ -881,7 +904,7 @@
         <div class="container">
             <div class="cpy-right text-center">
                 <p class="text-white">© {{  date('Y') }} My Portfolio. All rights reserved | Developed by
-                    <a href="https://feisalmombo.herokuapp.com" target="_blank" class="text-dark font-weight-bold"> Feisal Mombo.</a>
+                    <a href="https://feisalmombo.herokuapp.com" target="_blank" class="text-dark font-weight-bold"> Feisal Suleiman Mombo.</a>
                 </p>
             </div>
         </div>
