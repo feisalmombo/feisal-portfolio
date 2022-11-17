@@ -609,6 +609,16 @@
             <ul class="demo mt-5 pt-lg-5">
                 <li>
                     <div class="gallery-grid1">
+                        <img src="{{ asset('portfolio/images/systemsettings-sms.PNG') }}" alt="blog_updates" class="img-fluid" />
+                        <div class="p-mask">
+                            <h4>Student Management System</h4>
+                            <p>Gives information about financial sector.</p>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="gallery-grid1">
                         <img src="{{ asset('portfolio/images/blog_updates.PNG') }}" alt="blog_updates" class="img-fluid" />
                         <div class="p-mask">
                             <h4>Blog Updates</h4>
