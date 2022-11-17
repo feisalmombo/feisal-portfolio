@@ -73,9 +73,8 @@
                             development, system development, database design, system analyst and design and using that
                             knowledge gets from the University of Dodoma to solve all problems facing society in a form of
                             computerized form.</p>
-                        {{--  <a href="/portfolio/doc" download="MyCV.pdf">My Resume</a>  --}}
                         <button class="btn btn-primary">
-                            <a href="/portfolio/doc" download="MyCV.pdf" style="color: #ffffff">View Resume</a>
+                            <a href="{{ asset('static/docs/FeisalSuleimanMombo.pdf') }}" target="_blank" download="FeisalSuleimanMombo.pdf" style="color: #ffffff">View Curriculum Vitae</a>
                         </button>
                     </div>
                 </div>
