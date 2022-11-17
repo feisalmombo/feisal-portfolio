@@ -639,6 +639,16 @@
 
                 <li>
                     <div class="gallery-grid1">
+                        <img src="{{ asset('portfolio/images/welcome-motionstarlight.PNG') }}" alt="welcome-motionstarlight" class="img-fluid" />
+                        <div class="p-mask">
+                            <h4>Motionstarlight Website</h4>
+                            <p>Gives information about financial sector.</p>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="gallery-grid1">
                         <img src="{{ asset('portfolio/images/blog_updates.PNG') }}" alt="blog_updates" class="img-fluid" />
                         <div class="p-mask">
                             <h4>Blog Updates</h4>
