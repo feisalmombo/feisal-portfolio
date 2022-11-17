@@ -974,8 +974,10 @@
                         </div>
                         <div class="col-10 cd-grid">
                             <ul>
+                                <li>+255 624 524 149</li>
                                 <li>+255 684 456 287</li>
                                 <li>+255 654 197 535</li>
+
                             </ul>
                         </div>
                     </div>
