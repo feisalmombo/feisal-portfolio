@@ -212,7 +212,7 @@
                                             <img src="{{ asset('portfolio/images/zura.PNG') }}" alt="zura" class="img-fluid" />
                                             <div class="box-content">
                                                 <h3 class="title">ZURA</h3>
-                                                <span class="post text-capitalize">27 Jan 2021</span>
+                                                <span class="post text-capitalize">15 September 2020</span>
                                             </div>
                                             <ul class="icon">
                                                 <li>
@@ -234,7 +234,7 @@
                                             <img src="{{ asset('portfolio/images/rpms.PNG') }}" alt="rpms" class="img-fluid" />
                                             <div class="box-content">
                                                 <h3 class="title">RPMS</h3>
-                                                <span class="post text-capitalize">27 Jan 2021</span>
+                                                <span class="post text-capitalize">28 December 2021</span>
                                             </div>
                                             <ul class="icon">
                                                 <li>
@@ -261,7 +261,7 @@
                                             <img src="{{ asset('portfolio/images/reporting.PNG') }}" alt="reporting" class="img-fluid" />
                                             <div class="box-content">
                                                 <h3 class="title">Reporting</h3>
-                                                <span class="post">27 Jan 2021</span>
+                                                <span class="post">10 October 2019</span>
                                             </div>
                                             <ul class="icon">
                                                 <li>
@@ -283,7 +283,7 @@
                                             <img src="{{ asset('portfolio/images/scala.PNG') }}" alt="scala" class="img-fluid" />
                                             <div class="box-content">
                                                 <h3 class="title">Scala Logistic Agency</h3>
-                                                <span class="post">27 Jan 2021</span>
+                                                <span class="post">22 August 2019</span>
                                             </div>
                                             <ul class="icon">
                                                 <li>
@@ -305,7 +305,7 @@
                                             <img src="{{ asset('portfolio/images/blog_updates.PNG') }}" alt="blog_updates" class="img-fluid" />
                                             <div class="box-content">
                                                 <h3 class="title">Blog Updates</h3>
-                                                <span class="post">27 Jan 2021</span>
+                                                <span class="post">28 October 2021</span>
                                             </div>
                                             <ul class="icon">
                                                 <li>
