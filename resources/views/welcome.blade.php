@@ -190,7 +190,7 @@
                                             <img src="{{ asset('portfolio/images/marketplace.PNG') }}" alt="marketplace" class="img-fluid" />
                                             <div class="box-content">
                                                 <h3 class="title">MarketPlace</h3>
-                                                <span class="post text-capitalize">27 Jan 2021</span>
+                                                <span class="post text-capitalize">01 February 2020</span>
                                             </div>
                                             <ul class="icon">
                                                 <li>
@@ -306,6 +306,29 @@
                                             <div class="box-content">
                                                 <h3 class="title">Blog Updates</h3>
                                                 <span class="post">27 Jan 2021</span>
+                                            </div>
+                                            <ul class="icon">
+                                                <li>
+                                                    <a href="#">
+                                                        <span class="fa fa-share"></span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <span class="fa fa-link"></span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-6 mt-lg-0 mt-4  w3-slide-grid">
+                                        <h5><a href="#">Student Management System</a></h5>
+                                        <div class="box20">
+                                            <img src="{{ asset('portfolio/images/login-sms.PNG') }}" alt="blog_updates" class="img-fluid" />
+                                            <div class="box-content">
+                                                <h3 class="title">SMS</h3>
+                                                <span class="post">01 October 2022</span>
                                             </div>
                                             <ul class="icon">
                                                 <li>
