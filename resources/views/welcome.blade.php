@@ -74,6 +74,9 @@
                             knowledge gets from the University of Dodoma to solve all problems facing society in a form of
                             computerized form.</p>
                         {{--  <a href="/portfolio/doc" download="MyCV.pdf">My Resume</a>  --}}
+                        <button class="btn btn-primary">
+                            <a href="/portfolio/doc" download="MyCV.pdf" style="color: #ffffff">View Resume</a>
+                        </button>
                     </div>
                 </div>
             </div>
@@ -91,7 +94,7 @@
                         <p class="title-text text-capitalize">The information about me</p>
                     </div>
                     <div class="ab-pvtw3 my-4">
-                        <p class="my-3"> I was born in 1993. I live in Dar es Salaam and work as a Freelancer Software Developer. I’ve been a professional developer for more than 3 years.
+                        <p class="my-3"> I was born in Tabora Region. I live in Dar es Salaam and work as a Freelancer Software Developer. I’ve been a professional developer for more than 3 years.
                             I’ve mostly worked professionally with PHP in Laravel framework, Angular, Vue, CSS, HTML, Bootstrap, API, JavaScript, JQuery, Hosting, Understand the principle of SEO, Mobile maintenance and repair and but also a little bit with Python.
                             I’ve published more than 15 projects online.
                         </p>
