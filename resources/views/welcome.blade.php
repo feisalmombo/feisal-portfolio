@@ -609,9 +609,19 @@
             <ul class="demo mt-5 pt-lg-5">
                 <li>
                     <div class="gallery-grid1">
-                        <img src="{{ asset('portfolio/images/systemsettings-sms.PNG') }}" alt="blog_updates" class="img-fluid" />
+                        <img src="{{ asset('portfolio/images/systemsettings-sms.PNG') }}" alt="systemsettings-sms" class="img-fluid" />
                         <div class="p-mask">
                             <h4>Student Management System</h4>
+                            <p>Gives information about financial sector.</p>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="gallery-grid1">
+                        <img src="{{ asset('portfolio/images/dashboard-pms.PNG') }}" alt="dashboard-pms" class="img-fluid" />
+                        <div class="p-mask">
+                            <h4>Pharmacy Management System</h4>
                             <p>Gives information about financial sector.</p>
                         </div>
                     </div>
