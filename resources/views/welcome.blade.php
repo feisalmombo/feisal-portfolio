@@ -93,12 +93,16 @@
                         <p class="title-text text-capitalize">The information about me</p>
                     </div>
                     <div class="ab-pvtw3 my-4">
-                        <p class="my-3"> I was born in Tabora Region. I live in Dar es Salaam and work as a Freelancer Software Developer. I’ve been a professional developer for more than 3 years.
+                        <p class="my-3"><b> I was born in Tabora Region. I live in Dar es Salaam and work as a Freelancer Software Developer. I’ve been a professional developer for more than 3 years.
                             I’ve mostly worked professionally with PHP in Laravel framework, Angular, Vue, CSS, HTML, Bootstrap, API, JavaScript, JQuery, Hosting, Understand the principle of SEO, Mobile maintenance and repair and but also a little bit with Python.
                             I’ve published more than 15 projects online.
+                            </b>
                         </p>
-                        <p> I have excellent design and coding skills, as well as an ability convert client requirement into
-                            exciting applications.</p>
+                        <p>
+                            <b>I have excellent design and coding skills, as well as an ability convert client requirement into
+                            exciting applications.
+                            </b>
+                        </p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6  mt-md-4 w3pvt-ab text-center position-relative">
