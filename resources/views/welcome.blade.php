@@ -988,7 +988,7 @@
                             <span class="field-icon fa fa-map-marker" aria-hidden="true"></span>
                         </div>
                         <div class="col-10 cd-grid">
-                            <p>Hospital Kibamba, Dar es Salaam<br>
+                            <p>Kibamba Hospitali, Dar es Salaam<br>
                                 Tanzania.</p>
                         </div>
                     </div>
