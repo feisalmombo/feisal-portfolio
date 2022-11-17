@@ -74,7 +74,7 @@
                             knowledge gets from the University of Dodoma to solve all problems facing society in a form of
                             computerized form.</p>
                         <button class="btn btn-primary">
-                            <a href="{{ asset('static/docs/FeisalSuleimanMombo.pdf') }}" target="_blank" download="FeisalSuleimanMombo.pdf" style="color: #ffffff">View Curriculum Vitae</a>
+                            <a href="{{ asset('static/docs/FeisalSuleimanMombo.pdf') }}" target="_blank" download="FeisalSuleimanMombo.pdf" style="color: #ffffff">View Curriculum Vitae (CV)</a>
                         </button>
                     </div>
                 </div>
