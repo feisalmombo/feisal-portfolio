@@ -701,7 +701,7 @@
                                                     <li><span class="causale">Get the license online. </span> </li>
                                                     <li>
                                                         <p><small class="text-muted"><span class="fa fa-clock-o"></span>
-                                                                27/01/2021, 5:50 PM</small></p>
+                                                                27/10/2021</small></p>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -719,6 +719,8 @@
                             <p>2020</p>
                         </div>
                     </div>
+
+                    {{--  ONE FOR TIMELINE  --}}
                     <div class="row timeline-movement">
                         <div class="timeline-badge center-right">
                         </div>
@@ -729,19 +731,19 @@
                                         <div class="timeline-panel-ul clearfix">
                                             <div class="lefting-wrap">
                                                 <ul>
-                                                    <li class="img-wraping"><a href="#"><img src="{{ asset('portfolio/images/zura.PNG') }}" class="img-fluid"
+                                                    <li class="img-wraping"><a href="#"><img src="{{ asset('portfolio/images/scala.PNG') }}" class="img-fluid"
                                                                 alt="zura" /></a></li>
                                                 </ul>
                                             </div>
                                             <div class="righting-wrap">
                                                 <ul>
-                                                    <li><a href="#" class="importo"> ZURA</a></li>
+                                                    <li><a href="#" class="importo"> Scala Logistics Agency</a></li>
                                                     <li><span class="causale" style="color:#000; font-weight: 600;">Information about it
                                                          </span> </li>
-                                                    <li><span class="causale">Get License online. </span> </li>
+                                                    <li><span class="causale">If you want to transports goods from different regions. </span> </li>
                                                     <li>
                                                         <p><small class="text-muted"><span class="fa fa-clock-o"></span>
-                                                                27/01/2021, 5:50 PM</small></p>
+                                                                23/08/2020</small></p>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -751,6 +753,8 @@
                             </div>
                         </div>
                     </div>
+
+                    {{--  TWO FOR TIMELINE  --}}
                     <div class="row timeline-movement">
                         <div class="timeline-badge center-left">
 
@@ -768,10 +772,10 @@
                                             </div>
                                             <div class="righting-wrap">
                                                 <ul>
-                                                    <li><a href="#" class="importo"> RPMS</a></li>
+                                                    <li><a href="#" class="importo"> BSolution Website</a></li>
                                                     <li><span class="causale" style="color:#000; font-weight: 600;">Information about it
                                                         </span> </li>
-                                                    <li><span class="causale">Get the performance management system. </span> </li>
+                                                    <li><span class="causale">I . </span> </li>
                                                     <li>
                                                         <p><small class="text-muted"><span class="fa fa-clock-o"></span>
                                                                 27/01/2021, 5:50 PM</small></p>
