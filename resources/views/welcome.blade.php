@@ -643,6 +643,40 @@
                         </div>
                     </div>
 
+                    {{--  THREE FOR TIMELINE  --}}
+                    <div class="row timeline-movement">
+                        <div class="timeline-badge center-right">
+                        </div>
+                        <div class="offset-lg-6 col-lg-6  timeline-item">
+                            <div class="row">
+                                <div class="offset-lg-1 col-lg-11">
+                                    <div class="timeline-panel debits  anim animate  fadeInRight">
+                                        <div class="timeline-panel-ul clearfix">
+                                            <div class="lefting-wrap">
+                                                <ul>
+                                                    <li class="img-wraping"><a href="#"><img src="{{ asset('portfolio/images/marketplace.PNG') }}" class="img-fluid"
+                                                                alt="zura" /></a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="righting-wrap">
+                                                <ul>
+                                                    <li><a href="#" class="importo"> Marketplace</a></li>
+                                                    <li><span class="causale" style="color:#000; font-weight: 600;">Information about it
+                                                         </span> </li>
+                                                    <li><span class="causale">Way to find financial products.Compare loans from multiple providers in one simple search. </span> </li>
+                                                    <li>
+                                                        <p><small class="text-muted"><span class="fa fa-clock-o"></span>
+                                                                02/02/2021</small></p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
 
                     {{--  TIMELINE FOR 2022  --}}
                     <div class="row timeline-movement timeline-movement-top">
