@@ -677,6 +677,41 @@
                         </div>
                     </div>
 
+                    {{--  FOUR FOR TIMELINE  --}}
+                    <div class="row timeline-movement">
+                        <div class="timeline-badge center-left">
+
+                        </div>
+                        <div class="col-lg-6  timeline-item">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="timeline-panel credits  anim animate  fadeInLeft">
+                                        <div class="timeline-panel-ul clearfix">
+                                            <div class="lefting-wrap">
+                                                <ul>
+                                                    <li class="img-wraping"><a href="#"><img src="{{ asset('portfolio/images/zura.PNG') }}" class="img-fluid"
+                                                                alt="rpms" /></a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="righting-wrap">
+                                                <ul>
+                                                    <li><a href="#" class="importo"> OLTAS</a></li>
+                                                    <li><span class="causale" style="color:#000; font-weight: 600;">Information about it
+                                                        </span> </li>
+                                                    <li><span class="causale">Get the performance management system. </span> </li>
+                                                    <li>
+                                                        <p><small class="text-muted"><span class="fa fa-clock-o"></span>
+                                                                27/01/2021, 5:50 PM</small></p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
 
                     {{--  TIMELINE FOR 2022  --}}
                     <div class="row timeline-movement timeline-movement-top">
