@@ -507,19 +507,56 @@
                                         <div class="timeline-panel-ul  clearfix">
                                             <div class="lefting-wrap">
                                                 <ul>
-                                                    <li class="img-wraping"><a href="#"><img src="{{ asset('portfolio/images/scala.PNG') }}" class="img-fluid"
+                                                    <li class="img-wraping"><a href="#"><img src="{{ asset('portfolio/images/welcome-dabaga.PNG') }}" class="img-fluid"
                                                                 alt="scala" /></a></li>
                                                 </ul>
                                             </div>
                                             <div class="righting-wrap">
                                                 <ul>
-                                                    <li><a href="#" class="importo">Scala Logistic Agency</a></li>
+                                                    <li><a href="#" class="importo">Dabaga Cyber Solution</a></li>
                                                     <li><span class="causale" style="color:#000; font-weight: 600;">Information about it
                                                         </span> </li>
-                                                    <li><span class="causale">Simplify means of transportation. </span> </li>
+                                                    <li><span class="causale">is a cybersecurity and IT counsulting firm based in Tanzania established by top cybersecurity.</span> </li>
                                                     <li>
                                                         <p><small class="text-muted"><span class="fa fa-clock-o"></span>
-                                                                27/01/2021, 5:50 PM</small></p>
+                                                                20/05/2021</small></p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="row timeline-movement">
+                        <div class="timeline-badge center-right">
+                        </div>
+                        <div class="offset-lg-6 col-lg-6  timeline-item">
+                            <div class="row">
+                                <div class="offset-lg-1 col-lg-12">
+                                    <div class="timeline-panel debits  anim animate  fadeInRight">
+                                        <div class="timeline-panel-ul clearfix">
+                                            <div class="lefting-wrap">
+                                                <ul>
+                                                    <li class="img-wraping"><a href="#"><img src="{{ asset('portfolio/images/dashboard-pms.PNG') }}" class="img-fluid"
+                                                                alt="reporting" /></a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="righting-wrap">
+                                                <ul>
+                                                    <li><a href="#" class="importo">Motionstarlight Logistics Company</a></li>
+                                                    <li><span class="causale" style="color:#000; font-weight: 600;">
+                                                        Information about it </span> </li>
+                                                    <li><span class="causale">Motionstarlight Logistics company is an independently owned freight forwarding company with its headquarters in Dar es salaam.
+                                                    </span> </li>
+                                                    <li>
+                                                        <p><small class="text-muted"><span class="fa fa-clock-o"></span>
+                                                                22/11/2022</small></p>
                                                     </li>
                                                 </ul>
                                             </div>
