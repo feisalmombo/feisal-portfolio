@@ -839,7 +839,7 @@
                         <img src="{{ asset('portfolio/images/welcome-motionstarlight.PNG') }}" alt="welcome-motionstarlight" class="img-fluid" />
                         <div class="p-mask">
                             <h4>Motionstarlight Website</h4>
-                            <p>Gives information about financial sector.</p>
+                            <p>Motionstarlight Website is an independently owned freight forwarding company with its headquarters in Dar es salaam.</p>
                         </div>
                     </div>
                 </li>
