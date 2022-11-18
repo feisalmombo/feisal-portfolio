@@ -698,7 +698,7 @@
                                                     <li><a href="#" class="importo"> OLTAS</a></li>
                                                     <li><span class="causale" style="color:#000; font-weight: 600;">Information about it
                                                         </span> </li>
-                                                    <li><span class="causale">Get the performance management system. </span> </li>
+                                                    <li><span class="causale">Get the license online. </span> </li>
                                                     <li>
                                                         <p><small class="text-muted"><span class="fa fa-clock-o"></span>
                                                                 27/01/2021, 5:50 PM</small></p>
