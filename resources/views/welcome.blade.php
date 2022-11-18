@@ -632,7 +632,7 @@
                                                     <li><span class="causale">Get the performance management system. </span> </li>
                                                     <li>
                                                         <p><small class="text-muted"><span class="fa fa-clock-o"></span>
-                                                                27/01/2021, 5:50 PM</small></p>
+                                                                27/01/2021</small></p>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -766,7 +766,7 @@
                                         <div class="timeline-panel-ul clearfix">
                                             <div class="lefting-wrap">
                                                 <ul>
-                                                    <li class="img-wraping"><a href="#"><img src="{{ asset('portfolio/images/rpms.PNG') }}" class="img-fluid"
+                                                    <li class="img-wraping"><a href="#"><img src="{{ asset('portfolio/images/bsolutions.PNG') }}" class="img-fluid"
                                                                 alt="rpms" /></a></li>
                                                 </ul>
                                             </div>
@@ -775,10 +775,11 @@
                                                     <li><a href="#" class="importo"> BSolution Website</a></li>
                                                     <li><span class="causale" style="color:#000; font-weight: 600;">Information about it
                                                         </span> </li>
-                                                    <li><span class="causale">I . </span> </li>
+                                                    <li><span class="causale">We are providing solutions to all IT areas software development, car Tracking, Bulk sms, Graphics Design
+                                                       </span> </li>
                                                     <li>
                                                         <p><small class="text-muted"><span class="fa fa-clock-o"></span>
-                                                                27/01/2021, 5:50 PM</small></p>
+                                                                05/11/2020</small></p>
                                                     </li>
                                                 </ul>
                                             </div>
