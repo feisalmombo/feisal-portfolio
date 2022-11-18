@@ -809,7 +809,7 @@
                         <img src="{{ asset('portfolio/images/systemsettings-sms.PNG') }}" alt="systemsettings-sms" class="img-fluid" />
                         <div class="p-mask">
                             <h4>Student Management System</h4>
-                            <p>Gives information about financial sector.</p>
+                            <p>Student Management System is and application developed for educational institutions like schools and colleges.</p>
                         </div>
                     </div>
                 </li>
@@ -819,7 +819,7 @@
                         <img src="{{ asset('portfolio/images/dashboard-pms.PNG') }}" alt="dashboard-pms" class="img-fluid" />
                         <div class="p-mask">
                             <h4>Pharmacy Management System</h4>
-                            <p>Gives information about financial sector.</p>
+                            <p>Pharmacy Management System is an application used in a pharmacy that helps automate the pharmacy workflow.</p>
                         </div>
                     </div>
                 </li>
@@ -829,7 +829,7 @@
                         <img src="{{ asset('portfolio/images/welcome-dabaga.PNG') }}" alt="welcome-dabaga" class="img-fluid" />
                         <div class="p-mask">
                             <h4>Dabaga Website</h4>
-                            <p>Gives information about financial sector.</p>
+                            <p>Dabaga Website is a cybersecurity and IT counsulting firm based in Tanzania established by top cybersecurity.</p>
                         </div>
                     </div>
                 </li>
