@@ -543,7 +543,7 @@
                                         <div class="timeline-panel-ul clearfix">
                                             <div class="lefting-wrap">
                                                 <ul>
-                                                    <li class="img-wraping"><a href="#"><img src="{{ asset('portfolio/images/dashboard-pms.PNG') }}" class="img-fluid"
+                                                    <li class="img-wraping"><a href="#"><img src="{{ asset('portfolio/images/welcome-motionstarlight.PNG') }}" class="img-fluid"
                                                                 alt="reporting" /></a></li>
                                                 </ul>
                                             </div>
@@ -552,11 +552,11 @@
                                                     <li><a href="#" class="importo">Motionstarlight Logistics Company</a></li>
                                                     <li><span class="causale" style="color:#000; font-weight: 600;">
                                                         Information about it </span> </li>
-                                                    <li><span class="causale">Motionstarlight Logistics company is an independently owned freight forwarding company with its headquarters in Dar es salaam.
+                                                    <li><span class="causale">MSL is an independently owned freight forwarding company with its headquarters in Dar es salaam.
                                                     </span> </li>
                                                     <li>
                                                         <p><small class="text-muted"><span class="fa fa-clock-o"></span>
-                                                                22/11/2022</small></p>
+                                                                02/02/2022</small></p>
                                                     </li>
                                                 </ul>
                                             </div>
