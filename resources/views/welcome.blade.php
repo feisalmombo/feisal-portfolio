@@ -951,8 +951,8 @@
                                     </p>
                                 </div>
                                 <div class="testi-pos">
-                                    <img src="{{ asset('portfolio/images/img_avatar.png') }}" alt="" class="img-fluid rounded-circle mb-3" />
-                                    <h4>Kelvin Mkabi</h4>
+                                    <img src="{{ asset('portfolio/images/avatars/avatar3.jpg') }}" alt="" class="img-fluid rounded-circle mb-3" />
+                                    <h4>Kelvin Kelemani</h4>
                                     <span>Pilot</span>
                                 </div>
                             </div>
@@ -969,7 +969,7 @@
                                     </p>
                                 </div>
                                 <div class="testi-pos">
-                                    <img src="{{ asset('portfolio/images/img_avatar.png') }}" alt="" class="img-fluid rounded-circle mb-3" />
+                                    <img src="{{ asset('portfolio/images/avatars/avatar1.jpg') }}" alt="" class="img-fluid rounded-circle mb-3" />
                                     <h4>Peter Mtuka</h4>
                                     <span>Engineer</span>
                                 </div>
@@ -984,7 +984,7 @@
                                 </div>
                                 <div class="testi-pos">
                                     <img src="{{ asset('portfolio/images/img_avatar.png') }}" alt="" class="img-fluid rounded-circle mb-3" />
-                                    <h4>Khatimu Mkalimu</h4>
+                                    <h4>Khatibu Mlogazi</h4>
                                     <span>Doctor</span>
                                 </div>
                             </div>
