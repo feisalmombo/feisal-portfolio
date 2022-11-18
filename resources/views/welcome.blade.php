@@ -436,19 +436,19 @@
                                         <div class="timeline-panel-ul clearfix">
                                             <div class="lefting-wrap">
                                                 <ul>
-                                                    <li class="img-wraping"><a href="#"><img src="{{ asset('portfolio/images/blog_updates.PNG') }}" class="img-fluid"
+                                                    <li class="img-wraping"><a href="#"><img src="{{ asset('portfolio/images/systemsettings-sms.PNG') }}" class="img-fluid"
                                                                 alt="blog_updates" /></a></li>
                                                 </ul>
                                             </div>
                                             <div class="righting-wrap">
                                                 <ul>
-                                                    <li><a href="#" class="importo">Blog Updates</a></li>
+                                                    <li><a href="#" class="importo">Student Management System</a></li>
                                                     <li><span class="causale" style="color:#000; font-weight: 600;">Information about it
                                                         </span> </li>
-                                                    <li><span class="causale">From this customer can know more information about financial sector to this blog. </span> </li>
+                                                    <li><span class="causale">is and application developed for educational institutions like schools and colleges. </span> </li>
                                                     <li>
                                                         <p><small class="text-muted"><span class="fa fa-clock-o"></span>
-                                                                27/01/2021, 05:50 PM</small></p>
+                                                                01/10/2022</small></p>
                                                     </li>
                                                 </ul>
                                             </div>
