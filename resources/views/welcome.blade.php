@@ -573,6 +573,8 @@
                             <p>2021</p>
                         </div>
                     </div>
+
+                    {{--  ONE FOR TIMELINE  --}}
                     <div class="row timeline-movement">
                         <div class="timeline-badge center-right">
                         </div>
@@ -605,6 +607,8 @@
                             </div>
                         </div>
                     </div>
+
+                    {{--  TWO FOR TIMELINE  --}}
                     <div class="row timeline-movement">
                         <div class="timeline-badge center-left">
 
