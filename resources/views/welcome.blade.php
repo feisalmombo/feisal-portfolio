@@ -712,7 +712,6 @@
                         </div>
                     </div>
 
-
                     {{--  TIMELINE FOR 2022  --}}
                     <div class="row timeline-movement timeline-movement-top">
                         <div class="timeline-badge timeline-future-movement">
