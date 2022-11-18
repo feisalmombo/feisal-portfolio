@@ -471,19 +471,20 @@
                                         <div class="timeline-panel-ul clearfix">
                                             <div class="lefting-wrap">
                                                 <ul>
-                                                    <li class="img-wraping"><a href="#"><img src="{{ asset('portfolio/images/reporting.PNG') }}" class="img-fluid"
+                                                    <li class="img-wraping"><a href="#"><img src="{{ asset('portfolio/images/dashboard-pms.PNG') }}" class="img-fluid"
                                                                 alt="reporting" /></a></li>
                                                 </ul>
                                             </div>
                                             <div class="righting-wrap">
                                                 <ul>
-                                                    <li><a href="#" class="importo">Incidents Umojaswitch Reporting</a></li>
+                                                    <li><a href="#" class="importo">Pharmacy Management System</a></li>
                                                     <li><span class="causale" style="color:#000; font-weight: 600;">
                                                         Information about it </span> </li>
-                                                    <li><span class="causale">This can help customers to report all incidence to heldesk. </span> </li>
+                                                    <li><span class="causale">Is an application used in a pharmacy that helps automate the pharmacy workflow.
+                                                    </span> </li>
                                                     <li>
                                                         <p><small class="text-muted"><span class="fa fa-clock-o"></span>
-                                                                27/01/2021, 05:50 PM</small></p>
+                                                                22/11/2022</small></p>
                                                     </li>
                                                 </ul>
                                             </div>
