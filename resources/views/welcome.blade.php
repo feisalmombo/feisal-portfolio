@@ -424,7 +424,7 @@
                         </div>
                     </div>
 
-                    {{--  NUMBER ONE FOR TIMELINE  --}}
+                    {{--  ONE FOR TIMELINE  --}}
                     <div class="row timeline-movement">
                         <div class="timeline-badge center-left" style="background-color: #17a2b8;">
 
@@ -460,7 +460,7 @@
                         </div>
                     </div>
 
-                    {{--  NUMBER TWO FOR TIMELINE  --}}
+                    {{--  TWO FOR TIMELINE  --}}
                     <div class="row timeline-movement">
                         <div class="timeline-badge center-right">
                         </div>
@@ -496,7 +496,7 @@
                         </div>
                     </div>
 
-                    {{--  NUMBER THREE FOR TIMELINE  --}}
+                    {{--  THREE FOR TIMELINE  --}}
                     <div class="row timeline-movement">
                         <div class="timeline-badge center-left">
                         </div>
@@ -531,8 +531,7 @@
                         </div>
                     </div>
 
-
-
+                    {{--  FOUR FOR TIMELINE  --}}
                     <div class="row timeline-movement">
                         <div class="timeline-badge center-right">
                         </div>
@@ -584,19 +583,19 @@
                                         <div class="timeline-panel-ul clearfix">
                                             <div class="lefting-wrap">
                                                 <ul>
-                                                    <li class="img-wraping"><a href="#"><img src="{{ asset('portfolio/images/zura.PNG') }}" class="img-fluid"
+                                                    <li class="img-wraping"><a href="#"><img src="{{ asset('portfolio/images/blog_updates.PNG') }}" class="img-fluid"
                                                                 alt="zura" /></a></li>
                                                 </ul>
                                             </div>
                                             <div class="righting-wrap">
                                                 <ul>
-                                                    <li><a href="#" class="importo"> ZURA</a></li>
+                                                    <li><a href="#" class="importo"> Blog Updates</a></li>
                                                     <li><span class="causale" style="color:#000; font-weight: 600;">Information about it
                                                          </span> </li>
-                                                    <li><span class="causale">Get License online. </span> </li>
+                                                    <li><span class="causale">Get latest news and information for this. </span> </li>
                                                     <li>
                                                         <p><small class="text-muted"><span class="fa fa-clock-o"></span>
-                                                                27/01/2021, 5:50 PM</small></p>
+                                                                28/10/2021</small></p>
                                                     </li>
                                                 </ul>
                                             </div>
