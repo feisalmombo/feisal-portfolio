@@ -937,7 +937,7 @@
                                         </p>
                                     </div>
                                     <div class="testi-pos">
-                                        <img src="{{ asset('portfolio/images/img_avatar.png') }}" alt="" class="img-fluid rounded-circle mb-3" />
+                                        <img src="{{ asset('portfolio/images/avatars/avatar4.jpg') }}" alt="" class="img-fluid rounded-circle mb-3" />
                                         <h4>Joan Thomas</h4>
                                         <span>Teacher</span>
                                     </div>
