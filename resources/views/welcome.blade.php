@@ -112,8 +112,7 @@
                     </div>
                     <h4 class="feed-title my-3">positive solutions</h4>
                     <p> This brings new and good quality on a services.</p>
-                    {{-- <a href="#tl" class="btn-portfolio_pvt scroll">Read more<span class="fa fa-long-arrow-right"
-                            aria-hidden="true"></span></a> --}}
+                   
                 </div>
                 <div class="col-lg-3 col-md-6 mt-4 w3pvt-ab text-center">
                     <div class="clip-each clip-border d-flex justify-content-center align-items-center">
@@ -169,6 +168,7 @@
         </div>
     </section>
     <!-- about -->
+
     <!-- carousel -->
     <div class="cliptop-blog-wthree" id="news">
         <div class="container">
@@ -412,6 +412,7 @@
             </div>
         </div>
     </div>
+
     <!-- // Carousel -->
     <!-- timeline -->
     <section class="timeline-w3pvt" id="tl">
@@ -794,6 +795,7 @@
         </div>
     </section>
     <!-- // Timeline -->
+
     <!-- portfolio -->
     <section class="wthree-row w3-gallery cliptop-portfolio-wthree" id="portfolio">
         <div class="container">
@@ -921,6 +923,7 @@
         <!-- // Gallery container -->
     </section>
     <!-- // Portfolio -->
+
     <!-- testimonials -->
     <div class="testimonials" id="testi">
         <div class="container">
@@ -1078,6 +1081,7 @@
             </div>
         </div>
     </div>
+
     <section class="contact-details">
         <div class="container-fluid px-0">
             <div class="row m-0 contact-row-w3pvt py-5">
@@ -1127,6 +1131,7 @@
             </div>
         </div>
     </section>
+
     <!-- // Contact -->
     <!-- social -->
     <section class="social_w3ls_pvt position-relative py-5">
@@ -1143,6 +1148,7 @@
         </div>
     </section>
     <!-- // Social -->
+
     <!-- footer -->
     <footer>
         <div class="container">
@@ -1154,6 +1160,7 @@
         </div>
     </footer>
     <!-- // Footer -->
+
     <!-- js -->
     <script src="{{ asset('portfolio/js/jquery-2.2.3.min.js') }}"></script>
     <!-- js -->
