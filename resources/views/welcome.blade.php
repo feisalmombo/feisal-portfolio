@@ -149,7 +149,7 @@
                     </div>
                     <h4 class="feed-title my-3">System Development</h4>
                     <p> Systems development is the process of defining, designing, testing and implementing a new software application or program.</p>
-                   
+
                 </div>
                 <div class="col-lg-3 col-md-6 mt-lg-4 mt-sm-5 mt-4 w3pvt-ab text-center">
                     <div class="clip-each clip-border d-flex justify-content-center align-items-center">
@@ -157,8 +157,7 @@
                     </div>
                     <h4 class="feed-title my-3">Web Hosting</h4>
                     <p> When a hosting provider allocates space on a web server for a website to store its files, they are hosting a website.</p>
-                    {{-- <a href="#tl" class="btn-portfolio_pvt scroll">Read more<span class="fa fa-long-arrow-right"
-                            aria-hidden="true"></span></a> --}}
+                   
                 </div>
             </div>
         </div>
