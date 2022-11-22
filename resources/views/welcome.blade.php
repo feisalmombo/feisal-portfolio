@@ -120,7 +120,7 @@
                     </div>
                     <h4 class="feed-title my-3">satisfied customers</h4>
                     <p> Accepts the good quality and experience the services.</p>
-                    
+
                 </div>
             </div>
             <div class="row ab-grid-bottom">
@@ -131,8 +131,7 @@
                     </div>
                     <h4 class="feed-title my-3">Consulting</h4>
                     <p> Engaged in the business of giving expert advice to people working in a specific field.</p>
-                    {{-- <a href="#tl" class="btn-portfolio_pvt scroll">Read more<span class="fa fa-long-arrow-right"
-                            aria-hidden="true"></span></a> --}}
+                    
                 </div>
                 <div class="col-lg-3 col-md-6 my-lg-4 mt-md-0 mt-4 w3pvt-ab text-center position-relative">
                     <div class="ab-border rsp-border"><span class="fa fa-arrow-circle-right" aria-hidden="true"></span></div>
