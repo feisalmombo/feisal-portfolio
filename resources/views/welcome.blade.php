@@ -112,7 +112,7 @@
                     </div>
                     <h4 class="feed-title my-3">positive solutions</h4>
                     <p> This brings new and good quality on a services.</p>
-                   
+
                 </div>
                 <div class="col-lg-3 col-md-6 mt-4 w3pvt-ab text-center">
                     <div class="clip-each clip-border d-flex justify-content-center align-items-center">
@@ -120,8 +120,7 @@
                     </div>
                     <h4 class="feed-title my-3">satisfied customers</h4>
                     <p> Accepts the good quality and experience the services.</p>
-                    {{-- <a href="#tl" class="btn-portfolio_pvt scroll">Read more<span class="fa fa-long-arrow-right"
-                            aria-hidden="true"></span></a> --}}
+                    
                 </div>
             </div>
             <div class="row ab-grid-bottom">
