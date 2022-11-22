@@ -11,6 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8" />
     <meta name="keywords" content="My Portfolio" />
+
     <script>
         addEventListener("load", function () {
             setTimeout(hideURLbar, 0);
@@ -20,6 +21,7 @@
             window.scrollTo(0, 1);
         }
     </script>
+
     <!-- Custom Theme files -->
     <link href="{{ asset('portfolio/css/bootstrap.min.css') }}" type="text/css" rel="stylesheet" media="all">
     <link href="{{ asset('portfolio/css/style.css') }}" type="text/css" rel="stylesheet" media="all">
@@ -58,6 +60,7 @@
         </div>
     </nav>
     <!-- // Header -->
+
     <!-- Banner -->
     <div id="home" class="banner-w3pvt  d-flex justify-content-center align-items-center clip-wthree">
         <div class="container">
@@ -82,6 +85,7 @@
         </div>
     </div>
     <!-- // Banner -->
+
     <!-- About -->
     <section class="about-portfolio sec-space" id="about">
         <div class="container">
@@ -407,8 +411,8 @@
             </div>
         </div>
     </div>
-
     <!-- // Carousel -->
+
     <!-- timeline -->
     <section class="timeline-w3pvt" id="tl">
         <div class="container">
@@ -562,7 +566,6 @@
                             </div>
                         </div>
                     </div>
-
 
                     <div class="row timeline-movement timeline-movement-top">
                         <div class="timeline-badge timeline-future-movement">
@@ -1163,6 +1166,7 @@
     <script src="{{ asset('portfolio/js/menu.js') }}"></script>
     <!-- testimonials  Responsiveslides -->
     <script src="{{ asset('portfolio/js/responsiveslides.min.js') }}"></script>
+
     <script>
         // You can also use"$(window).load(function() {"
         $(function () {
@@ -1182,15 +1186,18 @@
             });
         });
     </script>
+
     <!-- // Testimonials  Responsiveslides -->
     <!-- gallery -->
     <script src="{{ asset('portfolio/js/jquery.picEyes.js') }}"></script>
+
     <script>
         $(function () {
             // PicturesEyes($('.demo li'));
             $('.demo li').picEyes();
         });
     </script>
+    
     <!-- // Gallery -->
     <!-- Scrolling Nav JavaScript -->
     <script src="{{ asset('portfolio/js/scrolling-nav.js') }}"></script>
