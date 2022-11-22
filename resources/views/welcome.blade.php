@@ -94,8 +94,8 @@
                     </div>
                     <div class="ab-pvtw3 my-4">
                         <p class="my-3"><b> I was born in Tabora Region. I live in Dar es Salaam and work as a Freelancer Software Developer. I’ve been a professional developer for more than 3 years.
-                            I’ve mostly worked professionally with PHP in Laravel framework, Angular, Vue, CSS, HTML, Bootstrap, API, JavaScript, JQuery, Hosting, Understand the principle of SEO, Mobile maintenance and repair and but also a little bit with Python.
-                            I’ve published more than 15 projects online.
+                            I have mostly worked professionally with PHP in Laravel framework, Angular, Vue, CSS, HTML, Bootstrap, API, JavaScript, JQuery, Hosting, Understand the principle of SEO, Mobile maintenance and repair and but also a little bit with Python.
+                            I have published more than 15 projects online.
                             </b>
                         </p>
                         <p>
@@ -157,7 +157,7 @@
                     </div>
                     <h4 class="feed-title my-3">Web Hosting</h4>
                     <p> When a hosting provider allocates space on a web server for a website to store its files, they are hosting a website.</p>
-                   
+
                 </div>
             </div>
         </div>
