@@ -567,13 +567,15 @@
                         </div>
                     </div>
 
+                    {{--  TIMELINE FOR 2021  --}}
                     <div class="row timeline-movement timeline-movement-top">
                         <div class="timeline-badge timeline-future-movement">
                             <p>2021</p>
                         </div>
                     </div>
+                    {{--  TIMELINE FOR 2021  --}}
 
-                    {{--  ONE FOR TIMELINE  --}}
+                    {{--  FIVE FOR TIMELINE  --}}
                     <div class="row timeline-movement">
                         <div class="timeline-badge center-right">
                         </div>
@@ -607,7 +609,7 @@
                         </div>
                     </div>
 
-                    {{--  TWO FOR TIMELINE  --}}
+                    {{--  SIX FOR TIMELINE  --}}
                     <div class="row timeline-movement">
                         <div class="timeline-badge center-left">
 
@@ -642,7 +644,7 @@
                         </div>
                     </div>
 
-                    {{--  THREE FOR TIMELINE  --}}
+                    {{--  SEVEN FOR TIMELINE  --}}
                     <div class="row timeline-movement">
                         <div class="timeline-badge center-right">
                         </div>
@@ -676,7 +678,7 @@
                         </div>
                     </div>
 
-                    {{--  FOUR FOR TIMELINE  --}}
+                    {{--  EIGHT FOR TIMELINE  --}}
                     <div class="row timeline-movement">
                         <div class="timeline-badge center-left">
 
@@ -718,7 +720,7 @@
                         </div>
                     </div>
 
-                    {{--  ONE FOR TIMELINE  --}}
+                    {{--  NINE FOR TIMELINE  --}}
                     <div class="row timeline-movement">
                         <div class="timeline-badge center-right">
                         </div>
@@ -752,7 +754,7 @@
                         </div>
                     </div>
 
-                    {{--  TWO FOR TIMELINE  --}}
+                    {{--  TEN FOR TIMELINE  --}}
                     <div class="row timeline-movement">
                         <div class="timeline-badge center-left">
 
@@ -1197,7 +1199,7 @@
             $('.demo li').picEyes();
         });
     </script>
-    
+
     <!-- // Gallery -->
     <!-- Scrolling Nav JavaScript -->
     <script src="{{ asset('portfolio/js/scrolling-nav.js') }}"></script>
