@@ -38,7 +38,14 @@
 								<img src="{{ asset('portfolio/dash/images/user.png') }}" alt="user" class="img-responsive">
 							</div>
 						</div>
+                        <br>
+
+                        <div class="alert-message" style="color: red">
+                            @include('msgs.success')
+                        </div>
+
 						<div class="bottom-content">
+
 							<form method="POST" action="{{ route('login') }}">
                             @csrf
 
