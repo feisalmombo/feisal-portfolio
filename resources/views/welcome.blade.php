@@ -204,7 +204,7 @@
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="#">
+                                                    <a href="">
                                                         <span class="fa fa-link"></span>
                                                     </a>
                                                 </li>
@@ -275,7 +275,7 @@
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="#">
+                                                    <a href="http://incidents.umojaswitch.co.tz" target="_blank">
                                                         <span class="fa fa-link"></span>
                                                     </a>
                                                 </li>
