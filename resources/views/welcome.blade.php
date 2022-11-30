@@ -212,11 +212,11 @@
                                         </div>
                                     </div>
                                     <div class="col-lg-4 col-md-6 mt-md-0 mt-4  w3-slide-grid">
-                                        <h5><a href="#">ZURA</a></h5>
+                                        <h5><a href="#">OLTAS</a></h5>
                                         <div class="box20">
                                             <img src="{{ asset('portfolio/images/zura.PNG') }}" alt="zura" class="img-fluid" />
                                             <div class="box-content">
-                                                <h3 class="title">ZURA</h3>
+                                                <h3 class="title">OLTAS</h3>
                                                 <span class="post text-capitalize">15 September 2020</span>
                                             </div>
                                             <ul class="icon">
@@ -226,7 +226,7 @@
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="#">
+                                                    <a href="https://oltas.zura.go.tz/login" target="_blank">
                                                         <span class="fa fa-link"></span>
                                                     </a>
                                                 </li>
