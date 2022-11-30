@@ -542,7 +542,7 @@
                                         <div class="timeline-panel-ul clearfix">
                                             <div class="lefting-wrap">
                                                 <ul>
-                                                    <li class="img-wraping"><a href="#"><img src="{{ asset('portfolio/images/welcome-motionstarlight.PNG') }}" class="img-fluid"
+                                                    <li class="img-wraping"><a href="https://www.motionstarlight.com/" target="_blank"><img src="{{ asset('portfolio/images/welcome-motionstarlight.PNG') }}" class="img-fluid"
                                                                 alt="reporting" /></a></li>
                                                 </ul>
                                             </div>
