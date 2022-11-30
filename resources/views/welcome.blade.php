@@ -1206,6 +1206,7 @@
     <script src="{{ asset('portfolio/js/timeline.js') }}"></script>
     <script src="{{ asset('portfolio/js/move-top.js') }}"></script>
     <script src="{{ asset('portfolio/js/easing.js') }}"></script>
+
     <script>
         jQuery(document).ready(function ($) {
             $(".scroll").click(function (event) {
@@ -1217,6 +1218,7 @@
             });
         });
     </script>
+
     <!-- // End-smooth-scrolling -->
     <!-- smooth-scrolling-of-move-up -->
     <script>
@@ -1227,12 +1229,14 @@
 
         });
     </script>
+
     <script src="{{ asset('portfolio/js/SmoothScroll.min.js') }}"></script>
     <!-- // Smooth-scrolling-of-move-up -->
     <!-- Bootstrap core JavaScript
 ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="{{ asset('portfolio/js/bootstrap.min.js') }}"></script>
+
 </body>
 
 </html>
