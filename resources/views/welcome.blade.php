@@ -690,7 +690,7 @@
                                         <div class="timeline-panel-ul clearfix">
                                             <div class="lefting-wrap">
                                                 <ul>
-                                                    <li class="img-wraping"><a href="#"><img src="{{ asset('portfolio/images/zura.PNG') }}" class="img-fluid"
+                                                    <li class="img-wraping"><a href="https://oltas.zura.go.tz" target="_blank"><img src="{{ asset('portfolio/images/zura.PNG') }}" class="img-fluid"
                                                                 alt="rpms" /></a></li>
                                                 </ul>
                                             </div>
@@ -766,7 +766,7 @@
                                         <div class="timeline-panel-ul clearfix">
                                             <div class="lefting-wrap">
                                                 <ul>
-                                                    <li class="img-wraping"><a href="#"><img src="{{ asset('portfolio/images/bsolutions.PNG') }}" class="img-fluid"
+                                                    <li class="img-wraping"><a href="https://bsolutions.co.tz/" target="_blank"><img src="{{ asset('portfolio/images/bsolutions.PNG') }}" class="img-fluid"
                                                                 alt="rpms" /></a></li>
                                                 </ul>
                                             </div>
