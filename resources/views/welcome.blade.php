@@ -248,7 +248,7 @@
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="#">
+                                                    <a href="https://rpms.zura.go.tz/login" target="_blank">
                                                         <span class="fa fa-link"></span>
                                                     </a>
                                                 </li>
