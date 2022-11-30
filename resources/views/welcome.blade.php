@@ -507,7 +507,7 @@
                                         <div class="timeline-panel-ul  clearfix">
                                             <div class="lefting-wrap">
                                                 <ul>
-                                                    <li class="img-wraping"><a href="#"><img src="{{ asset('portfolio/images/welcome-dabaga.PNG') }}" class="img-fluid"
+                                                    <li class="img-wraping"><a href="http://dabaga.co.tz/" target="_blank"><img src="{{ asset('portfolio/images/welcome-dabaga.PNG') }}" class="img-fluid"
                                                                 alt="scala" /></a></li>
                                                 </ul>
                                             </div>
