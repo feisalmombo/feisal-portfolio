@@ -7,7 +7,6 @@ use App\Role;
 use Auth;
 use DB;
 use App\User;
-use Charts;
 
 class HomeController extends Controller
 {
