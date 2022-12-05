@@ -1164,8 +1164,10 @@
     <!-- js -->
     <script src="{{ asset('portfolio/js/jquery-2.2.3.min.js') }}"></script>
     <!-- js -->
+
     <!--  menu toggle -->
     <script src="{{ asset('portfolio/js/menu.js') }}"></script>
+
     <!-- testimonials  Responsiveslides -->
     <script src="{{ asset('portfolio/js/responsiveslides.min.js') }}"></script>
 
