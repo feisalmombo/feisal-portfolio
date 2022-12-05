@@ -5,20 +5,26 @@
     <li class="dropdown user user-menu">
 
     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-        @if(Auth::user()->userphoto_path)
+
+    @if(Auth::user()->userphoto_path)
         <img src="{{ asset('storage/'.Auth::user()->userphoto_path) }}" alt="Avatar" style="width:32px; height:32px; border-radius:50%">
         @else
         <img src="{{asset('portfolio/images/img_avatar.png')}}" alt="Default Image" style="width:32px; height:32px; border-radius:50%">
-        @endif
+    @endif
 
-            @foreach(App\Role::All() as $role)
-            @if(Auth::user()->hasRole($role->slug)),
-            {{$role->name}}
-            @endif
+        <?php $i = 0;?>
+        @foreach(App\Role::All() as $role)
+          @if(Auth::user()->hasRole($role->slug))
+          <?php $i++;?>
+          @if($i>1)
+            ,
+          @endif
+          {{$role->name}}
+          @endif
         @endforeach
 
-    {!!": <strong>".Auth::user()->first_name."</i></strong>"!!} <i class="fa fa-caret-down"></i>
-    </a>
+   {!!": <strong>".Auth::user()->first_name." ".Auth::user()->last_name."</i></strong>"!!} <i class="fa fa-caret-down"></i>
+</a>
     <ul class="dropdown-menu">
 
         <!-- Menu Footer-->
