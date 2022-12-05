@@ -60,6 +60,7 @@
         @endif
 
 
+        @if(Auth::user()->hasRole('developer') || Auth::user()->hasRole('manager'))
         <li class="treeview">
 
             <a href="#">
@@ -83,7 +84,9 @@
                 </li>
             </ul>
         </li>
+        @endif
 
+        @if(Auth::user()->hasRole('developer') || Auth::user()->hasRole('manager'))
         <li class="treeview">
             <a href="#">
                 <i class="fa fa-bars"></i> <span>Manage Roles</span>
@@ -101,6 +104,7 @@
                 </li>
             </ul>
         </li>
+        @endif
 
     </ul>
     </section>
