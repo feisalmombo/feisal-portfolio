@@ -16,31 +16,43 @@
                 return view('welcome');
             });
 
-            # Authentication
+            # Login by showloginform
             Route::get('login', [
                 'as' => 'login',
                 'uses' => 'Auth\LoginController@showLoginForm'
             ]);
+
+            # Login
             Route::post('login', [
                 'as' => '',
                 'uses' => 'Auth\LoginController@login'
             ]);
+
+            # Logout
             Route::post('logout', [
                 'as' => 'logout',
                 'uses' => 'Auth\LoginController@logout'
             ]);
+
+            # Reset password by send via email
             Route::post('password/email', [
                 'as' => 'password.email',
                 'uses' => 'Auth\ForgotPasswordController@sendResetLinkEmail'
             ]);
+
+            # Reset password request
             Route::get('password/reset', [
                 'as' => 'password.request',
                 'uses' => 'Auth\ForgotPasswordController@showLinkRequestForm'
             ]);
+
+            # Reset Password request
             Route::post('password/reset', [
                 'as' => 'password.update',
                 'uses' => 'Auth\ResetPasswordController@reset'
             ]);
+
+            # Reset password capture token
             Route::get('password/reset/{token}', [
                 'as' => 'password.reset',
                 'uses' => 'Auth\ResetPasswordController@showResetForm'
