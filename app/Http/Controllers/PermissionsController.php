@@ -19,6 +19,7 @@ class PermissionsController extends Controller
             if (\Auth::user()->can('manage_privileges')) {
                 return $next($request);
             }
+
             return redirect()->back();
         });
     }
@@ -115,9 +116,11 @@ class PermissionsController extends Controller
         $permissions = Permission::All();
         $id = $_GET['user'];
         $users = User::where('id', $id)->with('permissions')->first();
+
         return json_encode([$users, $permissions]);
 
     }
+
     public function entrust_user_permissions(Request $request)
     {
         $user = User::where('id', $request->users)->with('permissions')->first();
@@ -153,9 +156,11 @@ class PermissionsController extends Controller
 
 
     }
+
     public function entrust_role()
     {
         $roles = Role::All();
+
         return view('admin.permissions.entrust_role', compact('roles'));
     }
     public function entrust_roles()
@@ -165,6 +170,7 @@ class PermissionsController extends Controller
         $roles = Role::where('id', $id)->with('permissions')->first();
         return json_encode([$roles, $permissions]);
     }
+
     public function entrust_role_permissions(Request $request)
     {
         $role = Role::where('id', $request->roles)->with('permissions')->first();
