@@ -45,9 +45,11 @@ class RolesController extends Controller
         $users = User::All();
         return view('admin.roles.entrust_user', compact('users'));
     }
+
     public function add()
     {
         $permissions = Permission::All();
+
         return view('admin.roles.create', compact('permissions'));
     }
 
@@ -80,6 +82,7 @@ class RolesController extends Controller
         $users = User::where('id', $id)->with('roles')->first();
         return json_encode([$users, $roles]);
     }
+
     public function post_roles(Request $request)
     {
         $user = User::where('id', $request->users)->with('roles')->first();
