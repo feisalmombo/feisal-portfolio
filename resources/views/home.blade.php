@@ -30,8 +30,8 @@
             <span class="info-box-icon bg-red"><i class="fa fa-user"></i></span>
 
             <div class="info-box-content">
-              <span class="info-box-text">Users</span>
-              <span class="info-box-number">12</span>
+              <span class="info-box-text">Projects</span>
+              <span class="info-box-number">899</span>
             </div>
             <!-- /.info-box-content -->
           </div>
@@ -48,8 +48,8 @@
         <span class="info-box-icon bg-green"><i class="fa fa-phone"></i></span>
 
         <div class="info-box-content">
-          <span class="info-box-text">Contact us</span>
-          <span class="info-box-number">23</span>
+          <span class="info-box-text">Latest Works</span>
+          <span class="info-box-number">230</span>
         </div>
         <!-- /.info-box-content -->
       </div>
@@ -63,7 +63,7 @@
         <span class="info-box-icon bg-yellow"><i class="fa fa-users"></i></span>
 
         <div class="info-box-content">
-          <span class="info-box-text">Subscribers</span>
+          <span class="info-box-text">Portfolio</span>
           <span class="info-box-number">34</span>
         </div>
         <!-- /.info-box-content -->
