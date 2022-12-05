@@ -3,6 +3,11 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Role;
+use Auth;
+use DB;
+use App\User;
+use Charts;
 
 class HomeController extends Controller
 {
@@ -23,6 +28,8 @@ class HomeController extends Controller
      */
     public function index()
     {
+        $usersCount = DB::select('SELECT COUNT(*) as "usersCount" FROM users');
+
         return view('home');
     }
 }
