@@ -59,6 +59,7 @@ trait hasPermissionsTrait
             return $this;
         };
     }
+
     public function deleteRoles(...$roles)
     {
         $roles = $this->getAllPermissions($roles);
@@ -66,6 +67,7 @@ trait hasPermissionsTrait
             return $this;
         };
     }
+
     public function getAllPermissions($permissions)
     {
         $per;
@@ -74,6 +76,7 @@ trait hasPermissionsTrait
         }
         return $permission;
     }
+
     public function getAllRoles($roles)
     {
         $per;
@@ -82,6 +85,7 @@ trait hasPermissionsTrait
         }
         return $role;
     }
+
     public function givePermissionsTo(...$permissions)
     {
         $permissions = $this->getAllPermissions($permissions);
@@ -93,6 +97,7 @@ trait hasPermissionsTrait
 
         return $this;
     }
+
     public function giveRolesTo(...$roles)
     {
         $roles = $this->getAllPermissions($roles);
