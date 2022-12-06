@@ -44,8 +44,7 @@ class UsersController extends Controller
         WHERE
             users_roles.role_id = roles.id
             AND users_roles.user_id = users.id
-        ORDER BY users.id DESC"
-        );
+        ORDER BY users.id DESC");
 
         return view('admin.user.index')->with('users', $users);
     }
@@ -100,6 +99,7 @@ class UsersController extends Controller
         if (!$st) {
             return redirect('admin/user/create')->with('message', 'Failed to insert User data');
         }
+
         return redirect('admin/user/create')->with('message', 'User is successfully added with email:' . strtolower($user_email) . '  Password: ' . 'marketplace');
     }
 
@@ -131,8 +131,7 @@ class UsersController extends Controller
         WHERE
             users_roles.role_id = roles.id
             AND users_roles.user_id = users.id
-        ORDER BY users.id DESC"
-        );
+        ORDER BY users.id DESC");
 
         return view('admin.user.show')->with('profiles', $profile);
     }
