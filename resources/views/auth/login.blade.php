@@ -58,10 +58,12 @@
 						</div>
 					</div>
 				</div>
+
 				<div class="w3l-copy-right text-center">
 					<p>&copy; {{date('Y')}} My Portfolio. All rights reserved | Developed by
 						<a href="#" target="_blank"><strong style="color: #ffffff">Feisal Suleiman Mombo</strong></a></p>
 				</div>
+
 			</div>
 		</div>
 	</section>
