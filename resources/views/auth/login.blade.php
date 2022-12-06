@@ -49,10 +49,10 @@
 							<form method="POST" action="{{ route('login') }}">
                             @csrf
 
-								<input type="email" name="email" class="input-form" placeholder="Your Email"
+								<input type="email" name="email" class="input-form" placeholder="Email"
 										required="required" />
 								<input type="password" name="password" class="input-form"
-										placeholder="Your Password" required="required" />
+										placeholder="Password" required="required" />
 								<button type="submit" class="loginhny-btn btn">Login</button>
 							</form>
 						</div>
