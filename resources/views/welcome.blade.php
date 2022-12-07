@@ -1153,7 +1153,7 @@
     <footer>
         <div class="container">
             <div class="cpy-right text-center">
-                <p class="text-white">© {{  date('Y') }} My Portfolio. All rights reserved | Developed by
+                <p class="text-white">© {{  date('Y') }} My Portfolio. All Rights Reserved | Developed by
                     <a href="https://feisalmombo.herokuapp.com" target="_blank" class="text-dark font-weight-bold"> Feisal Suleiman Mombo.</a>
                 </p>
             </div>
