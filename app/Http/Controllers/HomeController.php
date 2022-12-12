@@ -29,6 +29,8 @@ class HomeController extends Controller
     {
         $usersCount = DB::select('SELECT COUNT(*) as "usersCount" FROM users');
 
-        return view('home');
+        return view('home')
+        ->with('usersCount', $usersCount);
+
     }
 }
