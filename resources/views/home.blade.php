@@ -15,7 +15,7 @@
 
         <div class="info-box-content">
           <span class="info-box-text">Users</span>
-          <span class="info-box-number">12</span>
+          <span class="info-box-number">{{ $usersCount[0]->usersCount }}</span>
         </div>
         <!-- /.info-box-content -->
       </div>
