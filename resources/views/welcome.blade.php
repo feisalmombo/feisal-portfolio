@@ -25,13 +25,17 @@
     <!-- Custom Theme files -->
     <link href="{{ asset('portfolio/css/bootstrap.min.css') }}" type="text/css" rel="stylesheet" media="all">
     <link href="{{ asset('portfolio/css/style.css') }}" type="text/css" rel="stylesheet" media="all">
+
     <!-- Timeline -->
     <link href="{{ asset('portfolio/css/timeline.css') }}" type="text/css" rel="stylesheet" media="all">
+
     <!-- Font-awesome icons -->
     <link href="{{ asset('portfolio/css/font-awesome.min.css') }}" rel="stylesheet">
+
     <!-- // Custom Theme files -->
     <!-- Online-fonts -->
     <link href="//fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800" rel="stylesheet">
+
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
