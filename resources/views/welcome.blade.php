@@ -54,6 +54,7 @@
                         <li><a href="#portfolio" class="scroll">Portfolio</a></li>
                         <li><a href="#testi" class="scroll">Testimonials</a></li>
                         <li><a href="#contact" class="scroll">Contact</a></li>
+                        <li><a href="{{ url('/login') }}" class="scroll">Login</a></li>
                     </ul>
                 </div>
             </div>
