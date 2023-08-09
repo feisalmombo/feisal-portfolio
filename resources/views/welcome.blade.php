@@ -477,7 +477,7 @@
                                         <div class="timeline-panel-ul clearfix">
                                             <div class="lefting-wrap">
                                                 <ul>
-                                                    <li class="img-wraping"><a href="#"><img src="{{ asset('portfolio/images/dashboard-pms.PNG') }}" class="img-fluid"
+                                                    <li class="img-wraping"><a href="#"><img src="{{ asset('portfolio/images/legend-logistics-page.PNG') }}" class="img-fluid"
                                                                 alt="Legend logistics Company Limited" /></a></li>
                                                 </ul>
                                             </div>
