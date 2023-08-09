@@ -441,7 +441,7 @@
                                         <div class="timeline-panel-ul clearfix">
                                             <div class="lefting-wrap">
                                                 <ul>
-                                                    <li class="img-wraping"><a href="#"><img src="{{ asset('portfolio/images/systemsettings-sms.PNG') }}" class="img-fluid"
+                                                    <li class="img-wraping"><a href="https://oligarchylogistics.com" target="_blank"><img src="{{ asset('portfolio/images/oligarch-welcome-page.PNG') }}" class="img-fluid"
                                                                 alt="blog_updates" /></a></li>
                                                 </ul>
                                             </div>
@@ -450,7 +450,7 @@
                                                     <li><a href="#" class="importo">Oligarchy Logistics Limited</a></li>
                                                     <li><span class="causale" style="color:#000; font-weight: 600;">Information about it
                                                         </span> </li>
-                                                    <li><span class="causale">Oligarchy Logistics Limited is an independently owned freight forwarding company with its headquarters in Dar es salaam. </span> </li>
+                                                    <li><span class="causale">is an independently owned freight forwarding company with its headquarters in Dar es salaam. </span> </li>
                                                     <li>
                                                         <p><small class="text-muted"><span class="fa fa-clock-o"></span>
                                                                 29/05/2023</small></p>
