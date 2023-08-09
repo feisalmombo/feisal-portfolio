@@ -514,18 +514,18 @@
                                             <div class="lefting-wrap">
                                                 <ul>
                                                     <li class="img-wraping"><a href="http://dabaga.co.tz/" target="_blank"><img src="{{ asset('portfolio/images/welcome-dabaga.PNG') }}" class="img-fluid"
-                                                                alt="scala" /></a></li>
+                                                                alt="Tarim Logistix Company Limited" /></a></li>
                                                 </ul>
                                             </div>
                                             <div class="righting-wrap">
                                                 <ul>
-                                                    <li><a href="#" class="importo">Dabaga Cyber Solution</a></li>
+                                                    <li><a href="#" class="importo">Tarim Logistix Company Limited</a></li>
                                                     <li><span class="causale" style="color:#000; font-weight: 600;">Information about it
                                                         </span> </li>
                                                     <li><span class="causale">is a website for this company deals with clearing and forward.</span> </li>
                                                     <li>
                                                         <p><small class="text-muted"><span class="fa fa-clock-o"></span>
-                                                                02/08/2021</small></p>
+                                                                02/08/2023</small></p>
                                                     </li>
                                                 </ul>
                                             </div>
