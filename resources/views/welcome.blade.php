@@ -502,6 +502,41 @@
                         </div>
                     </div>
 
+
+                    <div class="row timeline-movement">
+                        <div class="timeline-badge center-left">
+                        </div>
+                        <div class="col-lg-6  timeline-item">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="timeline-panel credits  anim animate  fadeInLeft">
+                                        <div class="timeline-panel-ul  clearfix">
+                                            <div class="lefting-wrap">
+                                                <ul>
+                                                    <li class="img-wraping"><a href="http://dabaga.co.tz/" target="_blank"><img src="{{ asset('portfolio/images/welcome-dabaga.PNG') }}" class="img-fluid"
+                                                                alt="scala" /></a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="righting-wrap">
+                                                <ul>
+                                                    <li><a href="#" class="importo">Dabaga Cyber Solution</a></li>
+                                                    <li><span class="causale" style="color:#000; font-weight: 600;">Information about it
+                                                        </span> </li>
+                                                    <li><span class="causale">is a cybersecurity and IT counsulting firm based in Tanzania established by top cybersecurity.</span> </li>
+                                                    <li>
+                                                        <p><small class="text-muted"><span class="fa fa-clock-o"></span>
+                                                                20/05/2021</small></p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                     <div class="row timeline-movement timeline-movement-top">
                         <div class="timeline-badge timeline-future-movement">
                             <p>2022</p>
