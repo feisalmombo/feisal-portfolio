@@ -332,30 +332,6 @@
                                         </div>
                                     </div>
 
-
-                                    <div class="col-lg-4 col-md-6 mt-lg-0 mt-4  w3-slide-grid">
-                                        <h5><a href="#">Oligarchy Logistics Co.Ltd</a></h5>
-                                        <div class="box20">
-                                            <img src="{{ asset('portfolio/images/systemsettings-sms.PNG') }}" alt="blog_updates" class="img-fluid" />
-                                            <div class="box-content">
-                                                <h3 class="title">Oligarchy</h3>
-                                                <span class="post">01 April 2023</span>
-                                            </div>
-                                            <ul class="icon">
-                                                <li>
-                                                    <a href="#">
-                                                        <span class="fa fa-share"></span>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="#">
-                                                        <span class="fa fa-link"></span>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-
                                     <div class="col-lg-4 col-md-6 mt-lg-0 mt-4  w3-slide-grid">
                                         <h5><a href="#">Student Management System</a></h5>
                                         <div class="box20">
@@ -447,6 +423,90 @@
         <div class="container">
             <div class="row">
                 <div id="timeline">
+                    <div class="row timeline-movement timeline-movement-top">
+                        <div class="timeline-badge timeline-future-movement">
+                            <p>2023</p>
+                        </div>
+                    </div>
+
+                    {{--  ONE FOR TIMELINE  --}}
+                    <div class="row timeline-movement">
+                        <div class="timeline-badge center-left" style="background-color: #17a2b8;">
+
+                        </div>
+                        <div class="col-lg-6  timeline-item">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="timeline-panel credits  anim animate fadeInLeft">
+                                        <div class="timeline-panel-ul clearfix">
+                                            <div class="lefting-wrap">
+                                                <ul>
+                                                    <li class="img-wraping"><a href="#"><img src="{{ asset('portfolio/images/systemsettings-sms.PNG') }}" class="img-fluid"
+                                                                alt="blog_updates" /></a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="righting-wrap">
+                                                <ul>
+                                                    <li><a href="#" class="importo">Oligarchy Logistics Limited</a></li>
+                                                    <li><span class="causale" style="color:#000; font-weight: 600;">Information about it
+                                                        </span> </li>
+                                                    <li><span class="causale">Oligarchy Logistics Limited is an independently owned freight forwarding company with its headquarters in Dar es salaam. </span> </li>
+                                                    <li>
+                                                        <p><small class="text-muted"><span class="fa fa-clock-o"></span>
+                                                                29/05/2023</small></p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                     <div class="row timeline-movement timeline-movement-top">
                         <div class="timeline-badge timeline-future-movement">
                             <p>2022</p>
