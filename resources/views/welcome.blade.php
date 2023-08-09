@@ -332,6 +332,30 @@
                                         </div>
                                     </div>
 
+
+                                    <div class="col-lg-4 col-md-6 mt-lg-0 mt-4  w3-slide-grid">
+                                        <h5><a href="#">Oligarchy Logistics Co.Ltd</a></h5>
+                                        <div class="box20">
+                                            <img src="{{ asset('portfolio/images/systemsettings-sms.PNG') }}" alt="blog_updates" class="img-fluid" />
+                                            <div class="box-content">
+                                                <h3 class="title">Oligarchy</h3>
+                                                <span class="post">01 April 2023</span>
+                                            </div>
+                                            <ul class="icon">
+                                                <li>
+                                                    <a href="#">
+                                                        <span class="fa fa-share"></span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <span class="fa fa-link"></span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
                                     <div class="col-lg-4 col-md-6 mt-lg-0 mt-4  w3-slide-grid">
                                         <h5><a href="#">Student Management System</a></h5>
                                         <div class="box20">
