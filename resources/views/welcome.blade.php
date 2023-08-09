@@ -487,7 +487,7 @@
                                                     <li><span class="causale" style="color:#000; font-weight: 600;">
                                                         Information about it </span> </li>
                                                     <li><span class="causale">Is an application used in a pharmacy that helps automate the pharmacy workflow.
-                                                    </span> </li>
+                                                    </span> </li> 
                                                     <li>
                                                         <p><small class="text-muted"><span class="fa fa-clock-o"></span>
                                                                 20/07/2023</small></p>
