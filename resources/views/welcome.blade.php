@@ -442,7 +442,7 @@
                                             <div class="lefting-wrap">
                                                 <ul>
                                                     <li class="img-wraping"><a href="https://oligarchylogistics.com" target="_blank"><img src="{{ asset('portfolio/images/oligarch-welcome-page.PNG') }}" class="img-fluid"
-                                                                alt="blog_updates" /></a></li>
+                                                    alt="blog_updates" /></a></li>
                                                 </ul>
                                             </div>
                                             <div class="righting-wrap">
