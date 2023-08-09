@@ -522,10 +522,10 @@
                                                     <li><a href="#" class="importo">Dabaga Cyber Solution</a></li>
                                                     <li><span class="causale" style="color:#000; font-weight: 600;">Information about it
                                                         </span> </li>
-                                                    <li><span class="causale">is a cybersecurity and IT counsulting firm based in Tanzania established by top cybersecurity.</span> </li>
+                                                    <li><span class="causale">is a website for this company deals with clearing and forward.</span> </li>
                                                     <li>
                                                         <p><small class="text-muted"><span class="fa fa-clock-o"></span>
-                                                                20/05/2021</small></p>
+                                                                02/08/2021</small></p>
                                                     </li>
                                                 </ul>
                                             </div>
