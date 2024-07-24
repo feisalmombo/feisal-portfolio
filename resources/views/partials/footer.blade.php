@@ -1,6 +1,6 @@
 <footer class="main-footer">
     <div class="pull-right hidden-xs">
-      <b>Version</b> 2.2.1
+      <b>Version</b> 3.0.0
     </div>
     <strong>
         &copy; {{date('Y')}} My Portfolio. All Rights Reserved. <a href="#" target="_blank"></a>
